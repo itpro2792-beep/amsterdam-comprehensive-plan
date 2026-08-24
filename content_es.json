@@ -32,7 +32,8 @@
    "docSiteDesc": "Noticias, reuniones e información de contacto de los departamentos de la Ciudad.",
    "open": "Abrir",
    "pdfNote": "PDF",
-   "keyNumbers": "Amsterdam en cifras"
+   "keyNumbers": "Amsterdam en cifras",
+   "fullPlan": "Plan completo"
   },
   "issued": "Resumen publicado en agosto de 2026"
  },
@@ -85,7 +86,8 @@
    "body": [
     "Un Plan Integral es una de las herramientas más importantes con las que cuenta una comunidad. Describe dónde se encuentra la ciudad hoy, plantea una visión compartida del futuro y establece metas y una hoja de ruta de acciones para alcanzarlas. Orienta las decisiones sobre el uso del suelo y la zonificación, el presupuesto municipal, las solicitudes de subvenciones, el desarrollo económico, la vivienda, el medio ambiente y el transporte.",
     "Este Plan se apoya en el Plan Integral de Amsterdam de 2003 y en más de veinte años de estudios y labores de revitalización, entre ellos la Iniciativa de Revitalización del Centro (Downtown Revitalization Initiative, DRI), el Programa Local de Revitalización de la Ribera (Local Waterfront Revitalization Program, LWRP) y los estudios de Áreas de Oportunidad en Sitios Industriales Abandonados (Brownfield Opportunity Area, BOA) en el East End, el West End y los Northern Neighborhoods. Reúne todos esos esfuerzos bajo una sola visión compartida.",
-    "El Plan es un documento vivo con un horizonte de diez años. La Ciudad lo revisará periódicamente y lo actualizará cuando sea necesario para que siga reflejando las necesidades y las metas de la comunidad."
+    "El Plan es un documento vivo con un horizonte de diez años. La Ciudad lo revisará periódicamente y lo actualizará cuando sea necesario para que siga reflejando las necesidades y las metas de la comunidad.",
+    "Este resumen condensa el Plan adoptado completo, de 90 páginas. Enlaza con él en todo el documento: cada botón de página abre el documento oficial en la página exacta, y el botón «Plan completo», arriba, abre el PDF íntegro."
    ],
    "planPage": 6
   },
@@ -232,7 +234,8 @@
      ],
      "means": "Vecindarios más fuertes y estables, con viviendas de mejor calidad e inversión a largo plazo, donde cualquier persona que quiera vivir en Amsterdam pueda encontrar un hogar.",
      "more": "El Plan señala la falta de vivienda adecuada para cada grupo de la población como una de las mayores barreras al crecimiento de Amsterdam: las viviendas están envejeciendo y la nueva construcción ha avanzado con lentitud desde principios de la década de 2000. La Ciudad ya está manos a la obra, demoliendo estructuras deterioradas y rehabilitando viviendas a través del programa de Subvenciones en Bloque para el Desarrollo Comunitario (Community Development Block Grant). El Plan también nombra socios para el siguiente paso, como Better Neighborhoods Inc. y la Affordable Housing Partnership of the Capital Region, para ayudar a rehabilitar viviendas que los inquilinos puedan permitirse comprar. La meta es vivienda para cada etapa de la vida: un primer alquiler, un hogar \"para toda la vida\" o una comunidad para jubilados.",
-     "planPage": 60
+     "planPage": 60,
+     "actionsPage": 61
     },
     {
      "name": "Oportunidad económica",
@@ -256,7 +259,8 @@
      ],
      "means": "Una combinación más diversa de empleos en todos los niveles de habilidad, un centro dinámico de uso mixto, una ribera revitalizada y empleos más accesibles para los residentes.",
      "more": "Durante generaciones, la manufactura fue la base de la economía de Amsterdam, y el Plan reconoce con honestidad que, desde entonces, la economía se ha desplazado hacia industrias de salarios más bajos, dejando a muchas familias con dificultades para salir adelante. Aun así, la comunidad empresarial ha crecido en los últimos años, y el Plan ve una verdadera oportunidad para reutilizar los estacionamientos subutilizados del corazón del centro para nuevos desarrollos de uso mixto. Su visión también incluye una ribera revitalizada, con nuevas comodidades y actividades que complementen Riverlink Park, el puente MVGO (MVGO Bridge) y el Empire State Trail.",
-     "planPage": 62
+     "planPage": 62,
+     "actionsPage": 63
     },
     {
      "name": "Movilidad y transporte activo",
@@ -278,7 +282,8 @@
      ],
      "means": "Una ciudad donde es seguro y cómodo desplazarse de la manera que usted prefiera, con los vecindarios, el centro y la ribera bien conectados.",
      "more": "Amsterdam se construyó originalmente sobre una cuadrícula tradicional de calles hecha para caminar, pero el Plan explica que el auge del automóvil y la construcción de las autopistas fueron restando esa facilidad para caminar con el paso del tiempo. El cambio ya está en marcha: hay planes en preparación para retirar el tramo en dirección este de la Ruta 5 del estado de Nueva York (NYS Route 5) y reemplazarlo con un centro de transporte multimodal. La visión del Plan también incluye un nuevo conector peatonal que mejore el acceso al puente MVGO (MVGO Bridge), mientras la Amsterdam Multi-modal Station brinda acceso desde el centro al servicio de trenes de Amtrak.",
-     "planPage": 64
+     "planPage": 64,
+     "actionsPage": 65
     },
     {
      "name": "Resiliencia y conexión con la naturaleza",
@@ -301,7 +306,8 @@
      ],
      "means": "Una ciudad más resiliente, accesible y ambientalmente sostenible, con conexiones más fuertes con el Mohawk River y el Chuctanunda Creek.",
      "more": "El Plan reconoce que los parques, los espacios verdes y las riberas de Amsterdam cumplen un papel vital en el medio ambiente de la ciudad, el bienestar de la comunidad y el turismo; por eso, cuidarlos es cuidar la vida cotidiana en Amsterdam. La Ciudad ya está probando nuevos enfoques para mejorar la ribera a través de su Programa Local de Revitalización de la Ribera (Local Waterfront Revitalization Program, LWRP) actualizado, y para limpiar y redesarrollar terrenos industriales abandonados o baldíos (brownfield), como el sitio de Five Corners, a través del programa de Áreas de Oportunidad en Sitios Industriales Abandonados (Brownfield Opportunity Area, BOA). Mirando hacia el futuro, la visión del Plan es una ciudad que se ha adelantado a los riesgos climáticos del futuro, protegiendo las propiedades, la infraestructura y a sus residentes vulnerables.",
-     "planPage": 66
+     "planPage": 66,
+     "actionsPage": 67
     }
    ],
    "planPage": 58
@@ -312,23 +318,28 @@
    "places": [
     {
      "area": "Los vecindarios",
-     "focus": "Estabilizar la vivienda, mejorar las condiciones de las propiedades y fortalecer la identidad de cada vecindario, con estrategias adaptadas a sus necesidades."
+     "focus": "Estabilizar la vivienda, mejorar las condiciones de las propiedades y fortalecer la identidad de cada vecindario, con estrategias adaptadas a sus necesidades.",
+     "planPage": 74
     },
     {
      "area": "El centro",
-     "focus": "Aprovechar las inversiones de la Iniciativa de Revitalización del Centro (DRI) para atraer negocios, mejorar los espacios públicos y conectar el centro con los vecindarios aledaños y la ribera."
+     "focus": "Aprovechar las inversiones de la Iniciativa de Revitalización del Centro (DRI) para atraer negocios, mejorar los espacios públicos y conectar el centro con los vecindarios aledaños y la ribera.",
+     "planPage": 78
     },
     {
      "area": "Corredores de uso mixto",
-     "focus": "Convertir corredores clave como Main Street en lugares activos y conectados que combinen viviendas, comercios y usos comunitarios."
+     "focus": "Convertir corredores clave como Main Street en lugares activos y conectados que combinen viviendas, comercios y usos comunitarios.",
+     "planPage": 82
     },
     {
      "area": "Centros industriales",
-     "focus": "Apoyar centros de empleo como el Edson Street Industrial Park, atraer nuevos negocios y alinear la capacitación de la fuerza laboral con los empleos reales."
+     "focus": "Apoyar centros de empleo como el Edson Street Industrial Park, atraer nuevos negocios y alinear la capacitación de la fuerza laboral con los empleos reales.",
+     "planPage": 84
     },
     {
      "area": "El entorno natural",
-     "focus": "Proteger el Mohawk River y el Chuctanunda Creek, ampliar el acceso a parques y senderos, y desarrollar la resiliencia climática a largo plazo."
+     "focus": "Proteger el Mohawk River y el Chuctanunda Creek, ampliar el acceso a parques y senderos, y desarrollar la resiliencia climática a largo plazo.",
+     "planPage": 86
     }
    ],
    "planPage": 68
@@ -403,6 +414,12 @@
      "d": "El resumen del Plan en 8 páginas, elaborado por la propia Ciudad.",
      "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Executive-Summary.pdf",
      "meta": "PDF · 1.2 MB · 8 páginas"
+    },
+    {
+     "t": "Borrador de febrero de 2026",
+     "d": "El borrador anterior de revisión pública, conservado como referencia. El Plan adoptado, arriba, lo reemplaza.",
+     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Draft-Feb2026.pdf",
+     "meta": "PDF · 13 MB · reemplazado"
     },
     {
      "t": "Sitio web de la Ciudad de Amsterdam",

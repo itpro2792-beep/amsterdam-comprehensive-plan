@@ -32,7 +32,8 @@
    "docSiteDesc": "News, meetings, and contact information for City departments.",
    "open": "Open",
    "pdfNote": "PDF",
-   "keyNumbers": "Amsterdam in numbers"
+   "keyNumbers": "Amsterdam in numbers",
+   "fullPlan": "Full Plan"
   },
   "issued": "Summary issued August 2026"
  },
@@ -85,7 +86,8 @@
    "body": [
     "A Comprehensive Plan is one of the most important tools a community has. It describes where the city is today, sets out a shared vision for the future, and lays out goals and a roadmap of actions to get there. It guides decisions about land use and zoning, the city budget, grant applications, economic development, housing, the environment, and transportation.",
     "This Plan builds on Amsterdam's 2003 Comprehensive Plan and more than twenty years of studies and revitalization work, including the Downtown Revitalization Initiative (DRI), the Local Waterfront Revitalization Program (LWRP), and Brownfield Opportunity Area (BOA) studies in the East End, West End, and Northern Neighborhoods. It brings those efforts together under one shared vision.",
-    "The Plan is a living document with a ten-year horizon. The City will review it regularly and update it when needed so it keeps reflecting the community's needs and goals."
+    "The Plan is a living document with a ten-year horizon. The City will review it regularly and update it when needed so it keeps reflecting the community's needs and goals.",
+    "This summary condenses the full 90-page adopted Plan. It links into it throughout — every page button opens the official document at that exact page, and the Full Plan button at the top opens the entire PDF."
    ],
    "planPage": 6
   },
@@ -232,7 +234,8 @@
      ],
      "means": "Stronger, more stable neighborhoods with better housing quality and long-term investment — where anyone who wants to live in Amsterdam can find a home.",
      "more": "The Plan calls the lack of suitable housing for every demographic one of Amsterdam's biggest barriers to growth — the housing stock is aging, and new construction has been sluggish since the early 2000s. The City is already at work, demolishing blighted structures and rehabilitating homes through the Community Development Block Grant program. The Plan also names partners for the next step, like Better Neighborhoods Inc. and the Affordable Housing Partnership of the Capital Region, to help rehabilitate housing that renters can afford to own. The goal is housing for every stage of life — a first rental, a \"forever\" home, or a retirement community.",
-     "planPage": 60
+     "planPage": 60,
+     "actionsPage": 61
     },
     {
      "name": "Economic Opportunity",
@@ -256,7 +259,8 @@
      ],
      "means": "A more diverse mix of jobs at all skill levels, a vibrant mixed-use downtown, a revitalized waterfront, and more accessible jobs for residents.",
      "more": "Manufacturing was the foundation of Amsterdam's economy for generations, and the Plan is honest that the economy has since shifted toward lower-wage industries, leaving many families struggling to support themselves. Even so, the business community has been growing in recent years, and the Plan sees a real opening to reuse underused parking lots in the downtown core for new mixed-use development. Its vision also includes a revitalized waterfront, with new amenities and programming to complement Riverlink Park, the MVGO Bridge, and the Empire State Trail.",
-     "planPage": 62
+     "planPage": 62,
+     "actionsPage": 63
     },
     {
      "name": "Mobility & Active Transportation",
@@ -278,7 +282,8 @@
      ],
      "means": "A city where it is safe and convenient to get around however you choose, with neighborhoods, downtown, and the waterfront well connected.",
      "more": "Amsterdam was originally built on a traditional street grid made for walking, but the Plan explains that the rise of the automobile and the construction of the highways eroded that walkability over time. Change is already underway: plans are in the works to remove the eastbound portion of NYS Route 5 and replace it with a multi-modal hub. The Plan's vision also includes a new pedestrian connector that improves access to the MVGO bridge, with the Amsterdam Multi-modal Station providing downtown access to Amtrak train service.",
-     "planPage": 64
+     "planPage": 64,
+     "actionsPage": 65
     },
     {
      "name": "Resiliency & Connections to Nature",
@@ -301,7 +306,8 @@
      ],
      "means": "A more resilient, accessible, and environmentally sustainable city, with stronger connections to the Mohawk River and Chuctanunda Creek.",
      "more": "The Plan recognizes that Amsterdam's parks, green spaces, and waterfronts play a vital role in the city's environment, community well-being, and tourism — so caring for them is caring for everyday life here. The City is already trying new approaches to enhance the waterfront through its updated Local Waterfront Revitalization Program, and cleaning up and redeveloping brownfields, like the Five Corners site, through the Brownfield Opportunity Area program. Looking ahead, the Plan's vision is a city that has proactively addressed future climate risks, safeguarding property, infrastructure, and its vulnerable residents.",
-     "planPage": 66
+     "planPage": 66,
+     "actionsPage": 67
     }
    ],
    "planPage": 58
@@ -312,23 +318,28 @@
    "places": [
     {
      "area": "Neighborhoods",
-     "focus": "Stabilize housing, improve property conditions, and strengthen each neighborhood's identity — with strategies tailored to its needs."
+     "focus": "Stabilize housing, improve property conditions, and strengthen each neighborhood's identity — with strategies tailored to its needs.",
+     "planPage": 74
     },
     {
      "area": "Downtown",
-     "focus": "Build on Downtown Revitalization Initiative (DRI) investments to attract businesses, improve public spaces, and connect downtown to surrounding neighborhoods and the waterfront."
+     "focus": "Build on Downtown Revitalization Initiative (DRI) investments to attract businesses, improve public spaces, and connect downtown to surrounding neighborhoods and the waterfront.",
+     "planPage": 78
     },
     {
      "area": "Mixed-Use Corridors",
-     "focus": "Turn key corridors like Main Street into active, connected places that blend homes, shops, and community uses."
+     "focus": "Turn key corridors like Main Street into active, connected places that blend homes, shops, and community uses.",
+     "planPage": 82
     },
     {
      "area": "Industry Centers",
-     "focus": "Support employment hubs like the Edson Street Industrial Park, attract new business, and align workforce training with real jobs."
+     "focus": "Support employment hubs like the Edson Street Industrial Park, attract new business, and align workforce training with real jobs.",
+     "planPage": 84
     },
     {
      "area": "Natural Environment",
-     "focus": "Protect the Mohawk River and Chuctanunda Creek, expand access to parks and trails, and build long-term climate resilience."
+     "focus": "Protect the Mohawk River and Chuctanunda Creek, expand access to parks and trails, and build long-term climate resilience.",
+     "planPage": 86
     }
    ],
    "planPage": 68
@@ -403,6 +414,12 @@
      "d": "The City’s own 8-page overview of the Plan.",
      "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Executive-Summary.pdf",
      "meta": "PDF · 1.2 MB · 8 pages"
+    },
+    {
+     "t": "February 2026 Draft",
+     "d": "The earlier public-review draft, kept for the record. The adopted Plan above supersedes it.",
+     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Draft-Feb2026.pdf",
+     "meta": "PDF · 13 MB · superseded"
     },
     {
      "t": "City of Amsterdam website",

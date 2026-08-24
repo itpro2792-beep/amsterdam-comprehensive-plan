@@ -29,6 +29,7 @@ The full adopted Plan and the City's Executive Summary are included in [`/plan`]
 
 - `Amsterdam-2026-Plan-Final.pdf` — the adopted Plan (90 pp, May 2026)
 - `Amsterdam-2026-Plan-Executive-Summary.pdf` — the City's Executive Summary (8 pp)
+- `Amsterdam-2026-Plan-Draft-Feb2026.pdf` — the February 2026 public-review draft (superseded by the adopted Plan)
 
 **This summary does not replace the Plan.** Where there is any difference, the official adopted Plan governs.
 
