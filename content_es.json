@@ -15,7 +15,24 @@
    "strategies": "Estrategias clave",
    "actions": "Acciones clave",
    "means": "Lo que significa",
-   "printShort": "Imprimir"
+   "printShort": "Imprimir",
+   "readInPlan": "Léalo en el Plan",
+   "page": "página",
+   "pages": "páginas",
+   "moreLabel": "Más sobre esta área de enfoque",
+   "glossTitle": "Términos clave, en lenguaje sencillo",
+   "glossLead": "Palabras que usa el Plan y que vale la pena conocer. Toque cualquier término.",
+   "docsTitle": "Lea los documentos oficiales",
+   "docsLead": "Este resumen es la versión corta. El Plan adoptado y el Resumen Ejecutivo de la propia Ciudad están a un solo clic.",
+   "docFull": "El Plan adoptado",
+   "docFullDesc": "El documento oficial completo: cada capítulo, mapa y acción.",
+   "docExec": "Resumen Ejecutivo",
+   "docExecDesc": "El resumen del Plan en 8 páginas, elaborado por la propia Ciudad.",
+   "docSite": "Sitio web de la Ciudad de Amsterdam",
+   "docSiteDesc": "Noticias, reuniones e información de contacto de los departamentos de la Ciudad.",
+   "open": "Abrir",
+   "pdfNote": "PDF",
+   "keyNumbers": "Amsterdam en cifras"
   },
   "issued": "Resumen publicado en agosto de 2026"
  },
@@ -49,8 +66,16 @@
    "t": "Dónde ocurrirá el crecimiento"
   },
   {
+   "id": "gloss",
+   "t": "Términos clave, en lenguaje sencillo"
+  },
+  {
    "id": "next",
    "t": "Qué sigue"
+  },
+  {
+   "id": "docs",
+   "t": "Lea los documentos oficiales"
   }
  ],
  "sections": {
@@ -61,7 +86,8 @@
     "Un Plan Integral es una de las herramientas más importantes con las que cuenta una comunidad. Describe dónde se encuentra la ciudad hoy, plantea una visión compartida del futuro y establece metas y una hoja de ruta de acciones para alcanzarlas. Orienta las decisiones sobre el uso del suelo y la zonificación, el presupuesto municipal, las solicitudes de subvenciones, el desarrollo económico, la vivienda, el medio ambiente y el transporte.",
     "Este Plan se apoya en el Plan Integral de Amsterdam de 2003 y en más de veinte años de estudios y labores de revitalización, entre ellos la Iniciativa de Revitalización del Centro (Downtown Revitalization Initiative, DRI), el Programa Local de Revitalización de la Ribera (Local Waterfront Revitalization Program, LWRP) y los estudios de Áreas de Oportunidad en Sitios Industriales Abandonados (Brownfield Opportunity Area, BOA) en el East End, el West End y los Northern Neighborhoods. Reúne todos esos esfuerzos bajo una sola visión compartida.",
     "El Plan es un documento vivo con un horizonte de diez años. La Ciudad lo revisará periódicamente y lo actualizará cuando sea necesario para que siga reflejando las necesidades y las metas de la comunidad."
-   ]
+   ],
+   "planPage": 6
   },
   "meaning": {
    "title": "Lo que este Plan significa para usted",
@@ -101,6 +127,25 @@
       "Los ingresos de los hogares aquí son más bajos ($43,164) que en Montgomery County ($53,533) y que en el estado. Al mismo tiempo, más de 500 acres de terrenos industriales abandonados o baldíos (brownfield) ya estudiados y más de 100 sitios desocupados o subutilizados representan una verdadera oportunidad para la reinversión y nuevos empleos."
      ]
     }
+   ],
+   "planPage": 16,
+   "stats": [
+    {
+     "n": "18,218",
+     "l": "residentes viven en Amsterdam"
+    },
+    {
+     "n": "31%",
+     "l": "de la población es hispana o latina — el doble de la tasa del condado"
+    },
+    {
+     "n": "55%",
+     "l": "de las viviendas se construyeron antes de 1940"
+    },
+    {
+     "n": "77%",
+     "l": "de los trabajadores tienen su empleo fuera de la ciudad"
+    }
    ]
   },
   "vision": {
@@ -109,7 +154,8 @@
    "body": [
     "Hoy, Amsterdam vive un resurgimiento. Estamos trabajando para revitalizar nuestro centro, mejorar nuestra ribera, fortalecer nuestros vecindarios y cambiar nuestra imagen para bien. Reconocemos que aún queda trabajo por hacer, pero nos apoyaremos en nuestra larga historia de planificación comunitaria y en nuestros logros recientes para mantener el impulso que tenemos hoy.",
     "El día de mañana, la Ciudad de Amsterdam es una comunidad completa con algo para todos, reconocida en toda la Región Capital como el lugar para vivir, trabajar y visitar. Nuestros vecindarios son excelentes lugares para vivir, y los residentes se sienten orgullosos de llamar a Amsterdam su hogar. Es un gran lugar para abrir o hacer crecer un negocio, con empleos para todos los niveles de habilidad. Nuestro centro y nuestra ribera hacen de Amsterdam un destino de visita obligada. Es seguro y cómodo desplazarse a pie, en bicicleta, en autobús o en automóvil. Nuestra calidad de vida es inigualable, y estamos comprometidos con la sostenibilidad y la resiliencia para la salud de nuestra comunidad, hoy y mañana."
-   ]
+   ],
+   "planPage": 59
   },
   "smartgrowth": {
    "title": "El enfoque de Crecimiento Inteligente (Smart Growth)",
@@ -158,7 +204,8 @@
      "n": "Creación de lugares (placemaking)",
      "d": "Celebrar la historia, la cultura y el carácter de Amsterdam en todo lo que construimos."
     }
-   ]
+   ],
+   "planPage": 8
   },
   "focus": {
    "title": "Cuatro áreas de enfoque",
@@ -183,7 +230,9 @@
       "Organizar eventos periódicos donde los residentes puedan hablar directamente con los funcionarios de la Ciudad.",
       "Asegurar que cada vecindario tenga acceso equitativo a internet de banda ancha."
      ],
-     "means": "Vecindarios más fuertes y estables, con viviendas de mejor calidad e inversión a largo plazo, donde cualquier persona que quiera vivir en Amsterdam pueda encontrar un hogar."
+     "means": "Vecindarios más fuertes y estables, con viviendas de mejor calidad e inversión a largo plazo, donde cualquier persona que quiera vivir en Amsterdam pueda encontrar un hogar.",
+     "more": "El Plan señala la falta de vivienda adecuada para cada grupo de la población como una de las mayores barreras al crecimiento de Amsterdam: las viviendas están envejeciendo y la nueva construcción ha avanzado con lentitud desde principios de la década de 2000. La Ciudad ya está manos a la obra, demoliendo estructuras deterioradas y rehabilitando viviendas a través del programa de Subvenciones en Bloque para el Desarrollo Comunitario (Community Development Block Grant). El Plan también nombra socios para el siguiente paso, como Better Neighborhoods Inc. y la Affordable Housing Partnership of the Capital Region, para ayudar a rehabilitar viviendas que los inquilinos puedan permitirse comprar. La meta es vivienda para cada etapa de la vida: un primer alquiler, un hogar \"para toda la vida\" o una comunidad para jubilados.",
+     "planPage": 60
     },
     {
      "name": "Oportunidad económica",
@@ -205,7 +254,9 @@
       "Integrar el arte público y la creación de lugares (placemaking) en espacios subutilizados, parques y entornos de las calles en toda la ciudad.",
       "Asociarse con AIDA y organizaciones regionales de desarrollo económico para crear espacios asequibles de incubadora y espacios flexibles para pequeños negocios, reutilizando edificios subutilizados del centro."
      ],
-     "means": "Una combinación más diversa de empleos en todos los niveles de habilidad, un centro dinámico de uso mixto, una ribera revitalizada y empleos más accesibles para los residentes."
+     "means": "Una combinación más diversa de empleos en todos los niveles de habilidad, un centro dinámico de uso mixto, una ribera revitalizada y empleos más accesibles para los residentes.",
+     "more": "Durante generaciones, la manufactura fue la base de la economía de Amsterdam, y el Plan reconoce con honestidad que, desde entonces, la economía se ha desplazado hacia industrias de salarios más bajos, dejando a muchas familias con dificultades para salir adelante. Aun así, la comunidad empresarial ha crecido en los últimos años, y el Plan ve una verdadera oportunidad para reutilizar los estacionamientos subutilizados del corazón del centro para nuevos desarrollos de uso mixto. Su visión también incluye una ribera revitalizada, con nuevas comodidades y actividades que complementen Riverlink Park, el puente MVGO (MVGO Bridge) y el Empire State Trail.",
+     "planPage": 62
     },
     {
      "name": "Movilidad y transporte activo",
@@ -225,7 +276,9 @@
       "Identificar los vacíos en la red de aceras y planificar mejoras y conexiones con el tiempo.",
       "Extender y conectar los senderos y caminos de la ciudad, utilizando puentes peatonales donde sea necesario para completar los enlaces principales."
      ],
-     "means": "Una ciudad donde es seguro y cómodo desplazarse de la manera que usted prefiera, con los vecindarios, el centro y la ribera bien conectados."
+     "means": "Una ciudad donde es seguro y cómodo desplazarse de la manera que usted prefiera, con los vecindarios, el centro y la ribera bien conectados.",
+     "more": "Amsterdam se construyó originalmente sobre una cuadrícula tradicional de calles hecha para caminar, pero el Plan explica que el auge del automóvil y la construcción de las autopistas fueron restando esa facilidad para caminar con el paso del tiempo. El cambio ya está en marcha: hay planes en preparación para retirar el tramo en dirección este de la Ruta 5 del estado de Nueva York (NYS Route 5) y reemplazarlo con un centro de transporte multimodal. La visión del Plan también incluye un nuevo conector peatonal que mejore el acceso al puente MVGO (MVGO Bridge), mientras la Amsterdam Multi-modal Station brinda acceso desde el centro al servicio de trenes de Amtrak.",
+     "planPage": 64
     },
     {
      "name": "Resiliencia y conexión con la naturaleza",
@@ -246,9 +299,12 @@
       "Considerar la elaboración y adopción de un Plan de Acción Climática y Resiliencia.",
       "Realizar una campaña educativa sobre la creación de hábitats naturales y las prácticas sostenibles de jardines y céspedes."
      ],
-     "means": "Una ciudad más resiliente, accesible y ambientalmente sostenible, con conexiones más fuertes con el Mohawk River y el Chuctanunda Creek."
+     "means": "Una ciudad más resiliente, accesible y ambientalmente sostenible, con conexiones más fuertes con el Mohawk River y el Chuctanunda Creek.",
+     "more": "El Plan reconoce que los parques, los espacios verdes y las riberas de Amsterdam cumplen un papel vital en el medio ambiente de la ciudad, el bienestar de la comunidad y el turismo; por eso, cuidarlos es cuidar la vida cotidiana en Amsterdam. La Ciudad ya está probando nuevos enfoques para mejorar la ribera a través de su Programa Local de Revitalización de la Ribera (Local Waterfront Revitalization Program, LWRP) actualizado, y para limpiar y redesarrollar terrenos industriales abandonados o baldíos (brownfield), como el sitio de Five Corners, a través del programa de Áreas de Oportunidad en Sitios Industriales Abandonados (Brownfield Opportunity Area, BOA). Mirando hacia el futuro, la visión del Plan es una ciudad que se ha adelantado a los riesgos climáticos del futuro, protegiendo las propiedades, la infraestructura y a sus residentes vulnerables.",
+     "planPage": 66
     }
-   ]
+   ],
+   "planPage": 58
   },
   "strategy": {
    "title": "Dónde ocurrirá el crecimiento",
@@ -274,7 +330,8 @@
      "area": "El entorno natural",
      "focus": "Proteger el Mohawk River y el Chuctanunda Creek, ampliar el acceso a parques y senderos, y desarrollar la resiliencia climática a largo plazo."
     }
-   ]
+   ],
+   "planPage": 68
   },
   "next": {
    "title": "Qué sigue ahora",
@@ -283,6 +340,76 @@
     "En los próximos años, la Ciudad usará este Plan para orientar los presupuestos, las solicitudes de subvenciones, las actualizaciones de la zonificación y las decisiones sobre proyectos, e informará sobre los avances a medida que las acciones se pongan en marcha.",
     "Los residentes, los negocios y los socios comunitarios tienen un papel en cada Área de Enfoque: desde los programas de vivienda y de propiedad de vivienda hasta la revitalización del centro, las calles más seguras y el acceso a la ribera. El Plan pide específicamente que haya oportunidades periódicas para que los residentes hablen directamente con los funcionarios de la Ciudad.",
     "Para leer el Plan completo, compartir sus ideas o participar, comuníquese con la oficina de Desarrollo Comunitario y Económico de la Ciudad de Amsterdam, 61 Church Street, Amsterdam, NY 12010, o visite www.amsterdamny.gov."
+   ]
+  },
+  "gloss": {
+   "title": "Términos clave, en lenguaje sencillo",
+   "lead": "Palabras que usa el Plan y que vale la pena conocer. Toque cualquier término.",
+   "terms": [
+    {
+     "term": "Plan Integral (Comprehensive Plan)",
+     "def": "La guía oficial de la Ciudad para las decisiones sobre el futuro de Amsterdam durante los próximos diez años. Los líderes de la Ciudad la usan como referencia común al evaluar nuevos proyectos e inversiones."
+    },
+    {
+     "term": "Crecimiento Inteligente (Smart Growth)",
+     "def": "Una manera de planificar, promovida por el estado de Nueva York, que concentra las nuevas viviendas y los nuevos negocios en vecindarios compactos y caminables, donde ya existen las calles y los servicios públicos, a la vez que protege los espacios abiertos y las áreas naturales. Todo este Plan se basa en los principios de Crecimiento Inteligente."
+    },
+    {
+     "term": "Uso mixto (mixed-use)",
+     "def": "Un edificio o una zona que combina distintos usos —como apartamentos encima de comercios— para que las personas puedan vivir, trabajar y hacer compras en el mismo lugar. El Plan fomenta el crecimiento de uso mixto en el centro y a lo largo de las calles principales que conectan los vecindarios."
+    },
+    {
+     "term": "Terreno industrial abandonado o baldío (brownfield)",
+     "def": "Una propiedad, muchas veces heredada de la época de las fábricas y los telares de Amsterdam, que permanece desocupada o subutilizada porque puede estar contaminada y necesita evaluarse y limpiarse antes de poder reutilizarse. El Plan ve estos sitios como una gran oportunidad de redesarrollo."
+    },
+    {
+     "term": "Área de Oportunidad en Sitios Industriales Abandonados (Brownfield Opportunity Area, BOA)",
+     "def": "Un programa del estado de Nueva York que ayuda a la ciudad a estudiar zonas con muchos terrenos industriales abandonados o baldíos (brownfield) y a planificar cómo limpiarlos y volver a ponerlos en uso. Un ejemplo: el estudio del West End de la ciudad abarcó un área de 158 acres, un antiguo centro manufacturero donde hoy hay unos 22 sitios de este tipo."
+    },
+    {
+     "term": "Desarrollo de relleno urbano (infill development)",
+     "def": "Construir nuevas viviendas o negocios en lotes baldíos o subutilizados dentro de los vecindarios existentes, aprovechando las calles y los servicios públicos que ya están allí. El Plan pide un desarrollo de relleno que se ajuste al tamaño y al carácter de la cuadra que lo rodea."
+    },
+    {
+     "term": "Calles Completas (Complete Streets)",
+     "def": "Calles diseñadas para que todos puedan desplazarse con seguridad: a pie, en bicicleta, en automóvil o en autobús. El proyecto de Entrada al Centro y Calles Completas (Downtown Gateway & Complete Streets) de Amsterdam está llevando nuevas aceras, cruces peatonales, iluminación y nuevos árboles a East Main Street, a la Main Street del centro y a Bridge Street."
+    },
+    {
+     "term": "Carga de costos de vivienda (cost-burdened)",
+     "def": "Un hogar que gasta más del 30% de sus ingresos en los costos de vivienda; una carga \"severa\" significa gastar más del 50%. En Amsterdam, el 44% de los inquilinos y el 16% de los propietarios tienen carga de costos de vivienda."
+    },
+    {
+     "term": "Zonificación (zoning)",
+     "def": "El reglamento de la Ciudad sobre qué se puede construir y en qué lugar: para qué puede usarse cada propiedad y qué tamaño pueden tener los edificios. Amsterdam tiene siete distritos de zonificación, que permiten edificios más altos y densos cerca del centro y una densidad más baja en los vecindarios más alejados."
+    },
+    {
+     "term": "Resiliencia (resiliency)",
+     "def": "La capacidad de una comunidad para prepararse ante desafíos como las inundaciones y un clima cambiante, resistirlos y recuperarse de ellos. El Plan prefiere las soluciones naturales —más árboles y espacios verdes que absorben el agua de lluvia— para mantener a Amsterdam saludable y segura."
+    }
+   ]
+  },
+  "docs": {
+   "title": "Lea los documentos oficiales",
+   "lead": "Este resumen es la versión corta. El Plan adoptado y el Resumen Ejecutivo de la propia Ciudad están a un solo clic.",
+   "items": [
+    {
+     "t": "El Plan adoptado",
+     "d": "El documento oficial completo: cada capítulo, mapa y acción.",
+     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Final.pdf",
+     "meta": "PDF · 16 MB · 90 páginas"
+    },
+    {
+     "t": "Resumen Ejecutivo",
+     "d": "El resumen del Plan en 8 páginas, elaborado por la propia Ciudad.",
+     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Executive-Summary.pdf",
+     "meta": "PDF · 1.2 MB · 8 páginas"
+    },
+    {
+     "t": "Sitio web de la Ciudad de Amsterdam",
+     "d": "Noticias, reuniones e información de contacto de los departamentos de la Ciudad.",
+     "href": "https://www.amsterdamny.gov",
+     "meta": "amsterdamny.gov"
+    }
    ]
   }
  }

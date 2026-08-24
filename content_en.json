@@ -15,7 +15,24 @@
    "strategies": "Key strategies",
    "actions": "Key actions",
    "means": "What it means",
-   "printShort": "Print"
+   "printShort": "Print",
+   "readInPlan": "Read this in the Plan",
+   "page": "page",
+   "pages": "pages",
+   "moreLabel": "More about this focus area",
+   "glossTitle": "Key terms, plainly",
+   "glossLead": "Words the Plan uses that are worth knowing. Tap any term.",
+   "docsTitle": "Read the official documents",
+   "docsLead": "This summary is the short version. The adopted Plan itself, and the City’s own Executive Summary, are one click away.",
+   "docFull": "The adopted Plan",
+   "docFullDesc": "The complete official document — every chapter, map, and action.",
+   "docExec": "Executive Summary",
+   "docExecDesc": "The City’s own 8-page overview of the Plan.",
+   "docSite": "City of Amsterdam website",
+   "docSiteDesc": "News, meetings, and contact information for City departments.",
+   "open": "Open",
+   "pdfNote": "PDF",
+   "keyNumbers": "Amsterdam in numbers"
   },
   "issued": "Summary issued August 2026"
  },
@@ -49,8 +66,16 @@
    "t": "Where growth will happen"
   },
   {
+   "id": "gloss",
+   "t": "Key terms, plainly"
+  },
+  {
    "id": "next",
    "t": "What happens next"
+  },
+  {
+   "id": "docs",
+   "t": "Read the official documents"
   }
  ],
  "sections": {
@@ -61,7 +86,8 @@
     "A Comprehensive Plan is one of the most important tools a community has. It describes where the city is today, sets out a shared vision for the future, and lays out goals and a roadmap of actions to get there. It guides decisions about land use and zoning, the city budget, grant applications, economic development, housing, the environment, and transportation.",
     "This Plan builds on Amsterdam's 2003 Comprehensive Plan and more than twenty years of studies and revitalization work, including the Downtown Revitalization Initiative (DRI), the Local Waterfront Revitalization Program (LWRP), and Brownfield Opportunity Area (BOA) studies in the East End, West End, and Northern Neighborhoods. It brings those efforts together under one shared vision.",
     "The Plan is a living document with a ten-year horizon. The City will review it regularly and update it when needed so it keeps reflecting the community's needs and goals."
-   ]
+   ],
+   "planPage": 6
   },
   "meaning": {
    "title": "What this Plan means for you",
@@ -101,6 +127,25 @@
       "Household incomes are lower here ($43,164) than in Montgomery County ($53,533) and the state. At the same time, more than 500 acres of studied brownfield land and over 100 vacant or underused sites represent real opportunity for reinvestment and new jobs."
      ]
     }
+   ],
+   "planPage": 16,
+   "stats": [
+    {
+     "n": "18,218",
+     "l": "residents call Amsterdam home"
+    },
+    {
+     "n": "31%",
+     "l": "Hispanic or Latino — twice the county rate"
+    },
+    {
+     "n": "55%",
+     "l": "of homes were built before 1940"
+    },
+    {
+     "n": "77%",
+     "l": "of workers commute to jobs outside the city"
+    }
    ]
   },
   "vision": {
@@ -109,7 +154,8 @@
    "body": [
     "Today, Amsterdam is experiencing a resurgence. We are working to revitalize our downtown, enhance our waterfront, strengthen our neighborhoods, and change our image for the better. We recognize there is more work to do, but we will build on our long history of community planning and our recent successes to carry today's momentum forward.",
     "Tomorrow, the City of Amsterdam is a complete community with something for everyone — known across the Capital Region as the place to live, to work, and to visit. Our neighborhoods are great places to live and residents are proud to call Amsterdam home. It is a great place to start or grow a business, with jobs at every skill level. Our downtown and waterfront make Amsterdam a must-visit destination. It is safe and convenient to get around on foot, by bike, by bus, or by car. Our quality of life is unmatched, and we are committed to sustainability and resiliency for the health of our community today and tomorrow."
-   ]
+   ],
+   "planPage": 59
   },
   "smartgrowth": {
    "title": "The Smart Growth approach",
@@ -158,7 +204,8 @@
      "n": "Placemaking",
      "d": "Celebrating Amsterdam's history, culture, and character in everything we build."
     }
-   ]
+   ],
+   "planPage": 8
   },
   "focus": {
    "title": "Four focus areas",
@@ -183,7 +230,9 @@
       "Hold regular events where residents can talk directly with City officials.",
       "Make sure every neighborhood has fair access to broadband internet."
      ],
-     "means": "Stronger, more stable neighborhoods with better housing quality and long-term investment — where anyone who wants to live in Amsterdam can find a home."
+     "means": "Stronger, more stable neighborhoods with better housing quality and long-term investment — where anyone who wants to live in Amsterdam can find a home.",
+     "more": "The Plan calls the lack of suitable housing for every demographic one of Amsterdam's biggest barriers to growth — the housing stock is aging, and new construction has been sluggish since the early 2000s. The City is already at work, demolishing blighted structures and rehabilitating homes through the Community Development Block Grant program. The Plan also names partners for the next step, like Better Neighborhoods Inc. and the Affordable Housing Partnership of the Capital Region, to help rehabilitate housing that renters can afford to own. The goal is housing for every stage of life — a first rental, a \"forever\" home, or a retirement community.",
+     "planPage": 60
     },
     {
      "name": "Economic Opportunity",
@@ -205,7 +254,9 @@
       "Integrate public art and placemaking into underused spaces, parks, and streetscapes across the city.",
       "Partner with AIDA and regional economic-development organizations to create affordable incubator and flex space for small businesses, reusing underused downtown buildings."
      ],
-     "means": "A more diverse mix of jobs at all skill levels, a vibrant mixed-use downtown, a revitalized waterfront, and more accessible jobs for residents."
+     "means": "A more diverse mix of jobs at all skill levels, a vibrant mixed-use downtown, a revitalized waterfront, and more accessible jobs for residents.",
+     "more": "Manufacturing was the foundation of Amsterdam's economy for generations, and the Plan is honest that the economy has since shifted toward lower-wage industries, leaving many families struggling to support themselves. Even so, the business community has been growing in recent years, and the Plan sees a real opening to reuse underused parking lots in the downtown core for new mixed-use development. Its vision also includes a revitalized waterfront, with new amenities and programming to complement Riverlink Park, the MVGO Bridge, and the Empire State Trail.",
+     "planPage": 62
     },
     {
      "name": "Mobility & Active Transportation",
@@ -225,7 +276,9 @@
       "Identify gaps in the sidewalk system and plan improvements and connections over time.",
       "Extend and connect the city's trails and paths, using pedestrian bridges where needed to complete key links."
      ],
-     "means": "A city where it is safe and convenient to get around however you choose, with neighborhoods, downtown, and the waterfront well connected."
+     "means": "A city where it is safe and convenient to get around however you choose, with neighborhoods, downtown, and the waterfront well connected.",
+     "more": "Amsterdam was originally built on a traditional street grid made for walking, but the Plan explains that the rise of the automobile and the construction of the highways eroded that walkability over time. Change is already underway: plans are in the works to remove the eastbound portion of NYS Route 5 and replace it with a multi-modal hub. The Plan's vision also includes a new pedestrian connector that improves access to the MVGO bridge, with the Amsterdam Multi-modal Station providing downtown access to Amtrak train service.",
+     "planPage": 64
     },
     {
      "name": "Resiliency & Connections to Nature",
@@ -246,9 +299,12 @@
       "Consider developing and adopting a Climate Action and Resiliency Plan.",
       "Run an educational campaign on natural-habitat creation and sustainable lawn and garden practices."
      ],
-     "means": "A more resilient, accessible, and environmentally sustainable city, with stronger connections to the Mohawk River and Chuctanunda Creek."
+     "means": "A more resilient, accessible, and environmentally sustainable city, with stronger connections to the Mohawk River and Chuctanunda Creek.",
+     "more": "The Plan recognizes that Amsterdam's parks, green spaces, and waterfronts play a vital role in the city's environment, community well-being, and tourism — so caring for them is caring for everyday life here. The City is already trying new approaches to enhance the waterfront through its updated Local Waterfront Revitalization Program, and cleaning up and redeveloping brownfields, like the Five Corners site, through the Brownfield Opportunity Area program. Looking ahead, the Plan's vision is a city that has proactively addressed future climate risks, safeguarding property, infrastructure, and its vulnerable residents.",
+     "planPage": 66
     }
-   ]
+   ],
+   "planPage": 58
   },
   "strategy": {
    "title": "Where growth will happen",
@@ -274,7 +330,8 @@
      "area": "Natural Environment",
      "focus": "Protect the Mohawk River and Chuctanunda Creek, expand access to parks and trails, and build long-term climate resilience."
     }
-   ]
+   ],
+   "planPage": 68
   },
   "next": {
    "title": "What happens next",
@@ -283,6 +340,76 @@
     "Over the coming years, the City will use this Plan to guide budgets, grant applications, zoning updates, and project decisions, and will report on progress as actions move forward.",
     "Residents, businesses, and community partners have a role in every focus area — from housing and homeownership programs to downtown revitalization, safer streets, and waterfront access. The Plan specifically calls for regular opportunities for residents to talk directly with City officials.",
     "To read the full Plan, share your ideas, or get involved, contact the City of Amsterdam Community and Economic Development office, 61 Church Street, Amsterdam, NY 12010, or visit www.amsterdamny.gov."
+   ]
+  },
+  "gloss": {
+   "title": "Key terms, plainly",
+   "lead": "Words the Plan uses that are worth knowing. Tap any term.",
+   "terms": [
+    {
+     "term": "Comprehensive Plan",
+     "def": "The City's official guide for decisions about Amsterdam's future over the next decade. City leaders use it as their shared reference when weighing new projects and investments."
+    },
+    {
+     "term": "Smart Growth",
+     "def": "A way of planning, promoted by New York State, that focuses new homes and businesses in compact, walkable neighborhoods where streets and utilities already exist, while protecting open space and natural areas. This whole Plan is built on Smart Growth principles."
+    },
+    {
+     "term": "Mixed-use",
+     "def": "A building or area that combines different uses — like apartments above shops — so people can live, work, and shop in the same place. The Plan encourages mixed-use growth Downtown and along the main streets that connect neighborhoods."
+    },
+    {
+     "term": "Brownfield",
+     "def": "A property, often left over from Amsterdam's mill and factory days, that sits empty or underused because it may be polluted and needs to be checked and cleaned up before it can be reused. The Plan sees these sites as a major redevelopment opportunity."
+    },
+    {
+     "term": "Brownfield Opportunity Area (BOA)",
+     "def": "A New York State program that helps the city study areas with many brownfields and plan how to clean them up and put them back to use. One example: the study of the city's West End covered a 158-acre former manufacturing area that is now home to about 22 brownfield sites."
+    },
+    {
+     "term": "Infill development",
+     "def": "Building new homes or businesses on empty or underused lots inside existing neighborhoods, using the streets and utilities already there. The Plan calls for infill that fits the size and character of the surrounding block."
+    },
+    {
+     "term": "Complete Streets",
+     "def": "Streets designed so everyone can travel safely — people walking, biking, driving, or riding the bus. Amsterdam's Downtown Gateway & Complete Streets project is bringing new sidewalks, crosswalks, lighting, and street trees to East Main Street, downtown Main Street, and Bridge Street."
+    },
+    {
+     "term": "Cost-burdened",
+     "def": "A household that spends more than 30% of its income on housing costs; \"severely\" cost-burdened means spending more than 50%. In Amsterdam, 44% of renters and 16% of homeowners are cost-burdened."
+    },
+    {
+     "term": "Zoning",
+     "def": "The City's rulebook for what can be built where — what each property can be used for and how big buildings can be. Amsterdam has seven zoning districts, allowing taller, denser building near downtown and lower density in outer neighborhoods."
+    },
+    {
+     "term": "Resiliency",
+     "def": "A community's ability to prepare for, withstand, and bounce back from challenges like flooding and a changing climate. The Plan favors natural solutions — more trees and green spaces that soak up stormwater — to keep Amsterdam healthy and safe."
+    }
+   ]
+  },
+  "docs": {
+   "title": "Read the official documents",
+   "lead": "This summary is the short version. The adopted Plan itself, and the City’s own Executive Summary, are one click away.",
+   "items": [
+    {
+     "t": "The adopted Plan",
+     "d": "The complete official document — every chapter, map, and action.",
+     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Final.pdf",
+     "meta": "PDF · 16 MB · 90 pages"
+    },
+    {
+     "t": "Executive Summary",
+     "d": "The City’s own 8-page overview of the Plan.",
+     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Executive-Summary.pdf",
+     "meta": "PDF · 1.2 MB · 8 pages"
+    },
+    {
+     "t": "City of Amsterdam website",
+     "d": "News, meetings, and contact information for City departments.",
+     "href": "https://www.amsterdamny.gov",
+     "meta": "amsterdamny.gov"
+    }
    ]
   }
  }
