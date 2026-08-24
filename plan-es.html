@@ -18,29 +18,33 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--ground);color:var(--ink);font-family:"Public Sans",system-ui,sans-serif;font-size:17px;line-height:1.68}
 h1,h2,h3,h4{font-family:"Spectral",Georgia,serif;font-weight:600;line-height:1.2;text-wrap:balance}
-.top{background:var(--purple-deep);color:#fff;border-bottom:3px solid var(--gold);padding:40px 26px 34px}
+.top{background:var(--purple-deep);color:#fff;border-bottom:3px solid var(--gold);padding:38px 26px 32px}
 .top-in{max-width:760px;margin:0 auto}
 .top .eyebrow{font:700 .7rem/1.4 "Public Sans",sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-bright)}
 .top h1{margin:.25em 0 .2em;font-size:clamp(1.9rem,4.5vw,2.9rem);color:#fff}
 .top p{margin:0;color:rgba(255,255,255,.88)}
-.top .links{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px}
-.top .links a{color:#fff;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:8px 15px;text-decoration:none;
-font:600 .82rem/1 "Public Sans",sans-serif}
+.top .links{margin-top:16px;display:flex;flex-wrap:wrap;gap:9px}
+.top .links a{color:#fff;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:10px 15px;text-decoration:none;
+font:600 .82rem/1 "Public Sans",sans-serif;min-height:38px;display:inline-flex;align-items:center}
 .top .links a.gold{background:var(--gold);border-color:var(--gold);color:#2A1740;font-weight:700}
+.top .links a:hover{background:rgba(255,255,255,.16)}
+.top .links a.gold:hover{background:var(--gold-bright)}
 .notice{background:var(--gold-soft);border-bottom:1px solid var(--line-strong);padding:14px 26px}
 .notice-in{max-width:760px;margin:0 auto;font-size:.92rem;line-height:1.55;color:var(--ink)}
+.notice a{color:var(--purple)}
 .wrap{max-width:760px;margin:0 auto;padding:10px 26px 70px}
 nav.toc{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:26px 0}
 nav.toc .t{font:700 .7rem/1.4 "Public Sans",sans-serif;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:8px}
 nav.toc ol{margin:0;padding-left:20px}
 nav.toc a{color:var(--purple);text-decoration:none}
 nav.toc a:hover{text-decoration:underline}
-section{padding-top:34px}
+section{padding-top:30px}
 section h2{font-size:1.7rem;color:var(--purple);border-bottom:2px solid var(--gold);padding-bottom:10px}
-.pdfpage{position:relative;border-left:3px solid var(--line);padding:6px 0 6px 22px;margin:26px 0}
+.pdfpage{position:relative;border-left:3px solid var(--line);padding:6px 0 6px 22px;margin:26px 0;scroll-margin-top:16px}
+.pdfpage:target{border-left-color:var(--gold);background:var(--gold-soft);border-radius:0 10px 10px 0}
 .pdfpage:hover{border-left-color:var(--gold)}
 .pgtag{position:sticky;top:10px;float:right;margin:-2px 0 8px 14px;font:700 .72rem/1 "Public Sans",sans-serif;color:var(--gold-ink);
-text-decoration:none;border:1px solid var(--line-strong);border-radius:999px;padding:6px 11px;background:var(--surface)}
+text-decoration:none;border:1px solid var(--line-strong);border-radius:999px;padding:8px 12px;background:var(--surface)}
 .pgtag:hover{border-color:var(--gold-ink)}
 h4{font-size:1.12rem;color:var(--ink);margin:20px 0 6px}
 p{margin:10px 0}
@@ -50,9 +54,10 @@ a{color:var(--purple)}
 footer{border-top:3px solid var(--gold);background:var(--purple-deep);color:rgba(255,255,255,.85);padding:30px 26px 44px}
 footer .in{max-width:760px;margin:0 auto;font-size:.88rem;line-height:1.6}
 footer a{color:var(--gold-bright)}
-@media print{.top .links,nav.toc{display:none}.pgtag{position:static;float:right}body{background:#fff;color:#000;font-size:10.5pt}
+@media (max-width:640px){body{font-size:16px}.wrap{padding:10px 20px 60px}.pdfpage{padding-left:16px}}
+@media print{.top .links,nav.toc,.pgtag{display:none}body{background:#fff;color:#000;font-size:10.5pt}
 .top{background:#fff;color:#000;border-bottom:2px solid #B98B21}.top h1{color:#000}.top p{color:#333}
-.notice{background:#fff;border:1px solid #999}section{break-inside:auto}.pdfpage{break-inside:avoid}
+.notice{background:#fff;border:1px solid #999}.pdfpage{break-inside:avoid;border-left:none;padding-left:0}
 footer{background:#fff;color:#000}}
 </style>
 </head>
@@ -60,18 +65,15 @@ footer{background:#fff;color:#000}}
 <div class="top"><div class="top-in">
   <div class="eyebrow">Ciudad de Amsterdam, Nueva York · Adoptado en mayo de 2026</div>
   <h1>Plan Integral de Crecimiento Inteligente</h1>
-  <p>Edición en español · Texto completo del Plan adoptado, las 90 páginas</p>
+  <p>Edición en español · las 90 páginas completas</p>
   <div class="links">
     <a class="gold" href="index.html?lang=es">← Resumen comunitario</a>
-    <a href="plan/Amsterdam-2026-Plan-Final.pdf" target="_blank" rel="noopener">PDF oficial en inglés (90 págs.)</a>
     <a href="plan/Amsterdam-2026-Plan-Final-ES.pdf" target="_blank" rel="noopener">PDF en español (90 págs.)</a>
+    <a href="plan-en.html">Read in English</a>
     <a href="javascript:window.print()">Imprimir</a>
   </div>
 </div></div>
-<div class="notice"><div class="notice-in"><strong>Traducción de cortesía.</strong> Esta edición en español se ofrece para que todos los residentes puedan
-leer el Plan completo. El documento oficial adoptado por el Concejo Municipal es la versión en inglés; en caso de cualquier
-diferencia, prevalece el <a href="plan/Amsterdam-2026-Plan-Final.pdf" target="_blank" rel="noopener">PDF oficial</a>. Los mapas, fotografías e ilustraciones
-están en el PDF: cada etiqueta «p. N» abre la página correspondiente del documento oficial.</div></div>
+<div class="notice"><div class="notice-in"><strong>Traducción de cortesía.</strong> Esta edición en español se ofrece para que todos los residentes puedan leer el Plan completo. El documento oficial adoptado por el Concejo Municipal es la versión en inglés; en caso de cualquier diferencia, prevalece el <a href="plan/Amsterdam-2026-Plan-Final.pdf" target="_blank" rel="noopener">PDF oficial en inglés</a>. Los mapas y las fotografías están en el PDF: la etiqueta «p. N» de cada página lo abre en esa página.</div></div>
 <div class="wrap">
 <nav class="toc"><div class="t">Contenido</div><ol><li><a href="#portada">Portada y contenido</a></li>
 <li><a href="#introduccion">01 · Introducción</a></li>
@@ -80,11 +82,11 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li><a href="#estrategia">04 · Nuestra estrategia de desarrollo comunitario</a></li>
 <li><a href="#exitos">Éxitos de Amsterdam</a></li></ol></nav>
 <section id="portada"><h2>Portada y contenido</h2>
-<article class="pdfpage" id="p1"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=1" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;1 ↗</a><h4>CIUDAD DE AMSTERDAM</h4>
+<article class="pdfpage" id="p1"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=1" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;1 ↗</a><h4>CIUDAD DE AMSTERDAM</h4>
 <p>Plan Integral de Crecimiento Inteligente (Smart Growth)</p>
 <p>2026</p>
 <p>ADOPTADO EN MAYO DE 2026</p></article>
-<article class="pdfpage" id="p2"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=2" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;2 ↗</a><h4>Agradecimientos</h4>
+<article class="pdfpage" id="p2"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=2" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;2 ↗</a><h4>Agradecimientos</h4>
 <p>La Ciudad desea agradecer a los miembros de la comunidad, al personal municipal y a los integrantes del Comité de Planificación Integral que aportaron sus opiniones y su orientación en el desarrollo de la visión para el Plan Integral de Crecimiento Inteligente 2026 de la Ciudad de Amsterdam.</p>
 <ul>
 <li>Michael Cinquanti, Alcalde, Ciudad de Amsterdam</li>
@@ -110,7 +112,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Este documento se preparó con fondos provistos por el Environmental Protection Fund (Fondo de Protección Ambiental) del Departamento de Estado del Estado de Nueva York.</p>
 <p>Equipo consultor:</p>
 <p>2 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p3"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=3" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;3 ↗</a><h4>Tabla de Contenido</h4>
+<article class="pdfpage" id="p3"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=3" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;3 ↗</a><h4>Tabla de Contenido</h4>
 <h4>01 Introducción — 04</h4>
 <ul>
 <li>¿Qué es este Plan? — 06</li>
@@ -148,11 +150,11 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Plan Integral de Amsterdam 3</p></article>
 </section>
 <section id="introduccion"><h2>01 · Introducción</h2>
-<article class="pdfpage" id="p4"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=4" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;4 ↗</a><h4>01 Introducción</h4>
+<article class="pdfpage" id="p4"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=4" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;4 ↗</a><h4>01 Introducción</h4>
 <p>Una introducción al propósito y a los principios que guían este plan.</p>
 <p>4 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p5"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=5" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;5 ↗</a><p>Plan Integral de Amsterdam 5</p></article>
-<article class="pdfpage" id="p6"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=6" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;6 ↗</a><h4>INTRODUCCIÓN</h4>
+<article class="pdfpage" id="p5"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=5" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;5 ↗</a><p>Plan Integral de Amsterdam 5</p></article>
+<article class="pdfpage" id="p6"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=6" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;6 ↗</a><h4>INTRODUCCIÓN</h4>
 <h4>¿Qué es este Plan?</h4>
 <p>Este Plan Integral es la guía oficial de los esfuerzos de planificación y de la toma de decisiones de la Ciudad durante la próxima década.</p>
 <h4>Propósito</h4>
@@ -182,7 +184,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <h4>Horizonte de Planificación</h4>
 <p>Debido a que las comunidades evolucionan con el tiempo y su visión puede cambiar, los planes integrales deben actualizarse para asegurar que reflejen las condiciones y los valores actuales de la comunidad. Este Plan constituye una actualización del Plan Integral de 2003 de la Ciudad, y refleja los cambios en valores y tendencias que han ocurrido durante las últimas dos décadas. El Plan Integral 2024 de la Ciudad tendrá un horizonte de planificación de diez años, hasta el 2034. Este es el período durante el cual el Plan 2024 se considera pertinente y representativo de la comunidad. No obstante, se recomienda que la Ciudad revise la información contenida en este documento cada uno o dos años, a fin de asegurar que siga siendo pertinente y beneficiosa antes del 2034.</p>
 <p>6 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p7"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=7" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;7 ↗</a><h4>Mapa de la Ciudad de Amsterdam</h4>
+<article class="pdfpage" id="p7"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=7" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;7 ↗</a><h4>Mapa de la Ciudad de Amsterdam</h4>
 <p>Elementos rotulados en el mapa:</p>
 <ul>
 <li>Sectores censales (Census Tracts): 702, 703, 704, 705, 706, 707, 708 y 709.</li>
@@ -209,7 +211,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>N (norte); escala del mapa: 0.5 millas.</li>
 </ul>
 <p>Plan Integral de Amsterdam 7</p></article>
-<article class="pdfpage" id="p8"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=8" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;8 ↗</a><h4>INTRODUCCIÓN</h4>
+<article class="pdfpage" id="p8"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=8" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;8 ↗</a><h4>INTRODUCCIÓN</h4>
 <h4>Principios de Crecimiento Inteligente (Smart Growth)</h4>
 <p>Este Plan Integral utiliza los principios de Crecimiento Inteligente para promover comunidades habitables, sostenibles y equitativas.</p>
 <p>En consonancia con el Programa de Crecimiento Inteligente del Departamento de Estado del Estado de Nueva York (New York State Department of State, DOS), este plan incorpora los principios de &quot;Crecimiento Inteligente&quot; para promover patrones de desarrollo que sean ambientalmente sostenibles, económicamente eficientes, socialmente equitativos y resilientes en materia de energía. El Crecimiento Inteligente pone énfasis en crear vecindarios compactos y transitables a pie, con una mezcla de usos y de tipos de vivienda, a la vez que se preservan los espacios abiertos y los recursos naturales. El Crecimiento Inteligente emplea varios principios de planificación del uso del suelo para crear este tipo de comunidades, entre ellos:</p>
@@ -218,28 +220,28 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <h4>02 — Diversidad de Vivienda</h4>
 <p>Ofrecer una variedad de tipos, tamaños y niveles de precio de vivienda garantiza que las comunidades puedan acoger a residentes de distintos niveles de ingresos, etapas de la vida y tamaños de hogar. Esto incluye desde apartamentos y casas adosadas hasta viviendas unifamiliares, lo que hace que los vecindarios sean más inclusivos y económicamente resilientes.</p>
 <p>8 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p9"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=9" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;9 ↗</a><h4>03 — Espacios Públicos de Calidad</h4>
+<article class="pdfpage" id="p9"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=9" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;9 ↗</a><h4>03 — Espacios Públicos de Calidad</h4>
 <p>Diseñar y mantener parques, plazas y espacios de encuentro comunitario accesibles brinda oportunidades para la recreación, la interacción social y las actividades culturales. Estos espacios deben distribuirse de manera equitativa por toda la comunidad y diseñarse con el aporte de los residentes.</p>
 <h4>04 — Desarrollo Estratégico de Relleno (Infill)</h4>
 <p>Priorizar el desarrollo de relleno (infill) en propiedades vacantes o subutilizadas dentro de las áreas urbanas existentes maximiza el uso de la infraestructura existente y, a la vez, reduce la expansión urbana descontrolada. Este enfoque se centra especialmente en el desarrollo orientado al transporte público, revitalizando las áreas alrededor de los centros de transporte para crear comunidades más conectadas.</p>
 <h4>05 — Diseño Compacto</h4>
 <p>Concentrar el desarrollo en áreas con infraestructura existente promueve el uso eficiente del suelo y reduce los costos de proveer servicios públicos. Este principio pone énfasis en crear vecindarios caminables, con una densidad adecuada capaz de sostener los negocios locales y el transporte público.</p>
 <p>Plan Integral de Amsterdam 9</p></article>
-<article class="pdfpage" id="p10"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=10" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;10 ↗</a><h4>INTRODUCCIÓN</h4>
+<article class="pdfpage" id="p10"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=10" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;10 ↗</a><h4>INTRODUCCIÓN</h4>
 <h4>Principios de Crecimiento Inteligente (Smart Growth)</h4>
 <h4>06 — Transporte Multimodal</h4>
 <p>Crear redes de transporte integrales que prioricen la caminata, el ciclismo y el transporte público reduce la dependencia del automóvil y promueve comunidades más saludables y sostenibles. Esto incluye implementar políticas de Calles Completas (Complete Streets), ampliar la infraestructura para bicicletas y mejorar el servicio de transporte público.</p>
 <h4>07 — Colaboración Comunitaria</h4>
 <p>Involucrar a miembros diversos de la comunidad en un diálogo significativo sobre las decisiones de planificación, mediante procesos de participación pública accesibles, asegura que los planes reflejen las necesidades y los valores de la comunidad. Esto requiere acercarse a los grupos tradicionalmente subrepresentados y ofrecer múltiples maneras de participar en los procesos de planificación.</p>
 <p>10 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p11"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=11" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;11 ↗</a><h4>08 — Sostenibilidad y Resiliencia</h4>
+<article class="pdfpage" id="p11"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=11" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;11 ↗</a><h4>08 — Sostenibilidad y Resiliencia</h4>
 <p>Incorporar estrategias de resiliencia climática y medidas de reducción de gases de efecto invernadero en la planificación comunitaria ayuda a proteger a la comunidad frente a los impactos del clima y, al mismo tiempo, reduce el daño ambiental. Esto incluye usar infraestructura verde para el manejo de las aguas pluviales, promover la eficiencia energética y proteger los sistemas naturales que aportan beneficios climáticos.</p>
 <h4>09 — Preservación de Recursos</h4>
 <p>Proteger las áreas naturales valiosas, las tierras agrícolas y los espacios abiertos mediante una planificación cuidadosa y medidas de conservación asegura la sostenibilidad ambiental y mantiene el carácter de la comunidad. Esto incluye establecer corredores verdes, proteger las cuencas hidrográficas y preservar las tierras de cultivo productivas.</p>
 <h4>10 — Creación de Espacios Públicos (Placemaking)</h4>
 <p>Celebrar y realzar las características culturales, históricas y arquitectónicas únicas de una comunidad crea lugares distintivos y memorables que los residentes valoran y los visitantes aprecian. Esto implica preservar los edificios históricos, promover las artes y la cultura locales, y asegurar que el nuevo desarrollo complemente el carácter existente de la comunidad.</p>
 <p>Plan Integral de Amsterdam 11</p></article>
-<article class="pdfpage" id="p12"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=12" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;12 ↗</a><h4>INTRODUCCIÓN</h4>
+<article class="pdfpage" id="p12"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=12" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;12 ↗</a><h4>INTRODUCCIÓN</h4>
 <h4>Planes y Estudios Existentes</h4>
 <p>Este Plan Integral se basa en una serie de planes y estudios completados en la ciudad y la región en los últimos años.</p>
 <h4>01 — Plan Integral de la Ciudad de Amsterdam — 2003</h4>
@@ -271,7 +273,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Rehabilitar el parque de viviendas y los espacios comerciales del West End.</li>
 </ul>
 <p>12 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p13"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=13" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;13 ↗</a><h4>Mapa de Planes Existentes</h4>
+<article class="pdfpage" id="p13"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=13" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;13 ↗</a><h4>Mapa de Planes Existentes</h4>
 <p>Áreas de planificación señaladas en el mapa:</p>
 <ul>
 <li>LWRP — Local Waterfront Revitalization Program (Programa Local de Revitalización de la Ribera)</li>
@@ -310,7 +312,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Carreteras señaladas en el mapa: rutas 5, 30, 67 y 90.</p>
 <p>N (norte) — Escala: 0.5 millas</p>
 <p>Plan Integral de Amsterdam 13</p></article>
-<article class="pdfpage" id="p14"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=14" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;14 ↗</a><h4>04 Local Waterfront Revitalization Program (Programa Local de Revitalización de la Ribera, LWRP) — 2023</h4>
+<article class="pdfpage" id="p14"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=14" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;14 ↗</a><h4>04 Local Waterfront Revitalization Program (Programa Local de Revitalización de la Ribera, LWRP) — 2023</h4>
 <p>El Programa Local de Revitalización de la Ribera (LWRP) de la Ciudad es un programa integral de uso del suelo y del agua que expresa una visión para la zona ribereña y ofrece recomendaciones para hacer realidad esa visión. El programa incluye metas para:</p>
 <ul>
 <li>Continuar la remodelación de las áreas que rodean el río Mohawk y el arroyo Chuctanunda como nodos dinámicos de actividad.</li>
@@ -346,7 +348,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Ofrecer una gama sostenible y diversa de viviendas y otros usos en el núcleo del centro.</li>
 </ul>
 <p>14 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p15"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=15" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;15 ↗</a><h4>08 BOA del Waterfront Heritage Area (Área de Patrimonio Ribereño) — 2015</h4>
+<article class="pdfpage" id="p15"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=15" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;15 ↗</a><h4>08 BOA del Waterfront Heritage Area (Área de Patrimonio Ribereño) — 2015</h4>
 <p>El Estudio de Nominación del BOA del Waterfront Heritage Area se preparó para un área de 104 acres que incluía porciones de los vecindarios del South Side y del centro de la ciudad, así como la ribera del río Mohawk. Esta área se caracteriza por la presencia de antiguas fábricas, terrenos industriales abandonados o baldíos (brownfields) y varios sitios vacantes y subutilizados a lo largo de la ribera. Se desarrollaron varias metas para el área, entre ellas:</p>
 <ul>
 <li>Revitalizar el vecindario del South Side.</li>
@@ -383,20 +385,20 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Plan Integral de Amsterdam 15</p></article>
 </section>
 <section id="gente"><h2>02 · Nuestra gente, nuestros lugares y nuestro pasado</h2>
-<article class="pdfpage" id="p16"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=16" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;16 ↗</a><h4>02 Nuestra gente, nuestros lugares y nuestro pasado</h4>
+<article class="pdfpage" id="p16"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=16" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;16 ↗</a><h4>02 Nuestra gente, nuestros lugares y nuestro pasado</h4>
 <p>Un resumen de los principales factores físicos, sociales y económicos que afectan a Amsterdam en la actualidad.</p>
 <p>16 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p17"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=17" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;17 ↗</a><p>Plan Integral de Amsterdam 17</p></article>
-<article class="pdfpage" id="p18"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=18" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;18 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
+<article class="pdfpage" id="p17"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=17" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;17 ↗</a><p>Plan Integral de Amsterdam 17</p></article>
+<article class="pdfpage" id="p18"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=18" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;18 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
 <h4>Nuestra ubicación</h4>
 <p>La Ciudad de Amsterdam fue moldeada por su ubicación estratégica y su geografía singular.</p>
 <p>Amsterdam se encuentra en la región del Valle del Mohawk (Mohawk Valley) del Estado de Nueva York. En los primeros tiempos, las colinas empinadas del valle, sus ríos caudalosos y su suelo fértil atrajeron a la zona a comunidades indígenas y a colonos europeos. Con el tiempo, la región se convirtió en un centro agrícola y fue un lugar estratégico durante la Revolución Americana. El asentamiento que llegaría a ser la Ciudad de Amsterdam se desarrolló aprovechando la fuerza del río Mohawk y del Canal de Erie (Erie Canal) para la industria y el comercio.</p>
 <p>Hoy en día, la Ciudad de Amsterdam es el mayor centro de población y la única ciudad del condado de Montgomery, uno de los siete condados de la región del Valle del Mohawk. La ciudad limita con el municipio (Town) de Amsterdam al norte, al este y al oeste, y con el municipio de Florida al sur.</p>
 <p>Rótulos del mapa: región del Valle del Mohawk; condado de Montgomery; condado de Herkimer; condado de Otsego; municipio de St. Johnsville; municipio de Palatine; municipio de Minden; municipio de Canajoharie; 90 (Interestatal 90).</p>
 <p>18 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p19"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=19" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;19 ↗</a><p>Rótulos del mapa regional: condado de Fulton; Gloversville; Johnstown; condado de Saratoga; municipio de Mohawk; Ciudad de Amsterdam (City of Amsterdam); municipio de Glen; municipio de Amsterdam; municipio de Florida; municipio de Root; municipio de Charleston; condado de Montgomery; condado de Schenectady; condado de Schoharie; 90 (Interestatal 90); N (norte); escala: 4 millas.</p>
+<article class="pdfpage" id="p19"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=19" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;19 ↗</a><p>Rótulos del mapa regional: condado de Fulton; Gloversville; Johnstown; condado de Saratoga; municipio de Mohawk; Ciudad de Amsterdam (City of Amsterdam); municipio de Glen; municipio de Amsterdam; municipio de Florida; municipio de Root; municipio de Charleston; condado de Montgomery; condado de Schenectady; condado de Schoharie; 90 (Interestatal 90); N (norte); escala: 4 millas.</p>
 <p>Plan Integral de Amsterdam 19</p></article>
-<article class="pdfpage" id="p20"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=20" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;20 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
+<article class="pdfpage" id="p20"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=20" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;20 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
 <h4>Nuestra historia</h4>
 <p>Dibujo de una comunidad temprana del Valle del Mohawk. Fecha desconocida. | Market Street, Amsterdam. Alrededor de 1905.</p>
 <h4>Los años 1700</h4>
@@ -406,7 +408,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Amsterdam se expande rápidamente.</p>
 <p>La primera mitad del siglo XIX trajo un crecimiento acelerado a Amsterdam. En 1830, Amsterdam se incorporó como aldea (village) y llegó una nueva ola de inmigrantes procedentes de Nueva Inglaterra. La terminación del Mohawk Turnpike (carretera de peaje del Mohawk) en 1800 y del Canal de Erie en 1825, junto con la llegada del ferrocarril en 1836, mejoraron el comercio y estimularon el desarrollo. Pronto, los molinos se alinearon a lo largo del arroyo Chuctanunda, y Amsterdam se consolidó como un centro manufacturero de productos como escobas, tejidos de punto, botones, aceite de linaza, artículos de hierro y, muy especialmente, alfombras. En aquella época, Amsterdam era un destino para inmigrantes irlandeses, italianos, polacos y lituanos que encontraban trabajo en las fábricas. En 1885, Amsterdam se incorporó como ciudad y se expandió al anexar varias comunidades vecinas.</p>
 <p>20 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p21"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=21" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;21 ↗</a><p>Main Street, Amsterdam. Años 1950. | Main Street, Amsterdam. 2023.</p>
+<article class="pdfpage" id="p21"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=21" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;21 ↗</a><p>Main Street, Amsterdam. Años 1950. | Main Street, Amsterdam. 2023.</p>
 <h4>Los años 1900</h4>
 <p>Amsterdam declina lentamente.</p>
 <p>Durante la Gran Depresión, las fábricas de Amsterdam redujeron su producción, pero no cerraron. La ciudad también sobrevivió a las dos guerras mundiales sin efectos significativos. Sin embargo, poco después de la Segunda Guerra Mundial, las fábricas de Amsterdam siguieron la tendencia general de los Estados Unidos en aquel momento y trasladaron la producción al sur del país, donde los costos laborales y los impuestos eran más bajos. Con empleos y oportunidades limitados, las generaciones más jóvenes se marcharon a la universidad y no regresaron. La población y la base tributaria de Amsterdam declinaron. En un intento por atraer de nuevo a las personas y a los negocios a Amsterdam, la Ciudad y el Estado emprendieron un programa de renovación urbana y de construcción de vías arteriales. Esto, sin embargo, solo sirvió para destruir gran parte del tejido original del centro y tuvo un éxito limitado en recrear la base industrial de la ciudad.</p>
@@ -414,7 +416,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Amsterdam está viviendo un renacimiento.</p>
 <p>Como muchas ciudades postindustriales, Amsterdam está trabajando para reinventarse. En los últimos años, la ciudad ha recibido inversiones significativas, incluidos $10 millones de la Downtown Revitalization Initiative (Iniciativa de Revitalización del Centro, DRI) del Estado de Nueva York, que financiará varios proyectos, entre ellos la extensión del Chuctanunda Creek Trail (el sendero del arroyo Chuctanunda), la construcción de un centro comunitario y la creación de un fondo para el mejoramiento del centro. Otras inversiones se están destinando a remediar y revitalizar terrenos industriales abandonados o baldíos (brownfields) en toda la ciudad, incluidos el East End (extremo este) y los Northern Neighborhoods (vecindarios del norte), así como a lo largo de la ribera. En 2023, la Ciudad actualizó su Local Waterfront Revitalization Program (Programa Local de Revitalización de la Ribera, LWRP) con nuevas recomendaciones para mejorar la conectividad con la ribera, promover la reurbanización de la zona ribereña y aumentar la resiliencia.</p>
 <p>Plan Integral de Amsterdam 21</p></article>
-<article class="pdfpage" id="p22"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=22" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;22 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
+<article class="pdfpage" id="p22"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=22" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;22 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
 <h4>Nuestra gente</h4>
 <p>Los residentes de Amsterdam son una parte importante de nuestra comunidad.</p>
 <p>Esta sección resume información sobre los residentes de la Ciudad de Amsterdam: quiénes son, dónde viven y a qué se dedican. Comprender estos datos sobre nuestra comunidad y cómo han cambiado nos ayudará a tomar mejores decisiones sobre el futuro de Amsterdam.</p>
@@ -438,7 +440,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 </ul>
 <p>Todos los datos provienen de las estimaciones de 5 años de 2021 de la American Community Survey (Encuesta sobre la Comunidad Estadounidense, ACS).</p>
 <p>22 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p23"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=23" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;23 ↗</a><h4>Mapa de los distritos</h4>
+<article class="pdfpage" id="p23"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=23" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;23 ↗</a><h4>Mapa de los distritos</h4>
 <p>Leyenda del mapa:</p>
 <ul>
 <li>Distritos: Distrito 1, Distrito 2, Distrito 3, Distrito 4, Distrito 5</li>
@@ -448,7 +450,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>N (norte); escala: 0.5 millas</li>
 </ul>
 <p>Plan Integral de Amsterdam | 23</p></article>
-<article class="pdfpage" id="p24"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=24" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;24 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
+<article class="pdfpage" id="p24"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=24" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;24 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
 <h4>Distritos 1 y 2</h4>
 <h4>Hallazgos clave</h4>
 <p>Los Distritos 1 y 2 muestran una fuerte estabilidad vecinal, con altas tasas de vivienda propia, poca desocupación y altos ingresos por hogar.</p>
@@ -480,7 +482,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Unidades multifamiliares: 10% | 19%</li>
 </ul>
 <p>24 | Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p25"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=25" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;25 ↗</a><h4>Mapa de los Distritos 1 y 2</h4>
+<article class="pdfpage" id="p25"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=25" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;25 ↗</a><h4>Mapa de los Distritos 1 y 2</h4>
 <p>Leyenda del mapa:</p>
 <ul>
 <li>Carreteras: Rutas 5, 30, 67 y 90</li>
@@ -491,7 +493,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>N (norte); escala: 0.5 millas</li>
 </ul>
 <p>Plan Integral de Amsterdam | 25</p></article>
-<article class="pdfpage" id="p26"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=26" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;26 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
+<article class="pdfpage" id="p26"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=26" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;26 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
 <h4>Distrito 3 (Ward 3)</h4>
 <h4>Hallazgos clave</h4>
 <p>El Distrito 3 es denso y diverso, pero tiene el parque de viviendas más antiguo de la ciudad.</p>
@@ -523,7 +525,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Unidades multifamiliares: 21% | 19%</li>
 </ul>
 <p>26 — Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p27"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=27" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;27 ↗</a><h4>Mapa del Distrito 3</h4>
+<article class="pdfpage" id="p27"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=27" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;27 ↗</a><h4>Mapa del Distrito 3</h4>
 <p>Lugares y rótulos que aparecen en el mapa:</p>
 <ul>
 <li>Carreteras 5, 30, 67 y 90</li>
@@ -555,7 +557,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>N (norte); escala: 0.5 millas</li>
 </ul>
 <p>Plan Integral de Amsterdam — 27</p></article>
-<article class="pdfpage" id="p28"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=28" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;28 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
+<article class="pdfpage" id="p28"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=28" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;28 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
 <h4>Distrito 4 (Ward 4)</h4>
 <h4>Hallazgos clave</h4>
 <p>El Distrito 4 tiene una población joven y diversa, con muchos inquilinos.</p>
@@ -588,7 +590,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Unidades multifamiliares: 25% | 19%</li>
 </ul>
 <p>28 — Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p29"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=29" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;29 ↗</a><h4>Mapa del Distrito 4</h4>
+<article class="pdfpage" id="p29"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=29" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;29 ↗</a><h4>Mapa del Distrito 4</h4>
 <p>Lugares y puntos de referencia señalados en el mapa:</p>
 <ul>
 <li>Target</li>
@@ -619,7 +621,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Rutas señaladas en el mapa: 5, 30, 67 y 90.</p>
 <p>N (norte) — Escala: 0.5 millas</p>
 <p>Plan Integral de Amsterdam 29</p></article>
-<article class="pdfpage" id="p30"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=30" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;30 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
+<article class="pdfpage" id="p30"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=30" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;30 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
 <h4>Distrito 5</h4>
 <h4>Hallazgos clave</h4>
 <p>El Distrito 5 cuenta con algunas de las opciones de vivienda más variadas de la ciudad, pero enfrenta dificultades por su alta tasa de viviendas vacantes y los bajos ingresos de sus hogares.</p>
@@ -653,7 +655,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Unidades multifamiliares: 29% | 19%</li>
 </ul>
 <p>30 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p31"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=31" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;31 ↗</a><h4>Mapa del Distrito 5</h4>
+<article class="pdfpage" id="p31"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=31" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;31 ↗</a><h4>Mapa del Distrito 5</h4>
 <p>Lugares y puntos de referencia señalados en el mapa:</p>
 <ul>
 <li>Target</li>
@@ -685,7 +687,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Rutas señaladas en el mapa: 5, 5S, 30, 67 y 90.</p>
 <p>N (norte) — Escala: 0.5 millas</p>
 <p>Plan Integral de Amsterdam 31</p></article>
-<article class="pdfpage" id="p32"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=32" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;32 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
+<article class="pdfpage" id="p32"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=32" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;32 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
 <h4>Hallazgos clave</h4>
 <p>Las páginas siguientes destacan varios hallazgos clave sobre Amsterdam que deben tomarse en cuenta a medida que la ciudad planifica su futuro.</p>
 <h4>01 — Se proyecta que Amsterdam crecerá.</h4>
@@ -704,7 +706,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>2021: 70% blanco; 6% negro; 16% otra raza; 8% multirracial.</li>
 </ul>
 <p>32 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p33"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=33" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;33 ↗</a><h4>03 — Amsterdam tiene una distribución de edades equilibrada.</h4>
+<article class="pdfpage" id="p33"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=33" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;33 ↗</a><h4>03 — Amsterdam tiene una distribución de edades equilibrada.</h4>
 <p>La población se reparte entre los distintos rangos de edad.</p>
 <p>Con excepción de los muy jóvenes y los muy mayores, la población de Amsterdam se reparte de manera relativamente uniforme entre los rangos de edad. Este tipo de distribución etaria es indicativo de una población equilibrada, en la que las tasas de natalidad y mortalidad, así como la inmigración y la emigración, se encuentran en equilibrio.</p>
 <p>Para una población equilibrada, es importante ofrecer una gama de servicios y de opciones de vivienda que puedan satisfacer las necesidades de todos los residentes.</p>
@@ -730,7 +732,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>1% construido desde 2000 (en comparación con el 7% en el condado de Montgomery).</li>
 </ul>
 <p>Plan Integral de Amsterdam 33</p></article>
-<article class="pdfpage" id="p34"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=34" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;34 ↗</a><h4>06 — La vacancia residencial es alta.</h4>
+<article class="pdfpage" id="p34"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=34" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;34 ↗</a><h4>06 — La vacancia residencial es alta.</h4>
 <p>Muchas unidades de vivienda permanecen desocupadas.</p>
 <p>La tasa de vacancia de Amsterdam es del 21%, mayor que la tasa del 18% del condado de Montgomery y muy por encima de la tasa de vacancia ideal del 4% al 7%.</p>
 <p>Las tasas de vacancia altas a menudo indican un desajuste en el mercado, en el que los tipos de unidades de vivienda o sus precios no corresponden a las necesidades de los consumidores.</p>
@@ -757,7 +759,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Hogares sobrecargados por el costo de la vivienda — inquilinos: 44%, 40%, 21% severamente; propietarios: 16%, 7% severamente.</li>
 </ul>
 <p>34 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p35"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=35" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;35 ↗</a><h4>09 — La tasa de pobreza es alta.</h4>
+<article class="pdfpage" id="p35"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=35" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;35 ↗</a><h4>09 — La tasa de pobreza es alta.</h4>
 <p>Muchas familias en Amsterdam luchan por llegar a fin de mes.</p>
 <p>La tasa de pobreza de Amsterdam es del 24%, en comparación con el 17% en el condado de Montgomery y el 14% en Nueva York.</p>
 <p>La pobreza es un problema persistente que afecta la calidad de vida y limita las oportunidades de las familias. Un acceso más amplio a empleos, vivienda y educación puede impulsar a las comunidades y poner fin al ciclo de la pobreza.</p>
@@ -786,7 +788,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>8% de desempleo entre los residentes de la ciudad.</li>
 </ul>
 <p>Plan Integral de Amsterdam 35</p></article>
-<article class="pdfpage" id="p36"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=36" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;36 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
+<article class="pdfpage" id="p36"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=36" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;36 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
 <h4>Nuestros lugares</h4>
 <p>Amsterdam se caracteriza por una mezcla diversa de usos del suelo, desde propiedades residenciales y comerciales hasta espacios recreativos y terrenos vacantes.</p>
 <h4>Residencial — 36%</h4>
@@ -798,9 +800,9 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Otras áreas de la ciudad con concentraciones de terrenos vacantes incluyen varias propiedades vacantes identificadas en los estudios del Área de Oportunidad en Sitios Industriales Abandonados (Brownfield Opportunity Area, BOA) de los Northern Neighborhoods y del East End de la Ciudad de Amsterdam. El BOA del East End identificó 29 acres y más de 46 sitios como terrenos industriales abandonados o baldíos (brownfields), vacantes o subutilizados. El BOA de los Northern Neighborhoods identificó 40 sitios como posibles terrenos baldíos industriales o propiedades vacantes o subutilizadas.</p>
 <p>Hallazgo clave: Las áreas vacantes y subutilizadas de tamaño apropiado pueden ofrecer oportunidades de desarrollo de relleno que revitalicen los vecindarios y fortalezcan la economía local.</p>
 <p>36 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p37"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=37" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;37 ↗</a><h4>Mapa de usos actuales del suelo</h4>
+<article class="pdfpage" id="p37"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=37" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;37 ↗</a><h4>Mapa de usos actuales del suelo</h4>
 <p>Plan Integral de Amsterdam 37</p></article>
-<article class="pdfpage" id="p38"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=38" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;38 ↗</a><p>Usos comerciales en Main Street.</p>
+<article class="pdfpage" id="p38"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=38" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;38 ↗</a><p>Usos comerciales en Main Street.</p>
 <h4>Servicios públicos y comunitarios — 18%</h4>
 <p>Los servicios públicos y comunitarios de Amsterdam constituyen, en conjunto, el 18% del uso total del suelo de la ciudad. Los servicios comunitarios desempeñan un papel fundamental en el apoyo a la salud, la educación y el bienestar de la comunidad, e incluyen instalaciones como escuelas, bibliotecas, hospitales y hogares de cuidado para personas mayores. Los servicios públicos están diseñados para servir al público en general e incluyen instalaciones como la Amsterdam Wastewater Treatment Plant (planta de tratamiento de aguas residuales de Amsterdam). La Amsterdam Free Library (Biblioteca Gratuita de Amsterdam) es un ejemplo notable de un pilar comunitario que brinda acceso público gratuito a información, recursos digitales, apoyo para el desarrollo laboral y programas para residentes de todas las edades y niveles de ingresos, y que desempeña un papel especialmente importante para los residentes que no cuentan con acceso confiable a internet en el hogar.</p>
 <p>Hallazgo clave: A medida que Amsterdam crezca, será esencial ampliar los servicios y garantizar el acceso equitativo a estos recursos, particularmente en los vecindarios desatendidos.</p>
@@ -808,7 +810,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Las parcelas clasificadas como recreación, parques públicos, áreas de conservación o tierras agrícolas constituyen el 11% del uso total del suelo de Amsterdam. Entre las áreas notables se encuentran el Amsterdam Municipal Golf Course (campo de golf municipal de Amsterdam), de 182 acres, y Shuttleworth Park, que funcionan como centros recreativos clave.</p>
 <p>Hallazgo clave: En consonancia con los principios del Crecimiento Inteligente (Smart Growth), Amsterdam debe continuar protegiendo y ampliando estos espacios verdes, garantizando que todos los residentes tengan acceso a parques y áreas naturales.</p>
 <p>38 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p39"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=39" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;39 ↗</a><p>Usos industriales en Church Street.</p>
+<article class="pdfpage" id="p39"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=39" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;39 ↗</a><p>Usos industriales en Church Street.</p>
 <h4>Comercial — 7%</h4>
 <p>Amsterdam dedica el 7% de su uso actual del suelo a usos comerciales. Los usos comerciales se ubican principalmente cerca de los corredores del centro de Amsterdam, incluidas las calles Washington, Church, Liberty, East Main y West Main, Front y Market, entre otras. El uso comercial del suelo de la ciudad es diverso e incluye una variedad de tiendas, restaurantes, bancos y oficinas, que ofrecen oportunidades de empleo local y bienes y servicios para los residentes.</p>
 <p>Hallazgo clave: El desarrollo comercial futuro debe enfocarse en revitalizar las estructuras existentes y realzar las áreas del centro con proyectos de uso mixto.</p>
@@ -816,7 +818,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Los usos industriales del suelo constituyen alrededor del 6% del uso del suelo de la ciudad. Los usos industriales se concentran principalmente en el East End de la ciudad, y también hay varias propiedades industriales en los Northern Neighborhoods, particularmente a lo largo del arroyo Chuctanunda.</p>
 <p>Hallazgo clave: Los esfuerzos de reurbanización industrial deben enfocarse en transformar las propiedades subutilizadas en espacios innovadores que apoyen la creación de empleos y las industrias emergentes.</p>
 <p>Plan Integral de Amsterdam 39</p></article>
-<article class="pdfpage" id="p40"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=40" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;40 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
+<article class="pdfpage" id="p40"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=40" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;40 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
 <h4>Zonificación</h4>
 <p>El Código de Zonificación de Amsterdam guía los patrones de desarrollo en la ciudad al establecer normas para el uso del suelo, las dimensiones de los edificios y la ocupación.</p>
 <h4>Distritos de zonificación</h4>
@@ -844,10 +846,10 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Light Industry District (Distrito de Industria Ligera): Este distrito proporciona suelo para usos asociados con la manufactura, el almacenaje, el depósito y otros usos intensivos.</li>
 </ul>
 <p>40 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p41"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=41" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;41 ↗</a><h4>Mapa de los distritos de zonificación</h4>
+<article class="pdfpage" id="p41"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=41" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;41 ↗</a><h4>Mapa de los distritos de zonificación</h4>
 <p>Form-Based Code District (Distrito de Código Basado en la Forma)</p>
 <p>Plan Integral de Amsterdam 41</p></article>
-<article class="pdfpage" id="p42"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=42" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;42 ↗</a><h4>Zonas de superposición (Overlay Zones)</h4>
+<article class="pdfpage" id="p42"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=42" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;42 ↗</a><h4>Zonas de superposición (Overlay Zones)</h4>
 <p>El Código de Zonificación de Amsterdam también incorpora tres zonas de superposición (overlay zones) que establecen regulaciones adicionales sobre el distrito de zonificación subyacente para fines especiales, como proteger elementos ambientales sensibles o preservar el carácter histórico. Las zonas de superposición de Amsterdam incluyen:</p>
 <ul>
 <li>Greenway Corridor Overlay Zone (Zona de Superposición del Corredor Verde): esta zona de superposición surgió del Plan Integral de 2003, que recomendó crear un sistema de corredores verdes en la ciudad para proteger los corredores ribereños y ofrecer oportunidades de recreación. Según establece el Código de Zonificación, el propósito de esta zona de superposición es proteger la salud, la seguridad y el bienestar públicos frente a los efectos de las inundaciones; proteger contra la erosión mediante el mejoramiento y la protección de las franjas de amortiguamiento ribereñas; proporcionar hábitat para las plantas y la vida silvestre; y preservar y proteger áreas específicas para la recreación pasiva, como senderos, miradores, parques y santuarios naturales. El corredor del arroyo Chuctanunda, incluido el Chuctanunda Creek Trail (el sendero del arroyo Chuctanunda), representa un enfoque principal de esta zona de superposición.</li>
@@ -865,7 +867,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Los elementos de la fachada de los edificios —como los ventanales amplios, los cambios de materiales y colores, los toldos y los letreros en las ventanas— ayudan a distinguir las plantas bajas de los edificios de uso mixto de los pisos superiores y refuerzan un paisaje urbano a escala peatonal.</p>
 <p>Ciudad de Amsterdam | Código Basado en la Forma (Form-Based Code) | Sección 4.1 – Edificios</p>
 <p>42 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p43"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=43" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;43 ↗</a><h4>Tabla de Distritos de Zonificación</h4>
+<article class="pdfpage" id="p43"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=43" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;43 ↗</a><h4>Tabla de Distritos de Zonificación</h4>
 <p>Columnas de la tabla: Distrito de Zonificación | Usos Principales Permitidos | Requisitos Dimensionales</p>
 <ul>
 <li>Vecindario de Baja Densidad (Low Density Neighborhood)</li>
@@ -940,7 +942,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Requisitos dimensionales: tamaño MÍN. de lote: 30,000 pies cuadrados; ancho MÍN. de lote: 150 pies; retiro frontal MÍN.: 50 pies; cobertura MÁX. de edificación: 30%; altura MÁX. del edificio: 40 pies.</li>
 </ul>
 <p>Plan Integral de Amsterdam 43</p></article>
-<article class="pdfpage" id="p44"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=44" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;44 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
+<article class="pdfpage" id="p44"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=44" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;44 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
 <h4>Transporte</h4>
 <p>La red de transporte de Amsterdam ofrece conexiones esenciales entre los vecindarios, los centros de empleo, las escuelas, los parques y la región en general. La siguiente sección describe la red vial de la ciudad, sus recursos multimodales, los servicios de transporte público, la oferta de estacionamiento y las opciones emergentes de movilidad, así como las inversiones en curso diseñadas para fortalecer la conectividad.</p>
 <h4>Conectividad regional</h4>
@@ -951,9 +953,9 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>El sistema vial de Amsterdam ofrece, en general, un buen acceso para vehículos motorizados, con aproximadamente 75 millas de eje vial (centerline miles) y 147 millas de carril (lane miles) de calzadas (Inventario Local de Carreteras del NYSDOT, el Departamento de Transporte del Estado de Nueva York). Los volúmenes de tránsito más altos se registran en Market Street (con un tránsito promedio diario anual, AADT por sus siglas en inglés, de 14,280), en West Main Street (AADT de 8,860) y cerca del área del intercambiador de la I-90 (más de 13,000 de AADT). El río Mohawk, que forma parte del New York State Canal System (el sistema de canales del estado de Nueva York), es también un recurso clave para el transporte y la recreación. La esclusa Lock 11 recibe alrededor de 2,000 embarcaciones al año. Además, el Empire State Trail (el sendero de larga distancia que recorre el estado de Nueva York) pasa por el South Side y continúa hacia el oeste a través del condado de Montgomery, ofreciendo oportunidades de recreación y de desplazamiento no motorizado de larga distancia.</p>
 <p>El Albany International Airport (Aeropuerto Internacional de Albany), el aeropuerto principal más cercano, se encuentra a aproximadamente 35 minutos al sur de Amsterdam.</p>
 <p>44 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p45"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=45" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;45 ↗</a><h4>Mapa de los sistemas de transporte</h4>
+<article class="pdfpage" id="p45"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=45" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;45 ↗</a><h4>Mapa de los sistemas de transporte</h4>
 <p>Plan Integral de Amsterdam 45</p></article>
-<article class="pdfpage" id="p46"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=46" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;46 ↗</a><h4>Proyectos en curso y planificados</h4>
+<article class="pdfpage" id="p46"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=46" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;46 ↗</a><h4>Proyectos en curso y planificados</h4>
 <p>Amsterdam está invirtiendo activamente en mejoras de transporte que aumentan la seguridad, la accesibilidad y la conectividad multimodal. Las iniciativas Downtown Gateway (Puerta de Entrada al Centro) y Calles Completas (Complete Streets) buscan modernizar los principales corredores comerciales de Amsterdam con aceras nuevas, alumbrado renovado, paisajismo, elementos de pacificación del tránsito y mejores condiciones para peatones y ciclistas. Estos esfuerzos se concentran en East Main Street, Main Street en el centro y Bridge Street.</p>
 <p>La Downtown Revitalization Initiative (Iniciativa de Revitalización del Centro, DRI) también identifica varios proyectos orientados al transporte, entre ellos la extensión del sendero del arroyo Chuctanunda (Chuctanunda Creek Trail), la mejora del acceso al puente MVGO (Mohawk Valley Gateway Overlook) y la reconfiguración de un tramo de la Route 5 dentro del área de la DRI para fortalecer los vínculos entre los vecindarios, el centro y la ribera. En conjunto, estos proyectos impulsan las metas de la ciudad de mejorar la conectividad, la caminabilidad y el espacio público.</p>
 <p>Hallazgo clave: Grandes inversiones —a través de la DRI, Calles Completas y las mejoras en las puertas de entrada a la ciudad— ya están transformando la red de transporte de Amsterdam y fortaleciendo el acceso multimodal.</p>
@@ -980,7 +982,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 </ul>
 <p>Ofrece servicio expreso que conecta el centro de Amsterdam con Scotia, Schenectady y Albany por la New York State Thruway.</p>
 <p>46 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p47"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=47" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;47 ↗</a><h4>ESTUDIO DE CASO</h4>
+<article class="pdfpage" id="p47"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=47" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;47 ↗</a><h4>ESTUDIO DE CASO</h4>
 <h4>Iniciativa Downtown Gateway y Calles Completas</h4>
 <h4>Panorama general</h4>
 <p>La iniciativa Downtown Gateway &amp; Complete Streets (Puerta de Entrada al Centro y Calles Completas) representa una de las inversiones recientes más significativas de Amsterdam en caminabilidad, seguridad y mejora del espacio público. El proyecto se enfoca en los puntos de entrada críticos a la ciudad —en particular East Main Street, Main Street en el centro y Bridge Street— y está diseñado para crear un distrito céntrico más acogedor, conectado y vibrante.</p>
@@ -989,7 +991,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Muchos de los conceptos impulsados a través del proyecto Downtown Gateway complementan las recomendaciones del Plan Estratégico de Inversión de la Downtown Revitalization Initiative (DRI), que destaca la importancia de contar con calles seguras y caminables y con una mejor conectividad entre el puente MVGO, el sendero del arroyo Chuctanunda y los principales destinos comunitarios.</p>
 <p>LA INICIATIVA DOWNTOWN GATEWAY Y CALLES COMPLETAS DEMUESTRA CÓMO LA INVERSIÓN PÚBLICA FOCALIZADA PUEDE TRANSFORMAR CORREDORES DE ALTO TRÁNSITO EN CALLES MÁS SEGURAS, MÁS ATRACTIVAS Y MULTIMODALES, APOYANDO LA CAMINABILIDAD, EL DESARROLLO ECONÓMICO Y LA CALIDAD DE VIDA.</p>
 <p>Plan Integral de Amsterdam 47</p></article>
-<article class="pdfpage" id="p48"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=48" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;48 ↗</a><h4>Estacionamiento</h4>
+<article class="pdfpage" id="p48"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=48" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;48 ↗</a><h4>Estacionamiento</h4>
 <p>Amsterdam cuenta con acceso a aproximadamente 30 estacionamientos, que suman alrededor de 350,000 pies cuadrados de superficie de estacionamiento. La mayoría de las calles locales también permiten estacionar en la vía pública, lo que brinda un acceso conveniente para residentes, visitantes y negocios.</p>
 <p>El centro de Amsterdam incluye un estacionamiento de varios niveles anexo al Amsterdam Riverfront Center (el centro ribereño de Amsterdam). Aunque actualmente está vacante, la estructura es muy visible desde la puerta de entrada sur de la ciudad y representa una oportunidad potencial para su futura remodelación o reutilización adaptativa.</p>
 <h4>Instalaciones para bicicletas</h4>
@@ -1015,10 +1017,10 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Shuttleworth Park – 5 estaciones</li>
 </ul>
 <p>48 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p49"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=49" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;49 ↗</a><h4>Mapa de activos de transporte</h4>
+<article class="pdfpage" id="p49"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=49" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;49 ↗</a><h4>Mapa de activos de transporte</h4>
 <p>(Etiquetas del mapa: 601, 601, 560)</p>
 <p>Plan Integral de Amsterdam 49</p></article>
-<article class="pdfpage" id="p50"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=50" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;50 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
+<article class="pdfpage" id="p50"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=50" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;50 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
 <h4>Infraestructura</h4>
 <p>Como centro urbano, la Ciudad de Amsterdam fue diseñada para sostener una población y una base industrial mucho mayores que las que existen hoy. Como resultado, la ciudad cuenta con una amplia infraestructura de servicios públicos —incluidos los sistemas de agua, alcantarillado, gas, electricidad y telecomunicaciones— que actualmente está subutilizada, pero bien posicionada para dar cabida al crecimiento residencial, comercial e industrial futuro. La siguiente sección describe los activos de infraestructura existentes y las inversiones planificadas que ayudarán a modernizar y fortalecer estos sistemas.</p>
 <h4>Agua y alcantarillado</h4>
@@ -1030,7 +1032,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <h4>Inversión estatal en infraestructura hídrica</h4>
 <p>En 2023, Amsterdam recibió una subvención de $10 millones para agua limpia del New York State Department of Environmental Conservation (Departamento de Conservación Ambiental del Estado de Nueva York, NYSDEC), como parte de una inversión estatal de $166 millones en la calidad del agua. Estos fondos apoyarán mejoras críticas a los sistemas de agua y de aguas residuales de la ciudad, incluidas la modernización de componentes obsoletos, la ampliación de la capacidad de tratamiento y mejoras diseñadas para proteger la salud del río Mohawk. Estas inversiones fortalecen la confiabilidad del sistema a largo plazo y la resiliencia ambiental, a la vez que amplían la capacidad de la ciudad para apoyar el desarrollo residencial y económico futuro.</p>
 <p>50 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p51"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=51" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;51 ↗</a><h4>Gas y electricidad</h4>
+<article class="pdfpage" id="p51"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=51" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;51 ↗</a><h4>Gas y electricidad</h4>
 <p>El servicio de electricidad y gas natural en Amsterdam lo proporciona National Grid, que mantiene la infraestructura de distribución en toda la ciudad. La red de servicios públicos se apoya en derechos de paso y corredores de servicio de larga data, lo que brinda un acceso confiable a la energía para los hogares, los negocios y los sitios industriales.</p>
 <h4>Telecomunicaciones</h4>
 <p>Amsterdam cuenta con una variedad de proveedores de telecomunicaciones, entre ellos Spectrum, Frontier, Verizon, HughesNet, Viasat y T-Mobile. El acceso a banda ancha está ampliamente disponible a través de operadores privados; sin embargo, actualmente no existe banda ancha municipal dentro de la ciudad. A medida que la demanda de internet de alta velocidad sigue aumentando entre los residentes, los negocios y las personas que trabajan a distancia, la infraestructura de comunicaciones seguirá siendo una consideración clave para la inversión futura.</p>
@@ -1043,7 +1045,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Más allá del desempeño del sistema, estas mejoras contribuyen a metas más amplias de resiliencia ambiental. Una infraestructura hídrica modernizada reduce la probabilidad de interrupciones del servicio, mejora la eficiencia energética y aumenta la capacidad de la ciudad para adaptarse a condiciones climáticas cambiantes, como el aumento de las precipitaciones y de la escorrentía de aguas pluviales.</p>
 <p>Esta inversión estatal refleja el compromiso de todo el estado con el agua limpia y reconoce el enfoque proactivo de Amsterdam para modernizar su infraestructura pública crítica. Las mejoras financiadas mediante esta subvención ayudarán a garantizar un servicio de agua confiable y de alta calidad para los residentes y los negocios, a la vez que apoyan los objetivos de revitalización a largo plazo de la ciudad.</p>
 <p>Plan Integral de Amsterdam 51</p></article>
-<article class="pdfpage" id="p52"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=52" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;52 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
+<article class="pdfpage" id="p52"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=52" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;52 ↗</a><h4>PERFIL DE LA COMUNIDAD</h4>
 <h4>Condiciones ambientales</h4>
 <p>Los recursos naturales desempeñan un papel vital en la conformación de la salud ambiental, el carácter y la calidad de vida de la Ciudad de Amsterdam. La presencia de zonas ribereñas llenas de vida, paisajes naturales, recursos hídricos de alta calidad y aire limpio influye directamente en el bienestar de la comunidad. La siguiente sección describe los recursos naturales y las características ambientales clave dentro de la ciudad.</p>
 <h4>Recursos hídricos</h4>
@@ -1056,9 +1058,9 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Aunque es poco profundo y no navegable en muchas áreas, el arroyo Bunn sostiene la vida silvestre local y la pesca recreativa. La cartografía del NYSDEC y del U.S. Geological Survey (Servicio Geológico de los Estados Unidos) indica que la ciudad no se encuentra sobre un acuífero primario, aunque los acuíferos no confinados de algunas áreas siguen siendo más vulnerables a la contaminación.</p>
 <p>Hallazgo clave: El arroyo Bunn es una vía fluvial de importancia ecológica que cuenta con protecciones a nivel estatal, a pesar de la dependencia limitada de la ciudad de los sistemas acuíferos locales.</p>
 <p>52 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p53"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=53" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;53 ↗</a><p>El arroyo Chuctanunda (fotografía de MP Photography)</p>
+<article class="pdfpage" id="p53"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=53" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;53 ↗</a><p>El arroyo Chuctanunda (fotografía de MP Photography)</p>
 <p>Plan Integral de Amsterdam 53</p></article>
-<article class="pdfpage" id="p54"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=54" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;54 ↗</a><h4>Llanuras de inundación</h4>
+<article class="pdfpage" id="p54"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=54" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;54 ↗</a><h4>Llanuras de inundación</h4>
 <p>FEMA (la Agencia Federal para el Manejo de Emergencias) identifica Áreas Especiales de Riesgo de Inundación dentro de Amsterdam principalmente a lo largo del río Mohawk, el arroyo Chuctanunda y el arroyo Bunn. Aunque gran parte de la ciudad se encuentra fuera de estas áreas, varios corredores propensos a inundaciones contienen Cauces Reglamentarios de Inundación (Regulatory Floodways) o zonas con 1% de probabilidad anual de inundación.</p>
 <p>En el conjunto de la ciudad, Amsterdam contiene 473.1 acres de áreas de riesgo de inundación cartografiadas, incluidos 284.3 acres de Cauce Reglamentario de Inundación, donde el desarrollo está limitado para preservar la función natural.</p>
 <p>Hallazgo clave: Los riesgos de inundación en Amsterdam se concentran a lo largo de las vías fluviales principales, por lo que resulta esencial aplicar prácticas de diseño y de uso del suelo que tengan en cuenta las inundaciones.</p>
@@ -1076,15 +1078,15 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>El legado industrial de Amsterdam ha dejado numerosas propiedades potencialmente afectadas por la contaminación. Más de 500 acres han sido estudiados a través del Programa de Áreas de Oportunidad en Sitios Industriales Abandonados (Brownfield Opportunity Area, BOA) del Estado de Nueva York, que ha identificado más de 100 sitios como vacantes, subutilizados o potencialmente contaminados.</p>
 <p>Hallazgo clave: Los extensos terrenos baldíos industriales de Amsterdam ofrecen un potencial de redesarrollo significativo cuando cuentan con el respaldo de la remediación ambiental.</p>
 <p>54 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p55"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=55" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;55 ↗</a><h4>Mapa de características ambientales</h4>
+<article class="pdfpage" id="p55"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=55" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;55 ↗</a><h4>Mapa de características ambientales</h4>
 <p>Plan Integral de Amsterdam 55</p></article>
 </section>
 <section id="vision"><h2>03 · Nuestra visión para el futuro</h2>
-<article class="pdfpage" id="p56"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=56" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;56 ↗</a><h4>03 Nuestra visión para el futuro</h4>
+<article class="pdfpage" id="p56"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=56" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;56 ↗</a><h4>03 Nuestra visión para el futuro</h4>
 <p>Nuestra visión y nuestros objetivos para los próximos 10 años en Amsterdam.</p>
 <p>56 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p57"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=57" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;57 ↗</a><p>Plan Integral de Amsterdam 57</p></article>
-<article class="pdfpage" id="p58"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=58" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;58 ↗</a><h4>MARCO DE LA VISIÓN</h4>
+<article class="pdfpage" id="p57"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=57" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;57 ↗</a><p>Plan Integral de Amsterdam 57</p></article>
+<article class="pdfpage" id="p58"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=58" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;58 ↗</a><h4>MARCO DE LA VISIÓN</h4>
 <h4>Panorama general</h4>
 <p>El marco de la visión describe las áreas de enfoque, los objetivos y las acciones importantes que se necesitan para alcanzar la visión de Amsterdam para el futuro.</p>
 <p>Elementos del diagrama del marco de la visión:</p>
@@ -1103,7 +1105,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <h4>Acciones</h4>
 <p>Las acciones son recomendaciones específicas diseñadas para ayudar a cumplir un objetivo. Las acciones pueden tomar la forma de un plan, un proyecto o un programa. La vigencia de una acción puede variar de uno a diez años, según el caso. Las acciones recomendadas se encuentran en la Sección 4: Nuestra hoja de ruta para la acción.</p>
 <p>58 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p59"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=59" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;59 ↗</a><h4>MARCO DE LA VISIÓN</h4>
+<article class="pdfpage" id="p59"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=59" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;59 ↗</a><h4>MARCO DE LA VISIÓN</h4>
 <h4>Declaración de la visión</h4>
 <p>A continuación se describe la visión de la Ciudad de Amsterdam para el futuro.</p>
 <h4>Hoy</h4>
@@ -1126,7 +1128,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 </ul>
 <p>Cada área de enfoque se explora con más detalle en las páginas siguientes.</p>
 <p>Plan Integral de Amsterdam 59</p></article>
-<article class="pdfpage" id="p60"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=60" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;60 ↗</a><h4>ÁREA DE ENFOQUE 01</h4>
+<article class="pdfpage" id="p60"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=60" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;60 ↗</a><h4>ÁREA DE ENFOQUE 01</h4>
 <h4>Vecindarios y fortalecimiento comunitario</h4>
 <p>Esta área de enfoque trata sobre los componentes básicos de nuestras comunidades, incluidos la vivienda, los vecindarios y las personas.</p>
 <h4>Hoy</h4>
@@ -1148,7 +1150,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>04 Promover oportunidades de compra de vivienda propia. Trabajar con el banco de tierras (land bank) y otras organizaciones sin fines de lucro, como Better Neighborhoods Inc. y la Affordable Housing Partnership of the Capital Region (Alianza para la Vivienda Asequible de la Región Capital), para rehabilitar viviendas que resulten asequibles para que los inquilinos puedan convertirse en propietarios.</li>
 </ul>
 <p>60 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p61"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=61" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;61 ↗</a><h4>Acciones</h4>
+<article class="pdfpage" id="p61"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=61" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;61 ↗</a><h4>Acciones</h4>
 <p>Para alcanzar esta visión para el mañana, llevaremos a cabo las siguientes acciones:</p>
 <ul>
 <li>01 Completar un estudio de vivienda para inventariar las condiciones actuales de oferta y demanda, y evaluar las necesidades en materia de tenencia, asequibilidad y calidad.</li>
@@ -1175,7 +1177,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>08 Asegurar que todos los vecindarios tengan acceso equitativo a una red de banda ancha.</li>
 </ul>
 <p>Plan Integral de Amsterdam 61</p></article>
-<article class="pdfpage" id="p62"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=62" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;62 ↗</a><h4>ÁREA DE ENFOQUE 02</h4>
+<article class="pdfpage" id="p62"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=62" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;62 ↗</a><h4>ÁREA DE ENFOQUE 02</h4>
 <h4>Oportunidad económica</h4>
 <p>Esta área de enfoque se centra en los elementos que impactan nuestra economía, como los negocios, las oportunidades de empleo, el turismo y el desarrollo.</p>
 <h4>Hoy</h4>
@@ -1191,7 +1193,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>02 Aprovechar los rasgos únicos de la ciudad para crear una comunidad atractiva y acogedora con un fuerte sentido de pertenencia al lugar. En Amsterdam, esto significa seguir apoyando las fortalezas existentes de Amsterdam, como nuestra vibrante agenda de eventos y nuestra sólida diversidad cultural, y al mismo tiempo mejorar la reputación de Amsterdam y redefinir la ciudad como una comunidad de elección, con un centro fuerte y magníficos vecindarios.</li>
 </ul>
 <p>62 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p63"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=63" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;63 ↗</a><h4>Acciones</h4>
+<article class="pdfpage" id="p63"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=63" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;63 ↗</a><h4>Acciones</h4>
 <p>Para alcanzar esta visión para el mañana, emprenderemos las siguientes acciones:</p>
 <ul>
 <li>01 Aprovechar los programas del State and National Historic Registry (el Registro Histórico Estatal y Nacional) para ayudar a orientar y financiar la rehabilitación de estructuras históricas.</li>
@@ -1227,7 +1229,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>11 Asociarse con AIDA (Amsterdam Industrial Development Agency, la Agencia de Desarrollo Industrial de Amsterdam) y con organizaciones regionales de desarrollo económico para establecer espacios asequibles de incubadora y de uso flexible para pequeños negocios y emprendedores, dando prioridad a la reutilización adaptativa de edificios subutilizados en el núcleo del centro y a lo largo de los corredores de uso mixto.</li>
 </ul>
 <p>Plan Integral de Amsterdam 63</p></article>
-<article class="pdfpage" id="p64"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=64" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;64 ↗</a><h4>ÁREA DE ENFOQUE 03</h4>
+<article class="pdfpage" id="p64"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=64" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;64 ↗</a><h4>ÁREA DE ENFOQUE 03</h4>
 <h4>Movilidad y transporte activo</h4>
 <p>Esta área de enfoque promueve conexiones seguras mediante condiciones favorables para caminar y andar en bicicleta y el acceso al transporte multimodal.</p>
 <h4>Hoy</h4>
@@ -1246,7 +1248,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>03 Aumentar la fiscalización del tránsito. Mejorar la seguridad vial y proteger a nuestras comunidades mediante la implementación de sistemas inteligentes de monitoreo del tráfico. Aprovechar tecnologías como las cámaras automáticas de velocidad para hacer cumplir de manera consistente las leyes de tránsito, incluidos los límites de velocidad, las señales de alto y los semáforos. Considerar la evaluación de los límites de velocidad en las áreas de alto riesgo para que se ajusten mejor a las condiciones de la vía y a la actividad peatonal.</li>
 </ul>
 <p>64 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p65"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=65" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;65 ↗</a><h4>Acciones</h4>
+<article class="pdfpage" id="p65"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=65" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;65 ↗</a><h4>Acciones</h4>
 <p>Para alcanzar esta visión para el mañana, emprenderemos las siguientes acciones:</p>
 <ul>
 <li>01 Continuar instalando estaciones de carga para vehículos eléctricos en las instalaciones de estacionamiento público y fomentar la instalación de estaciones de carga para vehículos eléctricos como parte de los desarrollos privados.</li>
@@ -1273,7 +1275,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>08 Identificar oportunidades para extender y conectar los segmentos existentes de senderos y caminos en toda la ciudad, incluido el uso de puentes peatonales donde sea necesario para completar conexiones clave.</li>
 </ul>
 <p>Plan Integral de Amsterdam 65</p></article>
-<article class="pdfpage" id="p66"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=66" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;66 ↗</a><h4>ÁREA DE ENFOQUE 04</h4>
+<article class="pdfpage" id="p66"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=66" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;66 ↗</a><h4>ÁREA DE ENFOQUE 04</h4>
 <h4>Resiliencia y conexiones con la naturaleza</h4>
 <p>Esta área de enfoque se concentra en la sostenibilidad de nuestro medio ambiente, incluidos los parques, las zonas ribereñas y los recursos naturales.</p>
 <h4>Hoy</h4>
@@ -1292,7 +1294,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>03 Promover la resiliencia y la adaptación climáticas, preferiblemente mediante soluciones basadas en la naturaleza, y reducir las emisiones de gases de efecto invernadero. En Amsterdam, esto implica hacer que nuestro entorno urbano sea más saludable y más resiliente mediante la implementación de infraestructura verde, la expansión de nuestro dosel arbóreo y el apoyo a opciones de energía limpia.</li>
 </ul>
 <p>66 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p67"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=67" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;67 ↗</a><h4>Acciones</h4>
+<article class="pdfpage" id="p67"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=67" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;67 ↗</a><h4>Acciones</h4>
 <p>Para alcanzar esta visión para el mañana, llevaremos a cabo las siguientes acciones:</p>
 <ul>
 <li>01 Garantizar una distribución equitativa de parques y espacios abiertos accesibles en toda la ciudad.</li>
@@ -1324,11 +1326,11 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Plan Integral de Amsterdam 67</p></article>
 </section>
 <section id="estrategia"><h2>04 · Nuestra estrategia de desarrollo comunitario</h2>
-<article class="pdfpage" id="p68"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=68" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;68 ↗</a><h4>04 Nuestra Estrategia de Desarrollo Comunitario</h4>
+<article class="pdfpage" id="p68"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=68" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;68 ↗</a><h4>04 Nuestra Estrategia de Desarrollo Comunitario</h4>
 <p>La visión y las recomendaciones de Amsterdam para el uso futuro del suelo.</p>
 <p>68 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p69"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=69" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;69 ↗</a><p>Plan Integral de Amsterdam 69</p></article>
-<article class="pdfpage" id="p70"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=70" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;70 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
+<article class="pdfpage" id="p69"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=69" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;69 ↗</a><p>Plan Integral de Amsterdam 69</p></article>
+<article class="pdfpage" id="p70"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=70" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;70 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
 <h4>Introducción</h4>
 <p>Las decisiones futuras sobre el uso del suelo y el desarrollo desempeñarán un papel importante en el logro de la visión y las metas de Amsterdam. Si bien el uso del suelo y la transformación física de los lugares y espacios dentro de la Ciudad están íntimamente conectados entre sí y se toman en cuenta al identificar políticas y acciones, la evolución física del suelo dentro de la Ciudad constituye una consideración singular del desarrollo comunitario.</p>
 <p>Por ello, esta sección del Plan se centra en las características físicas de la Ciudad de Amsterdam desde la perspectiva del uso del suelo, el diseño y el carácter del desarrollo. Esto incluye una Estrategia de Desarrollo Comunitario (Community Development Strategy, CDS) para toda la Ciudad y un Mapa con áreas de carácter definidas, así como metas y recomendaciones de uso del suelo asociadas con otros elementos clave de diseño urbano, Crecimiento Inteligente (Smart Growth) y creación de espacios públicos (placemaking).</p>
@@ -1345,7 +1347,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 </ul>
 <p>NOTA: La CDS no anula ninguna limitación al desarrollo derivada de restricciones ambientales, como las pendientes pronunciadas o las llanuras de inundación. A medida que se consideren proyectos futuros, podría ser necesario completar un estudio más detallado de las condiciones existentes y de la idoneidad del sitio para los usos propuestos.</p>
 <p>70 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p71"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=71" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;71 ↗</a><h4>Mapa de la Estrategia de Desarrollo Comunitario</h4>
+<article class="pdfpage" id="p71"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=71" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;71 ↗</a><h4>Mapa de la Estrategia de Desarrollo Comunitario</h4>
 <p>Escala — Millas: 0 0.1 0.2 0.4 0.6 0.8. N (norte).</p>
 <p>El mapa muestra la Ciudad de Amsterdam y sus alrededores, incluidos el Town of Amsterdam (municipio de Amsterdam) y el Town of Florida (municipio de Florida), así como el río Mohawk.</p>
 <p>Rótulos de calles y carreteras del mapa (los nombres de calles se mantienen en inglés): Wallins Cors Rd, Hagaman Ave, Lepper Rd, Golf Course Rd, Steadwell Rd, Miami Ave, Midline Rd, Crescent Ave, Northern Blvd, Henrietta Blvd, Upper Van Dyke Ave, Van Dyke Ave, Hampton Rd, Hewitt St, Lyon St, Lindbergh Ave, Glen Ave, Woodrow Rd, Forest Ave, Clizbe Ave, West Main St, Stead Ave, Division St, Guy Park Ave, George St, Chapel Pl, Market St, Brandt Pl, Clinton St, Locust Ave, Fourth Ave, Church St, Sandy Dr, High St, Prospect St, Broadway, Union St, Florida Ave, Grove St, Bridge St, Erie St, Vrooman Ave, Cleveland Ave, Grieme Ave, Snooks Corners Rd, Venner Ave, Greco Pl, E Main St, Widow Susan Rd, Chapman Dr, y las rutas 5, 5S y 90. Algunos otros rótulos de calles aparecen fragmentados o ilegibles en la extracción del mapa.</p>
@@ -1368,7 +1370,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Sitio propuesto para la reubicación de la estación de Amtrak</li>
 </ul>
 <p>Plan Integral de Amsterdam 71</p></article>
-<article class="pdfpage" id="p72"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=72" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;72 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
+<article class="pdfpage" id="p72"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=72" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;72 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
 <h4>Guía de Uso del Suelo para el Crecimiento Inteligente (Smart Growth)</h4>
 <h4>Desarrollo Económico y Reinversión</h4>
 <p>Enfoque: aprovechar los espacios y recursos existentes.</p>
@@ -1412,7 +1414,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <h4>Reubicación de la estación de Amtrak</h4>
 <p>Se propone reubicar la estación de Amtrak (servicio ferroviario nacional de pasajeros) más cerca del centro. Esta es una gran oportunidad para más desarrollo orientado al transporte público (Transit Oriented Development) y desarrollo de relleno (infill).</p>
 <p>72 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p73"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=73" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;73 ↗</a><p>Posibles Áreas de Justicia Ambiental | LWRP de Amsterdam</p>
+<article class="pdfpage" id="p73"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=73" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;73 ↗</a><p>Posibles Áreas de Justicia Ambiental | LWRP de Amsterdam</p>
 <h4>Equidad y Acceso a los Servicios</h4>
 <p>Enfoque: apoyar a las poblaciones desfavorecidas.</p>
 <ul>
@@ -1451,7 +1453,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 </ul>
 <p>Fuente: Save the Bay (savesfbay.org)</p>
 <p>Plan Integral de Amsterdam 73</p></article>
-<article class="pdfpage" id="p74"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=74" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;74 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
+<article class="pdfpage" id="p74"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=74" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;74 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
 <h4>Vecindarios</h4>
 <p>El éxito de los esfuerzos de redesarrollo depende de la capacidad de una comunidad para mantener y mejorar su calidad de vida. Los vecindarios están en el corazón de todo esfuerzo de crecimiento: las personas viven en los vecindarios y organizan sus actividades a partir de ellos. Si los vecindarios de una ciudad no son seguros y atractivos, las personas que tienen opciones buscan en otro lugar dónde vivir, trabajar, recrearse y hacer sus compras. La meta de Amsterdam es aprovechar el parque de viviendas histórico y variado de la Ciudad y sus vecindarios consolidados para atraer y retener nuevos residentes de todas las edades, niveles de ingresos y etapas de la vida.</p>
 <h4>Residencial Unifamiliar (Single-Family Residential)</h4>
@@ -1484,7 +1486,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Permitir unidades de vivienda accesorias para apoyar el envejecimiento en el propio hogar y las oportunidades de ingresos pasivos para los propietarios de viviendas.</li>
 </ul>
 <p>74 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p75"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=75" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;75 ↗</a><h4>Mapa de Densidades Residenciales Existentes</h4>
+<article class="pdfpage" id="p75"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=75" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;75 ↗</a><h4>Mapa de Densidades Residenciales Existentes</h4>
 <h4>Leyenda</h4>
 <p>Tipo de vivienda:</p>
 <ul>
@@ -1498,7 +1500,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <h4>Fortalezas del parque de viviendas</h4>
 <p>La variación de tipos de vivienda dentro de la Ciudad es única, ya que cuenta con una gran proporción de unidades de densidad &quot;media&quot;. La mayoría de estas son dúplex (41%).</p>
 <p>Plan Integral de Amsterdam 75</p></article>
-<article class="pdfpage" id="p76"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=76" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;76 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
+<article class="pdfpage" id="p76"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=76" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;76 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
 <h4>Vecindario Mixto Tradicional</h4>
 <p>Las áreas de Vecindario Mixto Tradicional incluyen los vecindarios más antiguos y de densidad más variada de la Ciudad. Desarrollados en los primeros años de asentamiento de la Ciudad, antes del automóvil y antes de la zonificación, estos vecindarios son una mezcla orgánica de viviendas unifamiliares, de dos familias y multifamiliares, ubicadas cerca del centro de la Ciudad, así como a lo largo de las rutas de transporte público y de las antiguas zonas industriales de empleo. Estos vecindarios tienen los lotes más pequeños, la mayoría de menos de 1/4 de acre.</p>
 <p>Al tratarse de la porción más antigua del parque de viviendas, se necesita una inversión significativa en las viviendas existentes, que abarca desde reparaciones mayores hasta mejoras de habitabilidad (por ejemplo, un medio baño o un segundo baño) y modernizaciones. Muchas viviendas ya se han perdido por el deterioro y el abandono, lo que deja oportunidades para el desarrollo de relleno (infill) en lotes vacantes. Las metas para estas áreas incluyen:</p>
@@ -1520,7 +1522,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>4. Zonificación a la medida para el desarrollo de relleno y la reutilización adaptativa</p>
 <p>Actualizar la zonificación y las normas de desarrollo para permitir &quot;por derecho propio&quot; (by right) las casas diminutas (tiny homes), los edificios multifamiliares de pequeña escala, la vivienda en pisos superiores y la reutilización adaptativa en los vecindarios de densidad mixta. Reducir las barreras regulatorias disminuye los costos de redesarrollo y fomenta la reinversión en los edificios existentes, en lugar de la demolición o el desarrollo en terrenos vírgenes (greenfield).</p>
 <p>76 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p77"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=77" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;77 ↗</a><h4>Recomendaciones regulatorias para la vivienda de densidad &quot;media&quot;</h4>
+<article class="pdfpage" id="p77"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=77" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;77 ↗</a><h4>Recomendaciones regulatorias para la vivienda de densidad &quot;media&quot;</h4>
 <p>La densidad &quot;media&quot; se refiere a una gama de viviendas residenciales con múltiples unidades, como las viviendas de dos y de tres familias, que se sitúan entre las casas unifamiliares y los edificios multifamiliares más grandes. Estas viviendas de densidad &quot;media&quot; son comunes en Amsterdam y a menudo se encuentran en vecindarios caminables junto a casas unifamiliares (vea las fotos a continuación). En muchas comunidades este tipo de vivienda se considera &quot;faltante&quot; (&quot;missing&quot;), porque las regulaciones de zonificación tradicionales implementadas por los municipios entre mediados y finales del siglo XX normalmente las excluían.</p>
 <p>En Amsterdam, muchas de las viviendas existentes de dos familias y multifamiliares se consideran preexistentes no conformes, según el distrito de zonificación en el que se encuentran. Esto se debe tanto a que el tipo de vivienda está prohibido como a que, con frecuencia, la propiedad no cumple con los requisitos mínimos de tamaño o de ancho de lote. Se necesitarán actualizaciones de los distritos Low Density Neighborhood (Vecindario de Baja Densidad) y Medium Density Neighborhood (Vecindario de Densidad Media) para reflejar los límites recomendados de las áreas de carácter de la CDS y &quot;ajustar a la medida&quot; los requisitos mínimos de lote de modo que reflejen las condiciones existentes.</p>
 <h4>Diseño sensible al contexto para el desarrollo de relleno</h4>
@@ -1528,7 +1530,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Hay muchas oportunidades para la vivienda de relleno en los vecindarios de la Ciudad, lo cual puede apoyar más opciones de vivienda asequible y mantener a las personas conectadas con sus vecinos y con los servicios cercanos.</p>
 <p>Esto puede lograrse a una variedad de escalas, desde manzanas completas hasta lotes vacantes individuales, con cada unidad diseñada apropiadamente para integrarse al carácter del vecindario existente. A continuación se presentan algunos ejemplos de cómo esto puede lograrse con vivienda de relleno de densidad media en lotes vacantes.</p>
 <p>Plan Integral de Amsterdam 77</p></article>
-<article class="pdfpage" id="p78"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=78" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;78 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
+<article class="pdfpage" id="p78"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=78" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;78 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
 <h4>El centro (Downtown)</h4>
 <p>El centro de Amsterdam ha servido históricamente como el corazón cívico, comercial y cultural de la Ciudad, dando forma a los patrones de asentamiento al concentrar empleos, servicios e instituciones a lo largo del río Mohawk y de la red tradicional de calles de la Ciudad. Continuar aprovechando los éxitos de planificación anteriores será imperativo para reforzar el papel del centro como eje central de la Ciudad y ancla del crecimiento. La inversión futura debe equilibrar lo &quot;viejo&quot; con lo &quot;nuevo&quot;, dando cabida a desarrollos de uso mixto de varios pisos en un entorno compacto y caminable que fortalezca la identidad comunitaria y reduzca la presión sobre los vecindarios circundantes.</p>
 <h4>Núcleo del Centro (Downtown Core)</h4>
@@ -1556,13 +1558,13 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Un patrón de desarrollo menos dominado por el automóvil, mediante la prohibición de usos automotrices (por ejemplo, gasolineras y venta de autos) y la exigencia de que el estacionamiento se ubique al costado o en la parte trasera de las estructuras</li>
 </ul>
 <p>78 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p79"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=79" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;79 ↗</a><h4>Planes para el Centro a lo largo de los años</h4>
+<article class="pdfpage" id="p79"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=79" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;79 ↗</a><h4>Planes para el Centro a lo largo de los años</h4>
 <h4>Plan Integral de 2003 | Plan de Reurbanización</h4>
 <p>Un plan de reurbanización por fases ilustraba el potencial de restablecer las conexiones entre calles, así como el desarrollo de relleno (infill) y las mejoras al espacio público. Conceptos que siguen siendo deseables para el centro hoy en día.</p>
 <h4>Plan Marco de la DRI de 2019</h4>
 <p>Desde la adjudicación de la Downtown Revitalization Initiative (Iniciativa de Revitalización del Centro, DRI), la Ciudad ha logrado grandes avances en varios esfuerzos de revitalización públicos y privados concebidos como parte del Plan Marco original. Puede encontrar más información en el sitio web de la Ciudad.</p>
 <p>Plan Integral de Amsterdam 79</p></article>
-<article class="pdfpage" id="p80"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=80" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;80 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
+<article class="pdfpage" id="p80"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=80" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;80 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
 <h4>ESTRATEGIAS PARA MEJORAR LA CAMINABILIDAD Y EL ACCESO AL TRANSPORTE PÚBLICO</h4>
 <h4>Beneficios</h4>
 <ul>
@@ -1615,12 +1617,12 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Prohibición del estacionamiento en el patio delantero</li>
 </ul>
 <p>80 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p81"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=81" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;81 ↗</a><h4>Implementación del Distrito de Desarrollo Orientado al Transporte Público (TOD)</h4>
+<article class="pdfpage" id="p81"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=81" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;81 ↗</a><h4>Implementación del Distrito de Desarrollo Orientado al Transporte Público (TOD)</h4>
 <p>Un distrito de Desarrollo Orientado al Transporte Público (Transit-Oriented Development, TOD) es un área de zonificación diseñada para concentrar un desarrollo compacto y de uso mixto a distancia caminable —por lo general, de ¼ a ½ milla— de una estación de transporte público o de un corredor principal de transporte. Los distritos TOD promueven densidades residenciales más altas, usos activos en las plantas bajas, requisitos de estacionamiento reducidos y un diseño orientado al peatón, con el fin de fomentar el uso del transporte público y reducir la dependencia del automóvil. Al alinear el uso del suelo, la infraestructura y la planificación de la movilidad, un distrito TOD respalda el crecimiento económico, las opciones de vivienda y patrones de desarrollo sostenibles centrados en un transporte público accesible.</p>
 <h4>2018 Downtown Amsterdam Multimodal Center (Centro Multimodal del Centro de Amsterdam de 2018)</h4>
 <p>Este Plan Conceptual de Desarrollo Orientado al Transporte Público aprovecha la propuesta de reubicación de la estación y la reconfiguración vial para transformar estacionamientos y sitios subutilizados mediante proyectos focalizados de desarrollo de relleno y reurbanización.</p>
 <p>Plan Integral de Amsterdam 81</p></article>
-<article class="pdfpage" id="p82"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=82" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;82 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
+<article class="pdfpage" id="p82"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=82" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;82 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
 <h4>Corredores de Uso Mixto</h4>
 <p>Los corredores de uso mixto desempeñan un papel central en la configuración del futuro de Amsterdam al concentrar el crecimiento, la reinversión y las mejoras de movilidad a lo largo de calles clave que conectan los vecindarios, el centro, los centros de empleo y los servicios comunitarios. Estos corredores funcionan a la vez como motores económicos y como conectores comunitarios, equilibrando la intensidad del desarrollo con la compatibilidad con los vecindarios.</p>
 <h4>Comercial de Vecindario (Neighborhood Commercial)</h4>
@@ -1636,7 +1638,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Guy Park Ave mirando hacia el oeste, hacia Mcdonnell Street.</p>
 <p>Las Áreas de Corredores de Uso Mixto Comercial de Vecindario están reguladas actualmente por los Distritos Downtown Core (DC) y Commercial Corridor (CC, Corredor Comercial). El Distrito DC no tiene una escala apropiada para estas áreas, por lo que rezonificarlas todas al Distrito CC sería más apropiado. Sin embargo, serán necesarias algunas modificaciones al Distrito CC para respaldar el carácter de desarrollo deseado. Los usos orientados al automóvil deberían prohibirse, y las alturas máximas de los edificios deberían reducirse de 70 pies a no más de 45 pies.</p>
 <p>82 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p83"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=83" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;83 ↗</a><h4>Northern Neighborhoods BOA (BOA de los Vecindarios del Norte)</h4>
+<article class="pdfpage" id="p83"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=83" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;83 ↗</a><h4>Northern Neighborhoods BOA (BOA de los Vecindarios del Norte)</h4>
 <h4>Área de Oportunidad en Sitios Industriales Abandonados (Brownfield Opportunity Area, BOA)</h4>
 <p>Los dos Corredores de Reurbanización Industrial Mixta más grandes se encuentran dentro de los límites de la Northern Neighborhoods BOA.</p>
 <p>Dentro de este estudio hay recomendaciones para la transformación y recuperación de sitios contaminados y subutilizados, como el Rockton Gateway (en la imagen a la izquierda). La Ciudad debería continuar procurando la realización de estos planes para respaldar sus metas futuras de uso del suelo.</p>
@@ -1655,7 +1657,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 </ul>
 <p>Estos corredores están regulados actualmente por los Distritos Commercial Corridor (Corredor Comercial) y Employment (Empleo). La Ciudad debería considerar adaptar el Distrito Employment para que funcione como un Distrito de Industria Mixta / Reurbanización para estas áreas. Las posibles enmiendas pueden incluir: la reducción del ancho mínimo de lote, la reducción del retiro frontal, el aumento de la cobertura de edificación y el aumento de la altura de los edificios (de una manera sensible al contexto de las propiedades adyacentes).</p>
 <p>Plan Integral de Amsterdam 83</p></article>
-<article class="pdfpage" id="p84"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=84" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;84 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
+<article class="pdfpage" id="p84"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=84" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;84 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
 <h4>Centros Industriales</h4>
 <p>Los centros regionales de comercio, industria y actividad médica desempeñan un papel fundamental en la Ciudad de Amsterdam, ya que anclan el empleo, sostienen una base económica diversa y brindan servicios esenciales que atienden tanto a los residentes de la ciudad como al Valle del Mohawk en general. Estos centros atraen inversión regional, sostienen empleos en una amplia gama de niveles de destreza y fortalecen la capacidad fiscal de la Ciudad, a la vez que reducen la necesidad de que los residentes se desplacen fuera de la comunidad para obtener atención médica, bienes y servicios.</p>
 <h4>Comercio Regional</h4>
@@ -1670,7 +1672,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Mayor señalización orientadora y acceso multimodal al centro para apoyar el turismo local</li>
 </ul>
 <p>84 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p85"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=85" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;85 ↗</a><h4>Estudio de caso de campus médico</h4>
+<article class="pdfpage" id="p85"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=85" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;85 ↗</a><h4>Estudio de caso de campus médico</h4>
 <p>Plan del Providence Community Health District (Distrito de Salud Comunitaria de Providence) para un campus médico de 132 acres dominado por estacionamientos de superficie cerca del centro de Providence, Rhode Island.</p>
 <p>El equipo del CNU Legacy Project (Proyecto Legado del Congress for the New Urbanism) propone transformar el área de estacionamiento en un vecindario de uso mixto con nuevas unidades de vivienda, comercios, hotelería y espacios verdes. El plan busca crear conexiones caminables entre los principales centros de empleo, a la vez que mantiene el estacionamiento necesario en estructuras ocultas.</p>
 <p>El diseño sensible al contexto también ayuda a garantizar zonas de amortiguamiento y transiciones apropiadas hacia los vecindarios adyacentes.</p>
@@ -1697,7 +1699,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Operaciones al aire libre limitadas, especialmente donde colindan con usos residenciales</li>
 </ul>
 <p>Plan Integral de Amsterdam 85</p></article>
-<article class="pdfpage" id="p86"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=86" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;86 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
+<article class="pdfpage" id="p86"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=86" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;86 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
 <h4>Entorno Natural</h4>
 <p>La Ciudad está moldeada por el río Mohawk, sus llanuras de inundación asociadas, las pendientes pronunciadas y las laderas boscosas que definen su patrón histórico de asentamiento y continúan influyendo en dónde y cómo puede ocurrir el desarrollo. Estas características naturales limitan el desarrollo en algunas áreas, a la vez que crean grandes oportunidades para la recreación y el turismo en otras. Proteger los recursos hídricos, gestionar el riesgo de inundaciones e integrar la infraestructura verde en los esfuerzos de redesarrollo será esencial para orientar un uso futuro del suelo que sea a la vez ambientalmente resiliente y económicamente productivo.</p>
 <h4>Parques y Espacios Verdes</h4>
@@ -1712,7 +1714,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <li>Corredores de Patrimonio y Vías Verdes: conexiones de senderos y vías verdes que protegen los recursos naturales e históricos, unifican los tramos fragmentados y activan los activos patrimoniales a lo largo de la ruta.</li>
 </ul>
 <p>86 Plan Integral de Amsterdam</p></article>
-<article class="pdfpage" id="p87"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=87" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;87 ↗</a><h4>Beneficios y oportunidades del dosel arbóreo</h4>
+<article class="pdfpage" id="p87"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=87" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;87 ↗</a><h4>Beneficios y oportunidades del dosel arbóreo</h4>
 <p>El dosel arbóreo urbano de Amsterdam proporciona sombra, mejora la calidad del aire, reduce los efectos de isla de calor y ayuda a manejar las aguas pluviales.</p>
 <p>La Ciudad debería considerar tomar medidas para proteger y ampliar aún más su dosel arbóreo mediante esfuerzos estratégicos de plantación, preservación y replantación, a fin de mejorar la equidad arbórea y la resiliencia.</p>
 <p>Estos esfuerzos pueden ayudar a sostener los niveles de dosel a lo largo de las calles y en todos los vecindarios residenciales, aprovechando aún más los beneficios ecológicos, sociales y económicos.</p>
@@ -1736,7 +1738,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <h4>¡Pruébelo usted mismo!</h4>
 <p>Estos datos fueron generados por iTree, una herramienta gratuita del USFS (Servicio Forestal de los Estados Unidos) que estima los doseles arbóreos y sus beneficios. ¡Visite itreetools.org para más información!</p>
 <p>Plan Integral de Amsterdam 87</p></article>
-<article class="pdfpage" id="p88"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=88" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;88 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
+<article class="pdfpage" id="p88"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=88" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;88 ↗</a><h4>ESTRATEGIA DE DESARROLLO COMUNITARIO</h4>
 <h4>WRA — Waterfront Revitalization Area (Área de Revitalización de la Ribera)</h4>
 <p>Dentro del Local Waterfront Revitalization Program (Programa Local de Revitalización de la Ribera, LWRP) de la Ciudad se encuentra definida una Waterfront Revitalization Area (Área de Revitalización de la Ribera, WRA). El mapa a la izquierda, tomado del estudio del LWRP, muestra en blanco la extensión de la WRA.</p>
 <p>Estos recursos hídricos están inextricablemente ligados a los parques, los espacios abiertos y los activos recreativos de la Ciudad. En conjunto, pueden crear una red de corredores verdes (greenways) y vías azules (blueways) por todo Amsterdam que no solo conecte a las personas con la naturaleza, sino que también brinde una multitud de beneficios económicos, de salud y ecológicos.</p>
@@ -1760,7 +1762,7 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>88 Plan Integral de Amsterdam</p></article>
 </section>
 <section id="exitos"><h2>Éxitos de Amsterdam</h2>
-<article class="pdfpage" id="p89"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=89" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;89 ↗</a><h4>Éxitos de Amsterdam</h4>
+<article class="pdfpage" id="p89"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=89" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;89 ↗</a><h4>Éxitos de Amsterdam</h4>
 <h4>Proyectos recientes que generan impulso de inversión</h4>
 <h4>Panorama general</h4>
 <p>Desde la finalización del Pedestrian Bridge (Puente Peatonal), la Ciudad de Amsterdam ha experimentado un impulso significativo en el desarrollo económico, la creación de espacios públicos (placemaking) y la inversión privada.</p>
@@ -1790,10 +1792,9 @@ están en el PDF: cada etiqueta «p. N» abre la página correspondiente del doc
 <p>Otras comunidades han logrado reposicionarse con éxito, y explorar estrategias similares puede ayudar a Amsterdam a aprovechar su impulso actual.</p>
 <p>Representación del Edward Street Senior Housing Project (Proyecto de Vivienda para Personas Mayores de Edward Street)</p>
 <p>Plan Integral de Amsterdam 89</p></article>
-<article class="pdfpage" id="p90"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=90" target="_blank" rel="noopener" title="Ver esta página (con mapas e ilustraciones) en el PDF oficial en inglés">p.&nbsp;90 ↗</a><h4>Ciudad de Amsterdam</h4></article>
+<article class="pdfpage" id="p90"><a class="pgtag" href="plan/Amsterdam-2026-Plan-Final.pdf#page=90" target="_blank" rel="noopener" title="Ver esta página en el PDF">p.&nbsp;90 ↗</a><h4>Ciudad de Amsterdam</h4></article>
 </section>
 </div>
-<footer><div class="in">Traducción de cortesía preparada en agosto de 2026 · Ciudad de Amsterdam, Nueva York ·
-<a href="index.html?lang=es">Resumen comunitario</a> · <a href="plan/Amsterdam-2026-Plan-Final.pdf" target="_blank" rel="noopener">Plan oficial (PDF, inglés)</a></div></footer>
+<footer><div class="in">Traducción de cortesía preparada en agosto de 2026 · Ciudad de Amsterdam, Nueva York · <a href="index.html?lang=es">Resumen comunitario</a> · <a href="plan/Amsterdam-2026-Plan-Final.pdf" target="_blank" rel="noopener">Plan oficial (PDF, inglés)</a></div></footer>
 </body>
 </html>

@@ -416,6 +416,12 @@
      "meta": "WEB · ESPAÑOL · 90 páginas"
     },
     {
+     "t": "El Plan en inglés (texto completo)",
+     "d": "El Plan completo en formato de lectura para cualquier dispositivo, con cada página enlazada al PDF oficial.",
+     "href": "plan-en.html",
+     "meta": "WEB · INGLÉS · 90 páginas"
+    },
+    {
      "t": "El Plan en español (PDF)",
      "d": "El documento diseñado en sí — las mismas páginas, los mismos mapas y fotos — con el texto en español. Traducción de cortesía.",
      "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Final-ES.pdf",
