@@ -23,6 +23,12 @@ It covers:
 - The four focus areas and all 36 recommended actions
 - Where growth is directed, and how to get involved
 
+## The Plan in Spanish / El Plan en español
+
+[`plan-es.html`](./plan-es.html) is a complete Spanish courtesy translation of all 90 pages of the
+adopted Plan, readable online, with every page cross-referenced to the official English PDF.
+The English document adopted by the Common Council remains the official version.
+
 ## Official documents
 
 The full adopted Plan and the City's Executive Summary are included in [`/plan`](./plan):
