@@ -1,0 +1,289 @@
+{
+ "meta": {
+  "docTitle": "Plan Integral de Crecimiento Inteligente (Smart Growth) 2026",
+  "docSubtitle": "Resumen para la comunidad",
+  "city": "Ciudad de Amsterdam, Nueva York",
+  "adopted": "Adoptado en mayo de 2026",
+  "sourceNote": "Este es un resumen comunitario, en lenguaje sencillo, del Plan Integral de Crecimiento Inteligente (Smart Growth) de la Ciudad de Amsterdam, adoptado en mayo de 2026, que es la versión oficial y vigente del Plan. Todas las cifras provienen de los datos adoptados en el propio Plan. Este resumen se ofrece para facilitar la lectura y la difusión del Plan; no lo reemplaza. En caso de cualquier diferencia, prevalece el Plan oficial adoptado. Resumen preparado en agosto de 2026.",
+  "ui": {
+   "langLabel": "Idioma",
+   "en": "English",
+   "es": "Español",
+   "print": "Imprimir / Guardar PDF",
+   "tocTitle": "Contenido",
+   "backToTop": "Volver al inicio",
+   "strategies": "Estrategias clave",
+   "actions": "Acciones clave",
+   "means": "Lo que significa",
+   "printShort": "Imprimir"
+  },
+  "issued": "Resumen publicado en agosto de 2026"
+ },
+ "toc": [
+  {
+   "id": "about",
+   "t": "Acerca de este Plan"
+  },
+  {
+   "id": "meaning",
+   "t": "Qué significa para usted"
+  },
+  {
+   "id": "today",
+   "t": "Amsterdam hoy"
+  },
+  {
+   "id": "vision",
+   "t": "Nuestra visión"
+  },
+  {
+   "id": "smartgrowth",
+   "t": "El enfoque de Crecimiento Inteligente (Smart Growth)"
+  },
+  {
+   "id": "focus",
+   "t": "Cuatro áreas de enfoque"
+  },
+  {
+   "id": "strategy",
+   "t": "Dónde ocurrirá el crecimiento"
+  },
+  {
+   "id": "next",
+   "t": "Qué sigue"
+  }
+ ],
+ "sections": {
+  "about": {
+   "title": "Acerca de este Plan",
+   "lead": "El Plan Integral es la guía oficial de la Ciudad de Amsterdam para la planificación y la toma de decisiones durante los próximos diez años.",
+   "body": [
+    "Un Plan Integral es una de las herramientas más importantes con las que cuenta una comunidad. Describe dónde se encuentra la ciudad hoy, plantea una visión compartida del futuro y establece metas y una hoja de ruta de acciones para alcanzarlas. Orienta las decisiones sobre el uso del suelo y la zonificación, el presupuesto municipal, las solicitudes de subvenciones, el desarrollo económico, la vivienda, el medio ambiente y el transporte.",
+    "Este Plan se apoya en el Plan Integral de Amsterdam de 2003 y en más de veinte años de estudios y labores de revitalización, entre ellos la Iniciativa de Revitalización del Centro (Downtown Revitalization Initiative, DRI), el Programa Local de Revitalización de la Ribera (Local Waterfront Revitalization Program, LWRP) y los estudios de Áreas de Oportunidad en Sitios Industriales Abandonados (Brownfield Opportunity Area, BOA) en el East End, el West End y los Northern Neighborhoods. Reúne todos esos esfuerzos bajo una sola visión compartida.",
+    "El Plan es un documento vivo con un horizonte de diez años. La Ciudad lo revisará periódicamente y lo actualizará cuando sea necesario para que siga reflejando las necesidades y las metas de la comunidad."
+   ]
+  },
+  "meaning": {
+   "title": "Lo que este Plan significa para usted",
+   "lead": "Para los residentes, las empresas y los socios comunitarios, este Plan busca mejorar la vida cotidiana en Amsterdam.",
+   "body": [
+    "Significa un mejor acceso a viviendas que responden a distintas necesidades, más oportunidades para vivir y trabajar dentro de la comunidad, mejores espacios públicos y vecindarios más fuertes y mejor conectados.",
+    "También significa que el desarrollo futuro será más intencional: se enfocará en revitalizar los lugares que ya tenemos, en apoyar a los negocios locales y en crear una ciudad más accesible, sostenible y vibrante para todos."
+   ]
+  },
+  "today": {
+   "title": "Amsterdam hoy",
+   "lead": "El Plan comienza con una mirada honesta a la gente, la vivienda, la economía y los vecindarios de Amsterdam: sus fortalezas y los desafíos que hay que atender.",
+   "groups": [
+    {
+     "heading": "Nuestra gente",
+     "items": [
+      "Alrededor de 18,218 personas tienen su hogar en Amsterdam (2021). Después de décadas de descenso, se proyecta que la población se mantenga estable y crezca ligeramente hasta 2028. Amsterdam es la comunidad más grande y la única ciudad de Montgomery County.",
+      "Amsterdam es cada vez más diversa. En 2021, el 30% de los residentes se identificó como no blanco, frente al 16% en 2010.",
+      "Amsterdam tiene una comunidad hispana fuerte: el 31% de los residentes, el doble de la proporción de Montgomery County (15%). El Plan reconoce a esta comunidad en crecimiento como parte de la identidad cultural y económica de Amsterdam.",
+      "Los vecindarios varían entre los cinco distritos de la ciudad —en vivienda, ingresos y estabilidad—, por lo que el Plan propone estrategias adaptadas a cada vecindario en lugar de una solución única para todos.",
+      "Aproximadamente uno de cada cuatro residentes (24%) vive en la pobreza, más que en Montgomery County (17%) y en el estado de Nueva York (14%)."
+     ]
+    },
+    {
+     "heading": "Nuestra vivienda",
+     "items": [
+      "La vivienda es el desafío central de Amsterdam. La tasa de viviendas desocupadas es de aproximadamente 21% —muy por encima del rango saludable de 4–7%— y la mayoría de las viviendas son antiguas: el 55% se construyó antes de 1940 y menos del 1% desde 2000.",
+      "Los dúplex son el tipo de vivienda más común (41%), seguidos por las viviendas unifamiliares (40%). Hay poca variedad para distintos tamaños de hogar y presupuestos.",
+      "Los costos de vivienda ponen en aprietos a muchas familias. El 44% de los inquilinos tiene carga de costos de vivienda, ya que paga más del 30% de sus ingresos en alquiler, y el 21% tiene una carga severa. Un hogar típico de inquilinos gana alrededor de $28,000, menos de la mitad de lo que gana un hogar típico de propietarios ($60,000)."
+     ]
+    },
+    {
+     "heading": "Nuestra economía",
+     "items": [
+      "Amsterdam sostiene buenos empleos en el cuidado de la salud (42% de los empleos locales), la manufactura (18%) y la administración pública (13%), con salarios promedio superiores a $55,000.",
+      "Pero hay una desconexión: el 77% de los residentes que trabajan se desplaza fuera de la ciudad para su empleo, y solo el 25% de los empleos ubicados en Amsterdam lo ocupan residentes de la ciudad. Esto revela una brecha entre las habilidades de los residentes y los empleos disponibles, algo que la capacitación de la fuerza laboral puede ayudar a cerrar.",
+      "Los ingresos de los hogares aquí son más bajos ($43,164) que en Montgomery County ($53,533) y que en el estado. Al mismo tiempo, más de 500 acres de terrenos industriales abandonados o baldíos (brownfield) ya estudiados y más de 100 sitios desocupados o subutilizados representan una verdadera oportunidad para la reinversión y nuevos empleos."
+     ]
+    }
+   ]
+  },
+  "vision": {
+   "title": "Nuestra visión para el futuro",
+   "lead": "La visión de Amsterdam para el futuro es audaz y ambiciosa.",
+   "body": [
+    "Hoy, Amsterdam vive un resurgimiento. Estamos trabajando para revitalizar nuestro centro, mejorar nuestra ribera, fortalecer nuestros vecindarios y cambiar nuestra imagen para bien. Reconocemos que aún queda trabajo por hacer, pero nos apoyaremos en nuestra larga historia de planificación comunitaria y en nuestros logros recientes para mantener el impulso que tenemos hoy.",
+    "El día de mañana, la Ciudad de Amsterdam es una comunidad completa con algo para todos, reconocida en toda la Región Capital como el lugar para vivir, trabajar y visitar. Nuestros vecindarios son excelentes lugares para vivir, y los residentes se sienten orgullosos de llamar a Amsterdam su hogar. Es un gran lugar para abrir o hacer crecer un negocio, con empleos para todos los niveles de habilidad. Nuestro centro y nuestra ribera hacen de Amsterdam un destino de visita obligada. Es seguro y cómodo desplazarse a pie, en bicicleta, en autobús o en automóvil. Nuestra calidad de vida es inigualable, y estamos comprometidos con la sostenibilidad y la resiliencia para la salud de nuestra comunidad, hoy y mañana."
+   ]
+  },
+  "smartgrowth": {
+   "title": "El enfoque de Crecimiento Inteligente (Smart Growth)",
+   "lead": "Una característica que distingue a este Plan es que se basa en los principios de Crecimiento Inteligente del estado de Nueva York: dirigir la inversión hacia donde ya existen la infraestructura y los recursos de la comunidad.",
+   "body": [
+    "En Amsterdam, el Crecimiento Inteligente significa concentrar la inversión en el centro, en los vecindarios ya establecidos y a lo largo de corredores clave como Main Street; impulsar nuevas construcciones en terrenos desocupados y en sitios industriales abandonados o baldíos (brownfield) en zonas como el East End y el West End; y fortalecer las conexiones con la ribera del río Mohawk y con espacios públicos como Riverlink Park."
+   ],
+   "principles": [
+    {
+     "n": "Vecindarios de uso mixto",
+     "d": "Viviendas, comercios y lugares de encuentro cercanos entre sí, para que las personas puedan vivir, trabajar y reunirse sin tener que ir lejos."
+    },
+    {
+     "n": "Diversidad de vivienda",
+     "d": "Una variedad de tipos y precios de vivienda para cada nivel de ingresos, etapa de la vida y tamaño de hogar."
+    },
+    {
+     "n": "Diseño compacto",
+     "d": "Concentrar el crecimiento donde ya existe la infraestructura, para mantener los vecindarios caminables y los servicios eficientes."
+    },
+    {
+     "n": "Espacios públicos de calidad",
+     "d": "Parques, plazas y lugares de encuentro accesibles, diseñados con la participación de los residentes."
+    },
+    {
+     "n": "Desarrollo de relleno urbano estratégico",
+     "d": "Reutilizar terrenos baldíos y subutilizados en lugar de expandirse hacia afuera."
+    },
+    {
+     "n": "Transporte multimodal",
+     "d": "Formas seguras de caminar, andar en bicicleta, tomar el autobús y conducir."
+    },
+    {
+     "n": "Colaboración comunitaria",
+     "d": "Maneras significativas para que todos los residentes participen, incluidos aquellos que a menudo quedan excluidos."
+    },
+    {
+     "n": "Sostenibilidad y resiliencia",
+     "d": "Prepararse para un clima cambiante y proteger los sistemas naturales."
+    },
+    {
+     "n": "Preservación de recursos",
+     "d": "Proteger las áreas naturales, los cursos de agua y los espacios abiertos."
+    },
+    {
+     "n": "Creación de lugares (placemaking)",
+     "d": "Celebrar la historia, la cultura y el carácter de Amsterdam en todo lo que construimos."
+    }
+   ]
+  },
+  "focus": {
+   "title": "Cuatro áreas de enfoque",
+   "lead": "El Plan organiza sus objetivos y sus 36 acciones recomendadas en torno a cuatro áreas de enfoque conectadas entre sí.",
+   "areas": [
+    {
+     "name": "Vecindarios y fortalecimiento comunitario",
+     "addresses": "La antigüedad de las viviendas, los altos niveles de viviendas desocupadas en algunas zonas y los distintos niveles de estabilidad entre los vecindarios y los distritos.",
+     "strategies": [
+      "Permitir una mezcla diversa de tipos de vivienda para que cualquier persona que quiera vivir en Amsterdam pueda encontrar un hogar que se ajuste a sus necesidades.",
+      "Fomentar un diseño compacto de los vecindarios y concentrar el desarrollo cerca de la infraestructura existente.",
+      "Llevar a cabo un proceso de planificación inclusivo y colaborativo que refleje el carácter y las necesidades de cada vecindario.",
+      "Promover la propiedad de vivienda, en colaboración con el banco de terrenos y organizaciones sin fines de lucro."
+     ],
+     "actions": [
+      "Completar un estudio de vivienda sobre la oferta, la demanda, la asequibilidad y la calidad.",
+      "Considerar un programa para compradores de vivienda por primera vez.",
+      "Ofrecer incentivos para aumentar la propiedad de vivienda y reducir los problemas de propietarios ausentes.",
+      "Continuar y ampliar la aplicación de los códigos y los operativos de inspección del mantenimiento de las propiedades.",
+      "Crear parques de bolsillo o huertos comunitarios en terrenos municipales baldíos.",
+      "Crear un paquete de \"Bienvenida\" para los nuevos residentes con recursos, eventos y contactos de la Ciudad.",
+      "Organizar eventos periódicos donde los residentes puedan hablar directamente con los funcionarios de la Ciudad.",
+      "Asegurar que cada vecindario tenga acceso equitativo a internet de banda ancha."
+     ],
+     "means": "Vecindarios más fuertes y estables, con viviendas de mejor calidad e inversión a largo plazo, donde cualquier persona que quiera vivir en Amsterdam pueda encontrar un hogar."
+    },
+    {
+     "name": "Oportunidad económica",
+     "addresses": "La necesidad de crear empleos y atraer negocios, y de fortalecer el vínculo entre las habilidades de los residentes y los empleos locales.",
+     "strategies": [
+      "Actualizar las normas de uso del suelo para permitir y revitalizar los vecindarios de uso mixto, reutilizando los lotes subutilizados y restaurando las edificaciones históricas del centro.",
+      "Aprovechar el carácter singular de Amsterdam, su oferta de eventos y su diversidad cultural para convertirla en una comunidad preferida."
+     ],
+     "actions": [
+      "Utilizar los programas de los Registros Históricos Estatal y Nacional para ayudar a financiar la rehabilitación de edificios históricos.",
+      "Crear un registro de propiedades desocupadas para dar seguimiento y crear conciencia sobre los sitios inactivos.",
+      "Agilizar el proceso municipal de revisión de proyectos para eliminar barreras innecesarias a la inversión.",
+      "Explorar un impuesto sobre el uso del suelo para las propiedades desocupadas que incentive su reutilización.",
+      "Identificar y promocionar sitios para desarrollo en el centro.",
+      "Seguir promoviendo el Programa de Asistencia a Microempresas de la Ciudad (AMAP).",
+      "Encuestar a los negocios locales sobre sus necesidades de personal y conectarlos con los recursos adecuados.",
+      "Fomentar nuevas industrias de STEM y de empleos verdes para retener a los jóvenes profesionales de las escuelas locales.",
+      "Involucrar a socios del condado y municipales en una campaña conjunta de turismo.",
+      "Integrar el arte público y la creación de lugares (placemaking) en espacios subutilizados, parques y entornos de las calles en toda la ciudad.",
+      "Asociarse con AIDA y organizaciones regionales de desarrollo económico para crear espacios asequibles de incubadora y espacios flexibles para pequeños negocios, reutilizando edificios subutilizados del centro."
+     ],
+     "means": "Una combinación más diversa de empleos en todos los niveles de habilidad, un centro dinámico de uso mixto, una ribera revitalizada y empleos más accesibles para los residentes."
+    },
+    {
+     "name": "Movilidad y transporte activo",
+     "addresses": "La necesidad de contar con formas más seguras y mejor conectadas de desplazarse a pie, en bicicleta, en autobús y en automóvil.",
+     "strategies": [
+      "Priorizar la caminata, el ciclismo y el transporte público, mejorando los entornos de las calles, ampliando senderos y ciclovías, mejorando el transporte público, calmando el tráfico y añadiendo señalización de orientación.",
+      "Concentrar la nueva construcción y la reinversión cerca del transporte público, especialmente en los alrededores de la Amsterdam Multi-modal Station, para reducir la dependencia del automóvil.",
+      "Mejorar la seguridad vial, incluyendo el monitoreo inteligente del tráfico, cámaras automáticas de velocidad y la revisión de los límites de velocidad en zonas de alto riesgo."
+     ],
+     "actions": [
+      "Continuar instalando estaciones de carga para vehículos eléctricos en los estacionamientos públicos y fomentarlas en los desarrollos privados.",
+      "Trabajar con CDTA en actividades de difusión para promover el transporte público en Amsterdam.",
+      "Añadir comodidades de transporte, como casetas, asientos e información de rutas, en las paradas de autobús.",
+      "Estudiar la oferta y la demanda de estacionamiento y considerar estrategias de estacionamiento compartido en el centro y a lo largo de los corredores principales.",
+      "Crear una Guía de Diseño de Calles para que las decisiones sobre las calles prioricen el acceso multimodal y la seguridad.",
+      "Dar un uso creativo a la vía pública con parklets, cafés en las aceras e instalaciones de arte.",
+      "Identificar los vacíos en la red de aceras y planificar mejoras y conexiones con el tiempo.",
+      "Extender y conectar los senderos y caminos de la ciudad, utilizando puentes peatonales donde sea necesario para completar los enlaces principales."
+     ],
+     "means": "Una ciudad donde es seguro y cómodo desplazarse de la manera que usted prefiera, con los vecindarios, el centro y la ribera bien conectados."
+    },
+    {
+     "name": "Resiliencia y conexión con la naturaleza",
+     "addresses": "El riesgo de inundaciones, una ribera subutilizada y la necesidad de proteger los recursos naturales a la vez que se mejora el acceso a ellos.",
+     "strategies": [
+      "Ofrecer espacios públicos bien planificados, equitativos y accesibles, mejorando la ribera y los espacios verdes y conectándolos mediante senderos y ciclovías.",
+      "Preservar los espacios abiertos y los recursos naturales, protegiendo las riberas y los espacios verdes para la salud ambiental.",
+      "Promover la resiliencia y la adaptación climática, preferiblemente mediante soluciones basadas en la naturaleza, y reducir las emisiones de gases de efecto invernadero con infraestructura verde, mayor cobertura arbórea y energía limpia."
+     ],
+     "actions": [
+      "Asegurar que los parques y los espacios abiertos se distribuyan de manera equitativa por toda la ciudad.",
+      "Evaluar la demanda de instalaciones y programas de recreación y ajustarlos para atender a residentes de todas las edades y capacidades.",
+      "Cerrar los vacíos en la red de senderos de uso múltiple y conectar los parques y los espacios abiertos.",
+      "Buscar la designación Tree City USA y hacer crecer y mantener el bosque urbano de la ciudad.",
+      "Aprovechar la designación de Amsterdam como Trail City para fortalecer su identidad como comunidad de senderos y atraer visitantes e inversión.",
+      "Fomentar el pavimento permeable en las áreas de estacionamiento, las aceras y los senderos.",
+      "Explorar la restauración y apertura de manantiales naturales como espacios de acceso público.",
+      "Considerar la elaboración y adopción de un Plan de Acción Climática y Resiliencia.",
+      "Realizar una campaña educativa sobre la creación de hábitats naturales y las prácticas sostenibles de jardines y céspedes."
+     ],
+     "means": "Una ciudad más resiliente, accesible y ambientalmente sostenible, con conexiones más fuertes con el Mohawk River y el Chuctanunda Creek."
+    }
+   ]
+  },
+  "strategy": {
+   "title": "Dónde ocurrirá el crecimiento",
+   "lead": "El Plan adopta un enfoque basado en los lugares, concentrándose en las zonas de la ciudad con mayor oportunidad de inversión y revitalización.",
+   "places": [
+    {
+     "area": "Los vecindarios",
+     "focus": "Estabilizar la vivienda, mejorar las condiciones de las propiedades y fortalecer la identidad de cada vecindario, con estrategias adaptadas a sus necesidades."
+    },
+    {
+     "area": "El centro",
+     "focus": "Aprovechar las inversiones de la Iniciativa de Revitalización del Centro (DRI) para atraer negocios, mejorar los espacios públicos y conectar el centro con los vecindarios aledaños y la ribera."
+    },
+    {
+     "area": "Corredores de uso mixto",
+     "focus": "Convertir corredores clave como Main Street en lugares activos y conectados que combinen viviendas, comercios y usos comunitarios."
+    },
+    {
+     "area": "Centros industriales",
+     "focus": "Apoyar centros de empleo como el Edson Street Industrial Park, atraer nuevos negocios y alinear la capacitación de la fuerza laboral con los empleos reales."
+    },
+    {
+     "area": "El entorno natural",
+     "focus": "Proteger el Mohawk River y el Chuctanunda Creek, ampliar el acceso a parques y senderos, y desarrollar la resiliencia climática a largo plazo."
+    }
+   ]
+  },
+  "next": {
+   "title": "Qué sigue ahora",
+   "lead": "El Plan es un punto de partida. Hacerlo realidad depende de la comunidad.",
+   "body": [
+    "En los próximos años, la Ciudad usará este Plan para orientar los presupuestos, las solicitudes de subvenciones, las actualizaciones de la zonificación y las decisiones sobre proyectos, e informará sobre los avances a medida que las acciones se pongan en marcha.",
+    "Los residentes, los negocios y los socios comunitarios tienen un papel en cada Área de Enfoque: desde los programas de vivienda y de propiedad de vivienda hasta la revitalización del centro, las calles más seguras y el acceso a la ribera. El Plan pide específicamente que haya oportunidades periódicas para que los residentes hablen directamente con los funcionarios de la Ciudad.",
+    "Para leer el Plan completo, compartir sus ideas o participar, comuníquese con la oficina de Desarrollo Comunitario y Económico de la Ciudad de Amsterdam, 61 Church Street, Amsterdam, NY 12010, o visite www.amsterdamny.gov."
+   ]
+  }
+ }
+}

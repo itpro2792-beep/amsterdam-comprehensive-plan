@@ -1,0 +1,289 @@
+{
+ "meta": {
+  "docTitle": "Smart Growth Comprehensive Plan 2026",
+  "docSubtitle": "Community Summary",
+  "city": "City of Amsterdam, New York",
+  "adopted": "Adopted May 2026",
+  "sourceNote": "This is a plain-language community summary of the City of Amsterdam's Smart Growth Comprehensive Plan, adopted May 2026 — the current, official version of the Plan. All figures are the Plan's own adopted data. This summary is provided to make the Plan easier to read and share; it does not replace the full Plan. Where there is any difference, the official adopted Plan governs. Summary prepared August 2026.",
+  "ui": {
+   "langLabel": "Language",
+   "en": "English",
+   "es": "Español",
+   "print": "Print / Save PDF",
+   "tocTitle": "Contents",
+   "backToTop": "Back to top",
+   "strategies": "Key strategies",
+   "actions": "Key actions",
+   "means": "What it means",
+   "printShort": "Print"
+  },
+  "issued": "Summary issued August 2026"
+ },
+ "toc": [
+  {
+   "id": "about",
+   "t": "About this Plan"
+  },
+  {
+   "id": "meaning",
+   "t": "What it means for you"
+  },
+  {
+   "id": "today",
+   "t": "Amsterdam today"
+  },
+  {
+   "id": "vision",
+   "t": "Our vision"
+  },
+  {
+   "id": "smartgrowth",
+   "t": "The Smart Growth approach"
+  },
+  {
+   "id": "focus",
+   "t": "Four focus areas"
+  },
+  {
+   "id": "strategy",
+   "t": "Where growth will happen"
+  },
+  {
+   "id": "next",
+   "t": "What happens next"
+  }
+ ],
+ "sections": {
+  "about": {
+   "title": "About this Plan",
+   "lead": "The Comprehensive Plan is the City of Amsterdam's official guide for planning and decision-making over the next ten years.",
+   "body": [
+    "A Comprehensive Plan is one of the most important tools a community has. It describes where the city is today, sets out a shared vision for the future, and lays out goals and a roadmap of actions to get there. It guides decisions about land use and zoning, the city budget, grant applications, economic development, housing, the environment, and transportation.",
+    "This Plan builds on Amsterdam's 2003 Comprehensive Plan and more than twenty years of studies and revitalization work, including the Downtown Revitalization Initiative (DRI), the Local Waterfront Revitalization Program (LWRP), and Brownfield Opportunity Area (BOA) studies in the East End, West End, and Northern Neighborhoods. It brings those efforts together under one shared vision.",
+    "The Plan is a living document with a ten-year horizon. The City will review it regularly and update it when needed so it keeps reflecting the community's needs and goals."
+   ]
+  },
+  "meaning": {
+   "title": "What this Plan means for you",
+   "lead": "For residents, businesses, and community partners, this Plan is about improving everyday life in Amsterdam.",
+   "body": [
+    "It means better access to housing that meets a range of needs, more opportunities to live and work within the community, improved public spaces, and stronger, more connected neighborhoods.",
+    "It also means that future development will be more intentional — focused on revitalizing the places we already have, supporting local businesses, and creating a city that is more accessible, sustainable, and vibrant for everyone."
+   ]
+  },
+  "today": {
+   "title": "Amsterdam today",
+   "lead": "The Plan begins with an honest look at Amsterdam's people, housing, economy, and neighborhoods — its strengths and the challenges to address.",
+   "groups": [
+    {
+     "heading": "Our people",
+     "items": [
+      "About 18,218 people call Amsterdam home (2021). After decades of decline, the population is projected to hold steady and grow slightly through 2028. Amsterdam is the largest community and the only city in Montgomery County.",
+      "Amsterdam is growing more diverse. In 2021, 30% of residents identified as non-white, up from 16% in 2010.",
+      "Amsterdam has a strong Hispanic community — 31% of residents, twice the rate of Montgomery County (15%). The Plan recognizes this growing community as part of Amsterdam's cultural and economic identity.",
+      "Neighborhoods differ across the city's five wards — in housing, income, and stability — which is why the Plan calls for strategies tailored to each neighborhood rather than one-size-fits-all.",
+      "About one in four residents (24%) lives in poverty, higher than Montgomery County (17%) and New York State (14%)."
+     ]
+    },
+    {
+     "heading": "Our housing",
+     "items": [
+      "Housing is Amsterdam's central challenge. The vacancy rate is about 21% — well above the healthy range of 4–7% — and most homes are old: 55% were built before 1940, and less than 1% since 2000.",
+      "Duplexes are the most common home type (41%), followed by single-family homes (40%). There is little variety for different household sizes and budgets.",
+      "Housing costs stretch many families. 44% of renters are cost-burdened, paying more than 30% of their income on rent, and 21% are severely burdened. A typical renter household earns about $28,000 — less than half of a typical homeowner household ($60,000)."
+     ]
+    },
+    {
+     "heading": "Our economy",
+     "items": [
+      "Amsterdam supports good jobs in health care (42% of local jobs), manufacturing (18%), and public administration (13%), with average salaries above $55,000.",
+      "But there is a disconnect: 77% of working residents commute out of the city for their jobs, and only 25% of the jobs located in Amsterdam are held by city residents. This points to a gap between residents' skills and available jobs — something workforce training can help close.",
+      "Household incomes are lower here ($43,164) than in Montgomery County ($53,533) and the state. At the same time, more than 500 acres of studied brownfield land and over 100 vacant or underused sites represent real opportunity for reinvestment and new jobs."
+     ]
+    }
+   ]
+  },
+  "vision": {
+   "title": "Our vision for the future",
+   "lead": "Amsterdam's vision for the future is bold and ambitious.",
+   "body": [
+    "Today, Amsterdam is experiencing a resurgence. We are working to revitalize our downtown, enhance our waterfront, strengthen our neighborhoods, and change our image for the better. We recognize there is more work to do, but we will build on our long history of community planning and our recent successes to carry today's momentum forward.",
+    "Tomorrow, the City of Amsterdam is a complete community with something for everyone — known across the Capital Region as the place to live, to work, and to visit. Our neighborhoods are great places to live and residents are proud to call Amsterdam home. It is a great place to start or grow a business, with jobs at every skill level. Our downtown and waterfront make Amsterdam a must-visit destination. It is safe and convenient to get around on foot, by bike, by bus, or by car. Our quality of life is unmatched, and we are committed to sustainability and resiliency for the health of our community today and tomorrow."
+   ]
+  },
+  "smartgrowth": {
+   "title": "The Smart Growth approach",
+   "lead": "A defining feature of this Plan is that it is built on New York State's Smart Growth principles — putting investment where infrastructure and community assets already exist.",
+   "body": [
+    "In Amsterdam, Smart Growth means focusing investment downtown, in established neighborhoods, and along key corridors like Main Street; encouraging new building on vacant and brownfield sites in areas such as the East End and West End; and strengthening connections to the Mohawk River waterfront and to public spaces like Riverlink Park."
+   ],
+   "principles": [
+    {
+     "n": "Mixed-Use Neighborhoods",
+     "d": "Homes, shops, and gathering places close together, so people can live, work, and meet nearby."
+    },
+    {
+     "n": "Housing Diversity",
+     "d": "A range of home types and prices for every income, life stage, and household size."
+    },
+    {
+     "n": "Compact Design",
+     "d": "Focusing growth where infrastructure already exists to keep neighborhoods walkable and services efficient."
+    },
+    {
+     "n": "Quality Public Spaces",
+     "d": "Accessible parks, plazas, and gathering places, shaped by resident input."
+    },
+    {
+     "n": "Strategic Infill Development",
+     "d": "Reusing vacant and underused lots instead of spreading outward."
+    },
+    {
+     "n": "Multi-Modal Transportation",
+     "d": "Safe ways to walk, bike, ride the bus, and drive."
+    },
+    {
+     "n": "Community Collaboration",
+     "d": "Meaningful ways for all residents — including those often left out — to take part."
+    },
+    {
+     "n": "Sustainability & Resiliency",
+     "d": "Preparing for a changing climate and protecting natural systems."
+    },
+    {
+     "n": "Resource Preservation",
+     "d": "Protecting natural areas, waterways, and open space."
+    },
+    {
+     "n": "Placemaking",
+     "d": "Celebrating Amsterdam's history, culture, and character in everything we build."
+    }
+   ]
+  },
+  "focus": {
+   "title": "Four focus areas",
+   "lead": "The Plan organizes its goals and its 36 recommended actions around four connected focus areas.",
+   "areas": [
+    {
+     "name": "Neighborhoods & Community Building",
+     "addresses": "Aging housing, high vacancy in some areas, and different levels of stability across neighborhoods and wards.",
+     "strategies": [
+      "Enable a diverse mix of housing types so anyone who wants to live in Amsterdam can find a home that fits.",
+      "Encourage compact neighborhood design and concentrate development near existing infrastructure.",
+      "Run an inclusive, collaborative planning process that reflects the character and needs of each neighborhood.",
+      "Promote homeownership, working with the land bank and non-profit partners."
+     ],
+     "actions": [
+      "Complete a housing study of supply, demand, affordability, and quality.",
+      "Consider a first-time home buyer program.",
+      "Offer incentives to raise homeownership and reduce absentee-landlord problems.",
+      "Continue and expand code enforcement and property-maintenance sweeps.",
+      "Create pocket parks or community gardens on vacant City land.",
+      "Create a \"Welcome\" package for new residents with City resources, events, and contacts.",
+      "Hold regular events where residents can talk directly with City officials.",
+      "Make sure every neighborhood has fair access to broadband internet."
+     ],
+     "means": "Stronger, more stable neighborhoods with better housing quality and long-term investment — where anyone who wants to live in Amsterdam can find a home."
+    },
+    {
+     "name": "Economic Opportunity",
+     "addresses": "The need for job growth and business attraction, and a stronger link between residents' skills and local jobs.",
+     "strategies": [
+      "Update land-use rules to allow and revitalize mixed-use neighborhoods — reusing underused lots and restoring the historic downtown building stock.",
+      "Build on Amsterdam's unique character, events scene, and cultural diversity to make it a community of choice."
+     ],
+     "actions": [
+      "Use State and National Historic Registry programs to help fund rehabilitation of historic buildings.",
+      "Create a vacant-property registry to track and raise awareness of inactive sites.",
+      "Streamline the City's development-review process to remove unnecessary barriers to investment.",
+      "Explore a land-use tax on vacant properties to encourage their reuse.",
+      "Identify and market development sites downtown.",
+      "Keep promoting the City's Microenterprise Assistance Program (AMAP).",
+      "Survey local businesses on staffing needs and connect them to the right resources.",
+      "Encourage new STEM and green-job industries to retain young professionals from local schools.",
+      "Engage county and municipal partners in a joint tourism campaign.",
+      "Integrate public art and placemaking into underused spaces, parks, and streetscapes across the city.",
+      "Partner with AIDA and regional economic-development organizations to create affordable incubator and flex space for small businesses, reusing underused downtown buildings."
+     ],
+     "means": "A more diverse mix of jobs at all skill levels, a vibrant mixed-use downtown, a revitalized waterfront, and more accessible jobs for residents."
+    },
+    {
+     "name": "Mobility & Active Transportation",
+     "addresses": "The need for safer, better-connected ways to get around by foot, bike, bus, and car.",
+     "strategies": [
+      "Prioritize walking, cycling, and public transit — improving streetscapes, expanding trails and bikeways, improving transit, calming traffic, and adding wayfinding.",
+      "Focus new building and reinvestment near transit, especially around the Amsterdam Multi-modal Station, to reduce car dependency.",
+      "Improve traffic safety, including smart traffic monitoring, automated speed cameras, and reviewing speed limits in high-risk areas."
+     ],
+     "actions": [
+      "Continue installing electric-vehicle charging stations in public parking, and encourage them in private developments.",
+      "Work with CDTA on outreach to promote public transportation in Amsterdam.",
+      "Add transit amenities such as shelters, seating, and route information at bus stops.",
+      "Study parking supply and demand and consider shared-parking strategies downtown and along key corridors.",
+      "Create a Street Design Guide so street decisions prioritize multi-modal access and safety.",
+      "Make creative use of the public right-of-way with parklets, sidewalk cafés, and art installations.",
+      "Identify gaps in the sidewalk system and plan improvements and connections over time.",
+      "Extend and connect the city's trails and paths, using pedestrian bridges where needed to complete key links."
+     ],
+     "means": "A city where it is safe and convenient to get around however you choose, with neighborhoods, downtown, and the waterfront well connected."
+    },
+    {
+     "name": "Resiliency & Connections to Nature",
+     "addresses": "Flood risk, underused waterfront, and the need to protect natural resources while improving access to them.",
+     "strategies": [
+      "Provide well-planned, equitable, and accessible public spaces — enhancing the waterfront and green spaces and connecting them with trails and bikeways.",
+      "Preserve open space and natural resources, protecting waterfronts and green spaces for environmental health.",
+      "Promote climate resilience and adaptation, preferably through nature-based solutions, and reduce greenhouse-gas emissions with green infrastructure, more tree canopy, and clean energy."
+     ],
+     "actions": [
+      "Ensure parks and open spaces are equitably distributed across the city.",
+      "Assess demand for recreation facilities and programs and adjust to serve residents of all ages and abilities.",
+      "Fill gaps in the multi-use trail system and connect parks and open spaces.",
+      "Pursue Tree City USA designation and grow and maintain the city's urban forest.",
+      "Build on Amsterdam's Trail City designation to strengthen its identity as a trail community and attract visitors and investment.",
+      "Encourage permeable pavement for parking areas, sidewalks, and trails.",
+      "Explore restoring and opening natural springs as publicly accessible amenities.",
+      "Consider developing and adopting a Climate Action and Resiliency Plan.",
+      "Run an educational campaign on natural-habitat creation and sustainable lawn and garden practices."
+     ],
+     "means": "A more resilient, accessible, and environmentally sustainable city, with stronger connections to the Mohawk River and Chuctanunda Creek."
+    }
+   ]
+  },
+  "strategy": {
+   "title": "Where growth will happen",
+   "lead": "The Plan takes a place-based approach, focusing on the areas of the city with the greatest opportunity for investment and revitalization.",
+   "places": [
+    {
+     "area": "Neighborhoods",
+     "focus": "Stabilize housing, improve property conditions, and strengthen each neighborhood's identity — with strategies tailored to its needs."
+    },
+    {
+     "area": "Downtown",
+     "focus": "Build on Downtown Revitalization Initiative (DRI) investments to attract businesses, improve public spaces, and connect downtown to surrounding neighborhoods and the waterfront."
+    },
+    {
+     "area": "Mixed-Use Corridors",
+     "focus": "Turn key corridors like Main Street into active, connected places that blend homes, shops, and community uses."
+    },
+    {
+     "area": "Industry Centers",
+     "focus": "Support employment hubs like the Edson Street Industrial Park, attract new business, and align workforce training with real jobs."
+    },
+    {
+     "area": "Natural Environment",
+     "focus": "Protect the Mohawk River and Chuctanunda Creek, expand access to parks and trails, and build long-term climate resilience."
+    }
+   ]
+  },
+  "next": {
+   "title": "What happens next",
+   "lead": "The Plan is a starting point. Turning it into reality depends on the community.",
+   "body": [
+    "Over the coming years, the City will use this Plan to guide budgets, grant applications, zoning updates, and project decisions, and will report on progress as actions move forward.",
+    "Residents, businesses, and community partners have a role in every focus area — from housing and homeownership programs to downtown revitalization, safer streets, and waterfront access. The Plan specifically calls for regular opportunities for residents to talk directly with City officials.",
+    "To read the full Plan, share your ideas, or get involved, contact the City of Amsterdam Community and Economic Development office, 61 Church Street, Amsterdam, NY 12010, or visit www.amsterdamny.gov."
+   ]
+  }
+ }
+}

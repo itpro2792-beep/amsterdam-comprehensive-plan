@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amsterdam Smart Growth Comprehensive Plan — Community Summary</title>
+<meta name="description" content="Plain-language community summary of the City of Amsterdam, New York Smart Growth Comprehensive Plan (adopted May 2026). English and Spanish.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap">
+<style>
+/* ── Amsterdam civic identity: royal purple + gold ─────────────────── */
+:root{
+  --ground:#FAF8F4; --surface:#FFFFFF; --surface-2:#F4F0F6; --surface-3:#EFEAF3;
+  --ink:#1E1826; --ink-soft:#4E4557; --ink-faint:#6E6479;
+  --purple:#4B2A6F; --purple-deep:#331B4D; --purple-soft:#6B4890;
+  --gold:#B98B21; --gold-bright:#D9AE3C; --gold-soft:#F0E2BC; --gold-ink:#8C6415;
+  --line:#E4DCEA; --line-strong:#D2C6DC;
+  --fa-1:#6D3B6B; --fa-2:#8A6320; --fa-3:#3F4C86; --fa-4:#3F6B4A;
+  --fa-1-bg:#F5EDF4; --fa-2-bg:#F8F1DF; --fa-3-bg:#EDEFF7; --fa-4-bg:#EBF2EC;
+  --shadow-sm:0 1px 2px rgba(45,25,65,.05);
+  --shadow:0 1px 3px rgba(45,25,65,.06),0 10px 34px rgba(45,25,65,.07);
+  --maxw:730px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#141019; --surface:#1C1724; --surface-2:#221B2C; --surface-3:#281F34;
+    --ink:#EFE9F3; --ink-soft:#B4A9BE; --ink-faint:#877C93;
+    --purple:#B98FE0; --purple-deep:#D4B8F0; --purple-soft:#8E6BB0;
+    --gold:#E0B653; --gold-bright:#F0CC77; --gold-soft:#3A2E14; --gold-ink:#E0B653;
+    --line:#302640; --line-strong:#42354F;
+    --fa-1:#C98CC6; --fa-2:#DDB454; --fa-3:#8D9BD4; --fa-4:#84B490;
+    --fa-1-bg:#241A28; --fa-2-bg:#272014; --fa-3-bg:#1A1D2E; --fa-4-bg:#182419;
+    --shadow-sm:0 1px 2px rgba(0,0,0,.3);
+    --shadow:0 1px 3px rgba(0,0,0,.35),0 12px 38px rgba(0,0,0,.38);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#141019; --surface:#1C1724; --surface-2:#221B2C; --surface-3:#281F34;
+  --ink:#EFE9F3; --ink-soft:#B4A9BE; --ink-faint:#877C93;
+  --purple:#B98FE0; --purple-deep:#D4B8F0; --purple-soft:#8E6BB0;
+  --gold:#E0B653; --gold-bright:#F0CC77; --gold-soft:#3A2E14; --gold-ink:#E0B653;
+  --line:#302640; --line-strong:#42354F;
+  --fa-1:#C98CC6; --fa-2:#DDB454; --fa-3:#8D9BD4; --fa-4:#84B490;
+  --fa-1-bg:#241A28; --fa-2-bg:#272014; --fa-3-bg:#1A1D2E; --fa-4-bg:#182419;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.3);
+  --shadow:0 1px 3px rgba(0,0,0,.35),0 12px 38px rgba(0,0,0,.38);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--ground);color:var(--ink);
+  font-family:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:"Spectral",Georgia,"Times New Roman",serif;font-weight:600;text-wrap:balance;line-height:1.16;margin:0}
+p{margin:0}
+a{color:var(--purple);text-underline-offset:3px}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+.eyebrow{font:700 .7rem/1.4 "Public Sans",sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-ink)}
+
+/* ── Header ─────────────────────────────────────────── */
+header.bar{position:sticky;top:0;z-index:60;background:var(--purple-deep);border-bottom:3px solid var(--gold)}
+:root[data-theme="dark"] header.bar,
+:root:not([data-theme="light"]) header.bar{background:#241636}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) header.bar{background:#241636}}
+.bar-in{max-width:1000px;margin:0 auto;padding:11px 22px;display:flex;align-items:center;gap:16px;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:11px;min-width:0}
+.brand .seal{width:30px;height:30px;flex:0 0 auto;color:var(--gold-bright)}
+.brand-txt{min-width:0}
+.brand b{display:block;font-family:"Spectral",Georgia,serif;font-weight:600;font-size:.97rem;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.2}
+.brand span{display:block;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-bright);font-weight:600}
+.controls{display:flex;align-items:center;gap:9px;flex:0 0 auto}
+.seg{display:inline-flex;border:1px solid rgba(255,255,255,.28);border-radius:999px;overflow:hidden;background:rgba(255,255,255,.07)}
+.seg button{appearance:none;border:0;background:transparent;color:rgba(255,255,255,.82);
+  font:700 .8rem/1 "Public Sans",sans-serif;letter-spacing:.04em;padding:9px 15px;cursor:pointer;transition:background .15s,color .15s}
+.seg button:hover{color:#fff;background:rgba(255,255,255,.1)}
+.seg button[aria-pressed="true"]{background:var(--gold);color:#2A1740}
+.btn{appearance:none;border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.07);color:rgba(255,255,255,.9);
+  border-radius:999px;padding:9px 14px;font:600 .8rem/1 "Public Sans",sans-serif;cursor:pointer;display:inline-flex;align-items:center;gap:7px;transition:background .15s}
+.btn:hover{background:rgba(255,255,255,.15);color:#fff}
+.btn svg{width:15px;height:15px}
+button:focus-visible,a:focus-visible{outline:3px solid var(--gold-bright);outline-offset:2px;border-radius:6px}
+
+/* ── Cover ──────────────────────────────────────────── */
+.cover{position:relative;background:linear-gradient(165deg,var(--purple-deep) 0%,var(--purple) 62%,#5B3480 100%);color:#fff;overflow:hidden}
+.cover-in{max-width:1000px;margin:0 auto;padding:66px 26px 60px;position:relative;z-index:2}
+.cover .crest{width:60px;height:60px;color:var(--gold-bright);margin-bottom:22px}
+.cover .eyebrow{color:var(--gold-bright)}
+.cover h1{font-size:clamp(2.6rem,6.4vw,4.15rem);letter-spacing:-.015em;margin:.22em 0 0;color:#fff}
+.cover .rule{width:74px;height:3px;background:var(--gold);margin:24px 0 20px;border-radius:2px}
+.cover .lede{font-size:1.16rem;line-height:1.6;color:rgba(255,255,255,.9);max-width:620px}
+.cover .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.chip{display:inline-flex;align-items:center;gap:8px;font:600 .74rem/1 "Public Sans",sans-serif;letter-spacing:.09em;text-transform:uppercase;
+  color:#fff;border:1px solid rgba(255,255,255,.34);border-radius:999px;padding:9px 14px;background:rgba(255,255,255,.06)}
+.chip.gold{border-color:var(--gold);color:var(--gold-bright)}
+.chip .dot{width:6px;height:6px;border-radius:50%;background:var(--gold-bright)}
+.cover .river{position:absolute;inset:auto 0 -2px 0;height:150px;opacity:.32;z-index:1;pointer-events:none}
+
+/* ── TOC ────────────────────────────────────────────── */
+.toc{background:var(--surface-2);border-bottom:1px solid var(--line)}
+.toc-in{max-width:1000px;margin:0 auto;padding:24px 26px}
+.toc .eyebrow{color:var(--purple);margin-bottom:12px}
+.toc ol{list-style:none;counter-reset:t;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:2px 28px}
+.toc li{counter-increment:t}
+.toc a{display:flex;gap:12px;align-items:baseline;color:var(--ink-soft);text-decoration:none;padding:8px 0;font-size:.96rem;transition:color .15s}
+.toc a:hover{color:var(--purple)}
+.toc a::before{content:counter(t,decimal-leading-zero);font:700 .72rem/1 "Public Sans",sans-serif;color:var(--gold-ink);font-variant-numeric:tabular-nums;flex:0 0 auto}
+
+/* ── Sections ───────────────────────────────────────── */
+main{padding:8px 0 30px}
+section{padding:52px 0;border-top:1px solid var(--line)}
+section:first-child{border-top:0}
+.s-head{margin-bottom:22px}
+.s-head .num{font:700 .7rem/1 "Public Sans",sans-serif;letter-spacing:.16em;color:var(--gold-ink);display:block;margin-bottom:10px}
+.s-head h2{font-size:clamp(1.65rem,3.7vw,2.2rem);color:var(--ink)}
+.s-head .lead{font-size:1.11rem;color:var(--ink-soft);margin-top:13px;line-height:1.58}
+.prose p+p{margin-top:16px}
+.prose p{line-height:1.72}
+
+/* ── Today: facts ───────────────────────────────────── */
+.groups{display:flex;flex-direction:column;gap:28px}
+.group>h3{font:700 .74rem/1 "Public Sans",sans-serif;letter-spacing:.15em;text-transform:uppercase;color:var(--purple);
+  margin-bottom:13px;padding-bottom:9px;border-bottom:2px solid var(--gold-soft)}
+.facts{display:flex;flex-direction:column;gap:11px}
+.fact{display:flex;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow-sm);overflow:hidden}
+.fact .mark{width:4px;flex:0 0 auto;background:var(--purple-soft)}
+.fact p{padding:15px 17px;font-size:1rem;line-height:1.56}
+.fact.hi{border-color:var(--gold);box-shadow:var(--shadow)}
+.fact.hi .mark{background:var(--gold)}
+
+/* ── Vision ─────────────────────────────────────────── */
+.vision-quote{background:var(--surface-3);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:26px 28px;margin-bottom:18px}
+.vision-quote p{font-family:"Spectral",Georgia,serif;font-size:1.16rem;line-height:1.62;color:var(--ink);font-style:italic}
+.vision-quote p+p{margin-top:14px}
+
+/* ── Principles ─────────────────────────────────────── */
+.principles{display:grid;grid-template-columns:repeat(auto-fit,minmax(225px,1fr));gap:11px;margin-top:22px}
+.principle{background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:0 0 10px 10px;padding:15px 16px}
+.principle .pn{font-family:"Spectral",Georgia,serif;font-weight:600;color:var(--purple);font-size:1.02rem;margin-bottom:5px;line-height:1.3}
+.principle .pd{font-size:.91rem;color:var(--ink-soft);line-height:1.5}
+
+/* ── Focus areas ────────────────────────────────────── */
+.fa{--c:var(--purple);--cbg:var(--surface-2);margin-top:24px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface);box-shadow:var(--shadow)}
+.fa[data-fa="0"]{--c:var(--fa-1);--cbg:var(--fa-1-bg)}
+.fa[data-fa="1"]{--c:var(--fa-2);--cbg:var(--fa-2-bg)}
+.fa[data-fa="2"]{--c:var(--fa-3);--cbg:var(--fa-3-bg)}
+.fa[data-fa="3"]{--c:var(--fa-4);--cbg:var(--fa-4-bg)}
+.fa-top{background:var(--cbg);border-bottom:2px solid var(--c);padding:21px 23px;display:flex;gap:15px;align-items:flex-start}
+.fa-num{font-family:"Spectral",Georgia,serif;font-weight:700;font-size:1.15rem;color:#fff;background:var(--c);line-height:1;flex:0 0 auto;
+  width:36px;height:36px;border-radius:9px;display:grid;place-items:center}
+.fa-top h3{font-size:1.3rem;color:var(--ink);line-height:1.25}
+.fa-top .addr{font-size:.95rem;color:var(--ink-soft);margin-top:6px;line-height:1.5}
+.fa-body{padding:21px 23px;display:flex;flex-direction:column;gap:19px}
+.fa-block .label{font:700 .69rem/1 "Public Sans",sans-serif;letter-spacing:.15em;text-transform:uppercase;color:var(--c);margin-bottom:11px}
+.fa ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
+.fa ul li{position:relative;padding-left:21px;font-size:.97rem;line-height:1.52}
+.fa ul li::before{content:"";position:absolute;left:1px;top:.6em;width:7px;height:7px;border-radius:2px;background:var(--c)}
+.fa .means{background:var(--cbg);border-radius:10px;padding:15px 17px;font-size:1rem;line-height:1.55}
+.fa .means .label{color:var(--c)}
+
+/* ── Places ─────────────────────────────────────────── */
+.places{margin-top:10px;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.place{display:grid;grid-template-columns:186px 1fr;gap:20px;padding:18px 20px;background:var(--surface)}
+.place+.place{border-top:1px solid var(--line)}
+.place .pa{font-family:"Spectral",Georgia,serif;font-weight:600;color:var(--purple);font-size:1.05rem}
+.place .pf{color:var(--ink-soft);font-size:.97rem;line-height:1.52}
+
+/* ── Footer ─────────────────────────────────────────── */
+footer{background:var(--purple-deep);color:rgba(255,255,255,.86);border-top:3px solid var(--gold)}
+:root[data-theme="dark"] footer,:root:not([data-theme="light"]) footer{background:#241636}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) footer{background:#241636}}
+.foot-in{max-width:var(--maxw);margin:0 auto;padding:34px 26px 46px;font-size:.87rem;line-height:1.65}
+.foot-in .src{color:rgba(255,255,255,.75)}
+.foot-seal{width:30px;height:30px;color:var(--gold-bright);margin-bottom:14px}
+.totop{display:inline-flex;gap:6px;align-items:center;margin-top:16px;color:var(--gold-bright);font-weight:600;font-size:.85rem;text-decoration:none}
+
+@media (max-width:640px){
+  body{font-size:16px}
+  .place{grid-template-columns:1fr;gap:5px}
+  .brand b{max-width:38vw}
+  .cover-in{padding:44px 22px 46px}
+  .btn span{display:none}
+}
+@media print{
+  header.bar,.totop{display:none}
+  body{background:#fff;color:#000;font-size:10.8pt}
+  .cover{background:#fff!important;color:#000;border-bottom:3px solid #B98B21}
+  .cover h1,.cover .lede{color:#000}
+  .cover .crest{color:#B98B21}
+  .chip{color:#000;border-color:#999}
+  .cover .river{display:none}
+  footer{background:#fff;color:#000;border-top:2px solid #B98B21}
+  .foot-in .src{color:#333}
+  section{break-inside:avoid;padding:22px 0}
+  .fa,.fact,.principle,.place{break-inside:avoid;box-shadow:none}
+  a{color:#000}
+}
+</style>
+</head>
+<body>
+<header class="bar">
+  <div class="bar-in">
+    <div class="brand">
+      <svg class="seal" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <path d="M16 3.2 26.6 8v8.4c0 6.3-4.4 10.9-10.6 12.6C9.8 27.3 5.4 22.7 5.4 16.4V8L16 3.2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+        <path d="M10.4 18.6c2-1.4 3.4-1.4 5.6 0s3.6 1.4 5.6 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M13 14.4V11l3-2 3 2v3.4" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+      </svg>
+      <div class="brand-txt"><b id="brandName">City of Amsterdam</b><span id="brandSub">New York</span></div>
+    </div>
+    <div class="controls">
+      <div class="seg" role="group" id="langSeg" aria-label="Language / Idioma">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="es" aria-pressed="false">ES</button>
+      </div>
+      <button type="button" class="btn" id="printBtn">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-6h16v6h-2M8 14h8v7H8z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        <span id="printLabel">Print</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div id="app"></div>
+<noscript>
+  <div style="max-width:730px;margin:0 auto;padding:44px 26px;font-family:'Public Sans',system-ui,sans-serif;line-height:1.65">
+    <p style="font-size:1.05rem"><strong>This community summary needs JavaScript to display its English and Spanish versions.</strong><br>
+    <span lang="es">Este resumen comunitario necesita JavaScript para mostrar sus versiones en inglés y español.</span></p>
+    <p style="margin-top:14px">You can read the full adopted Plan in <a href="plan/Amsterdam-2026-Plan-Final.pdf">PDF</a>, or contact the City of Amsterdam Community and Economic Development office, 61 Church Street, Amsterdam, NY 12010 — <a href="https://www.amsterdamny.gov">www.amsterdamny.gov</a>.</p>
+  </div>
+</noscript>
+
+<script>
+const CONTENT = {"en": {"meta": {"docTitle": "Smart Growth Comprehensive Plan 2026", "docSubtitle": "Community Summary", "city": "City of Amsterdam, New York", "adopted": "Adopted May 2026", "sourceNote": "This is a plain-language community summary of the City of Amsterdam's Smart Growth Comprehensive Plan, adopted May 2026 — the current, official version of the Plan. All figures are the Plan's own adopted data. This summary is provided to make the Plan easier to read and share; it does not replace the full Plan. Where there is any difference, the official adopted Plan governs. Summary prepared August 2026.", "ui": {"langLabel": "Language", "en": "English", "es": "Español", "print": "Print / Save PDF", "tocTitle": "Contents", "backToTop": "Back to top", "strategies": "Key strategies", "actions": "Key actions", "means": "What it means", "printShort": "Print"}, "issued": "Summary issued August 2026"}, "toc": [{"id": "about", "t": "About this Plan"}, {"id": "meaning", "t": "What it means for you"}, {"id": "today", "t": "Amsterdam today"}, {"id": "vision", "t": "Our vision"}, {"id": "smartgrowth", "t": "The Smart Growth approach"}, {"id": "focus", "t": "Four focus areas"}, {"id": "strategy", "t": "Where growth will happen"}, {"id": "next", "t": "What happens next"}], "sections": {"about": {"title": "About this Plan", "lead": "The Comprehensive Plan is the City of Amsterdam's official guide for planning and decision-making over the next ten years.", "body": ["A Comprehensive Plan is one of the most important tools a community has. It describes where the city is today, sets out a shared vision for the future, and lays out goals and a roadmap of actions to get there. It guides decisions about land use and zoning, the city budget, grant applications, economic development, housing, the environment, and transportation.", "This Plan builds on Amsterdam's 2003 Comprehensive Plan and more than twenty years of studies and revitalization work, including the Downtown Revitalization Initiative (DRI), the Local Waterfront Revitalization Program (LWRP), and Brownfield Opportunity Area (BOA) studies in the East End, West End, and Northern Neighborhoods. It brings those efforts together under one shared vision.", "The Plan is a living document with a ten-year horizon. The City will review it regularly and update it when needed so it keeps reflecting the community's needs and goals."]}, "meaning": {"title": "What this Plan means for you", "lead": "For residents, businesses, and community partners, this Plan is about improving everyday life in Amsterdam.", "body": ["It means better access to housing that meets a range of needs, more opportunities to live and work within the community, improved public spaces, and stronger, more connected neighborhoods.", "It also means that future development will be more intentional — focused on revitalizing the places we already have, supporting local businesses, and creating a city that is more accessible, sustainable, and vibrant for everyone."]}, "today": {"title": "Amsterdam today", "lead": "The Plan begins with an honest look at Amsterdam's people, housing, economy, and neighborhoods — its strengths and the challenges to address.", "groups": [{"heading": "Our people", "items": ["About 18,218 people call Amsterdam home (2021). After decades of decline, the population is projected to hold steady and grow slightly through 2028. Amsterdam is the largest community and the only city in Montgomery County.", "Amsterdam is growing more diverse. In 2021, 30% of residents identified as non-white, up from 16% in 2010.", "Amsterdam has a strong Hispanic community — 31% of residents, twice the rate of Montgomery County (15%). The Plan recognizes this growing community as part of Amsterdam's cultural and economic identity.", "Neighborhoods differ across the city's five wards — in housing, income, and stability — which is why the Plan calls for strategies tailored to each neighborhood rather than one-size-fits-all.", "About one in four residents (24%) lives in poverty, higher than Montgomery County (17%) and New York State (14%)."]}, {"heading": "Our housing", "items": ["Housing is Amsterdam's central challenge. The vacancy rate is about 21% — well above the healthy range of 4–7% — and most homes are old: 55% were built before 1940, and less than 1% since 2000.", "Duplexes are the most common home type (41%), followed by single-family homes (40%). There is little variety for different household sizes and budgets.", "Housing costs stretch many families. 44% of renters are cost-burdened, paying more than 30% of their income on rent, and 21% are severely burdened. A typical renter household earns about $28,000 — less than half of a typical homeowner household ($60,000)."]}, {"heading": "Our economy", "items": ["Amsterdam supports good jobs in health care (42% of local jobs), manufacturing (18%), and public administration (13%), with average salaries above $55,000.", "But there is a disconnect: 77% of working residents commute out of the city for their jobs, and only 25% of the jobs located in Amsterdam are held by city residents. This points to a gap between residents' skills and available jobs — something workforce training can help close.", "Household incomes are lower here ($43,164) than in Montgomery County ($53,533) and the state. At the same time, more than 500 acres of studied brownfield land and over 100 vacant or underused sites represent real opportunity for reinvestment and new jobs."]}]}, "vision": {"title": "Our vision for the future", "lead": "Amsterdam's vision for the future is bold and ambitious.", "body": ["Today, Amsterdam is experiencing a resurgence. We are working to revitalize our downtown, enhance our waterfront, strengthen our neighborhoods, and change our image for the better. We recognize there is more work to do, but we will build on our long history of community planning and our recent successes to carry today's momentum forward.", "Tomorrow, the City of Amsterdam is a complete community with something for everyone — known across the Capital Region as the place to live, to work, and to visit. Our neighborhoods are great places to live and residents are proud to call Amsterdam home. It is a great place to start or grow a business, with jobs at every skill level. Our downtown and waterfront make Amsterdam a must-visit destination. It is safe and convenient to get around on foot, by bike, by bus, or by car. Our quality of life is unmatched, and we are committed to sustainability and resiliency for the health of our community today and tomorrow."]}, "smartgrowth": {"title": "The Smart Growth approach", "lead": "A defining feature of this Plan is that it is built on New York State's Smart Growth principles — putting investment where infrastructure and community assets already exist.", "body": ["In Amsterdam, Smart Growth means focusing investment downtown, in established neighborhoods, and along key corridors like Main Street; encouraging new building on vacant and brownfield sites in areas such as the East End and West End; and strengthening connections to the Mohawk River waterfront and to public spaces like Riverlink Park."], "principles": [{"n": "Mixed-Use Neighborhoods", "d": "Homes, shops, and gathering places close together, so people can live, work, and meet nearby."}, {"n": "Housing Diversity", "d": "A range of home types and prices for every income, life stage, and household size."}, {"n": "Compact Design", "d": "Focusing growth where infrastructure already exists to keep neighborhoods walkable and services efficient."}, {"n": "Quality Public Spaces", "d": "Accessible parks, plazas, and gathering places, shaped by resident input."}, {"n": "Strategic Infill Development", "d": "Reusing vacant and underused lots instead of spreading outward."}, {"n": "Multi-Modal Transportation", "d": "Safe ways to walk, bike, ride the bus, and drive."}, {"n": "Community Collaboration", "d": "Meaningful ways for all residents — including those often left out — to take part."}, {"n": "Sustainability & Resiliency", "d": "Preparing for a changing climate and protecting natural systems."}, {"n": "Resource Preservation", "d": "Protecting natural areas, waterways, and open space."}, {"n": "Placemaking", "d": "Celebrating Amsterdam's history, culture, and character in everything we build."}]}, "focus": {"title": "Four focus areas", "lead": "The Plan organizes its goals and its 36 recommended actions around four connected focus areas.", "areas": [{"name": "Neighborhoods & Community Building", "addresses": "Aging housing, high vacancy in some areas, and different levels of stability across neighborhoods and wards.", "strategies": ["Enable a diverse mix of housing types so anyone who wants to live in Amsterdam can find a home that fits.", "Encourage compact neighborhood design and concentrate development near existing infrastructure.", "Run an inclusive, collaborative planning process that reflects the character and needs of each neighborhood.", "Promote homeownership, working with the land bank and non-profit partners."], "actions": ["Complete a housing study of supply, demand, affordability, and quality.", "Consider a first-time home buyer program.", "Offer incentives to raise homeownership and reduce absentee-landlord problems.", "Continue and expand code enforcement and property-maintenance sweeps.", "Create pocket parks or community gardens on vacant City land.", "Create a \"Welcome\" package for new residents with City resources, events, and contacts.", "Hold regular events where residents can talk directly with City officials.", "Make sure every neighborhood has fair access to broadband internet."], "means": "Stronger, more stable neighborhoods with better housing quality and long-term investment — where anyone who wants to live in Amsterdam can find a home."}, {"name": "Economic Opportunity", "addresses": "The need for job growth and business attraction, and a stronger link between residents' skills and local jobs.", "strategies": ["Update land-use rules to allow and revitalize mixed-use neighborhoods — reusing underused lots and restoring the historic downtown building stock.", "Build on Amsterdam's unique character, events scene, and cultural diversity to make it a community of choice."], "actions": ["Use State and National Historic Registry programs to help fund rehabilitation of historic buildings.", "Create a vacant-property registry to track and raise awareness of inactive sites.", "Streamline the City's development-review process to remove unnecessary barriers to investment.", "Explore a land-use tax on vacant properties to encourage their reuse.", "Identify and market development sites downtown.", "Keep promoting the City's Microenterprise Assistance Program (AMAP).", "Survey local businesses on staffing needs and connect them to the right resources.", "Encourage new STEM and green-job industries to retain young professionals from local schools.", "Engage county and municipal partners in a joint tourism campaign.", "Integrate public art and placemaking into underused spaces, parks, and streetscapes across the city.", "Partner with AIDA and regional economic-development organizations to create affordable incubator and flex space for small businesses, reusing underused downtown buildings."], "means": "A more diverse mix of jobs at all skill levels, a vibrant mixed-use downtown, a revitalized waterfront, and more accessible jobs for residents."}, {"name": "Mobility & Active Transportation", "addresses": "The need for safer, better-connected ways to get around by foot, bike, bus, and car.", "strategies": ["Prioritize walking, cycling, and public transit — improving streetscapes, expanding trails and bikeways, improving transit, calming traffic, and adding wayfinding.", "Focus new building and reinvestment near transit, especially around the Amsterdam Multi-modal Station, to reduce car dependency.", "Improve traffic safety, including smart traffic monitoring, automated speed cameras, and reviewing speed limits in high-risk areas."], "actions": ["Continue installing electric-vehicle charging stations in public parking, and encourage them in private developments.", "Work with CDTA on outreach to promote public transportation in Amsterdam.", "Add transit amenities such as shelters, seating, and route information at bus stops.", "Study parking supply and demand and consider shared-parking strategies downtown and along key corridors.", "Create a Street Design Guide so street decisions prioritize multi-modal access and safety.", "Make creative use of the public right-of-way with parklets, sidewalk cafés, and art installations.", "Identify gaps in the sidewalk system and plan improvements and connections over time.", "Extend and connect the city's trails and paths, using pedestrian bridges where needed to complete key links."], "means": "A city where it is safe and convenient to get around however you choose, with neighborhoods, downtown, and the waterfront well connected."}, {"name": "Resiliency & Connections to Nature", "addresses": "Flood risk, underused waterfront, and the need to protect natural resources while improving access to them.", "strategies": ["Provide well-planned, equitable, and accessible public spaces — enhancing the waterfront and green spaces and connecting them with trails and bikeways.", "Preserve open space and natural resources, protecting waterfronts and green spaces for environmental health.", "Promote climate resilience and adaptation, preferably through nature-based solutions, and reduce greenhouse-gas emissions with green infrastructure, more tree canopy, and clean energy."], "actions": ["Ensure parks and open spaces are equitably distributed across the city.", "Assess demand for recreation facilities and programs and adjust to serve residents of all ages and abilities.", "Fill gaps in the multi-use trail system and connect parks and open spaces.", "Pursue Tree City USA designation and grow and maintain the city's urban forest.", "Build on Amsterdam's Trail City designation to strengthen its identity as a trail community and attract visitors and investment.", "Encourage permeable pavement for parking areas, sidewalks, and trails.", "Explore restoring and opening natural springs as publicly accessible amenities.", "Consider developing and adopting a Climate Action and Resiliency Plan.", "Run an educational campaign on natural-habitat creation and sustainable lawn and garden practices."], "means": "A more resilient, accessible, and environmentally sustainable city, with stronger connections to the Mohawk River and Chuctanunda Creek."}]}, "strategy": {"title": "Where growth will happen", "lead": "The Plan takes a place-based approach, focusing on the areas of the city with the greatest opportunity for investment and revitalization.", "places": [{"area": "Neighborhoods", "focus": "Stabilize housing, improve property conditions, and strengthen each neighborhood's identity — with strategies tailored to its needs."}, {"area": "Downtown", "focus": "Build on Downtown Revitalization Initiative (DRI) investments to attract businesses, improve public spaces, and connect downtown to surrounding neighborhoods and the waterfront."}, {"area": "Mixed-Use Corridors", "focus": "Turn key corridors like Main Street into active, connected places that blend homes, shops, and community uses."}, {"area": "Industry Centers", "focus": "Support employment hubs like the Edson Street Industrial Park, attract new business, and align workforce training with real jobs."}, {"area": "Natural Environment", "focus": "Protect the Mohawk River and Chuctanunda Creek, expand access to parks and trails, and build long-term climate resilience."}]}, "next": {"title": "What happens next", "lead": "The Plan is a starting point. Turning it into reality depends on the community.", "body": ["Over the coming years, the City will use this Plan to guide budgets, grant applications, zoning updates, and project decisions, and will report on progress as actions move forward.", "Residents, businesses, and community partners have a role in every focus area — from housing and homeownership programs to downtown revitalization, safer streets, and waterfront access. The Plan specifically calls for regular opportunities for residents to talk directly with City officials.", "To read the full Plan, share your ideas, or get involved, contact the City of Amsterdam Community and Economic Development office, 61 Church Street, Amsterdam, NY 12010, or visit www.amsterdamny.gov."]}}}, "es": {"meta": {"docTitle": "Plan Integral de Crecimiento Inteligente (Smart Growth) 2026", "docSubtitle": "Resumen para la comunidad", "city": "Ciudad de Amsterdam, Nueva York", "adopted": "Adoptado en mayo de 2026", "sourceNote": "Este es un resumen comunitario, en lenguaje sencillo, del Plan Integral de Crecimiento Inteligente (Smart Growth) de la Ciudad de Amsterdam, adoptado en mayo de 2026, que es la versión oficial y vigente del Plan. Todas las cifras provienen de los datos adoptados en el propio Plan. Este resumen se ofrece para facilitar la lectura y la difusión del Plan; no lo reemplaza. En caso de cualquier diferencia, prevalece el Plan oficial adoptado. Resumen preparado en agosto de 2026.", "ui": {"langLabel": "Idioma", "en": "English", "es": "Español", "print": "Imprimir / Guardar PDF", "tocTitle": "Contenido", "backToTop": "Volver al inicio", "strategies": "Estrategias clave", "actions": "Acciones clave", "means": "Lo que significa", "printShort": "Imprimir"}, "issued": "Resumen publicado en agosto de 2026"}, "toc": [{"id": "about", "t": "Acerca de este Plan"}, {"id": "meaning", "t": "Qué significa para usted"}, {"id": "today", "t": "Amsterdam hoy"}, {"id": "vision", "t": "Nuestra visión"}, {"id": "smartgrowth", "t": "El enfoque de Crecimiento Inteligente (Smart Growth)"}, {"id": "focus", "t": "Cuatro áreas de enfoque"}, {"id": "strategy", "t": "Dónde ocurrirá el crecimiento"}, {"id": "next", "t": "Qué sigue"}], "sections": {"about": {"title": "Acerca de este Plan", "lead": "El Plan Integral es la guía oficial de la Ciudad de Amsterdam para la planificación y la toma de decisiones durante los próximos diez años.", "body": ["Un Plan Integral es una de las herramientas más importantes con las que cuenta una comunidad. Describe dónde se encuentra la ciudad hoy, plantea una visión compartida del futuro y establece metas y una hoja de ruta de acciones para alcanzarlas. Orienta las decisiones sobre el uso del suelo y la zonificación, el presupuesto municipal, las solicitudes de subvenciones, el desarrollo económico, la vivienda, el medio ambiente y el transporte.", "Este Plan se apoya en el Plan Integral de Amsterdam de 2003 y en más de veinte años de estudios y labores de revitalización, entre ellos la Iniciativa de Revitalización del Centro (Downtown Revitalization Initiative, DRI), el Programa Local de Revitalización de la Ribera (Local Waterfront Revitalization Program, LWRP) y los estudios de Áreas de Oportunidad en Sitios Industriales Abandonados (Brownfield Opportunity Area, BOA) en el East End, el West End y los Northern Neighborhoods. Reúne todos esos esfuerzos bajo una sola visión compartida.", "El Plan es un documento vivo con un horizonte de diez años. La Ciudad lo revisará periódicamente y lo actualizará cuando sea necesario para que siga reflejando las necesidades y las metas de la comunidad."]}, "meaning": {"title": "Lo que este Plan significa para usted", "lead": "Para los residentes, las empresas y los socios comunitarios, este Plan busca mejorar la vida cotidiana en Amsterdam.", "body": ["Significa un mejor acceso a viviendas que responden a distintas necesidades, más oportunidades para vivir y trabajar dentro de la comunidad, mejores espacios públicos y vecindarios más fuertes y mejor conectados.", "También significa que el desarrollo futuro será más intencional: se enfocará en revitalizar los lugares que ya tenemos, en apoyar a los negocios locales y en crear una ciudad más accesible, sostenible y vibrante para todos."]}, "today": {"title": "Amsterdam hoy", "lead": "El Plan comienza con una mirada honesta a la gente, la vivienda, la economía y los vecindarios de Amsterdam: sus fortalezas y los desafíos que hay que atender.", "groups": [{"heading": "Nuestra gente", "items": ["Alrededor de 18,218 personas tienen su hogar en Amsterdam (2021). Después de décadas de descenso, se proyecta que la población se mantenga estable y crezca ligeramente hasta 2028. Amsterdam es la comunidad más grande y la única ciudad de Montgomery County.", "Amsterdam es cada vez más diversa. En 2021, el 30% de los residentes se identificó como no blanco, frente al 16% en 2010.", "Amsterdam tiene una comunidad hispana fuerte: el 31% de los residentes, el doble de la proporción de Montgomery County (15%). El Plan reconoce a esta comunidad en crecimiento como parte de la identidad cultural y económica de Amsterdam.", "Los vecindarios varían entre los cinco distritos de la ciudad —en vivienda, ingresos y estabilidad—, por lo que el Plan propone estrategias adaptadas a cada vecindario en lugar de una solución única para todos.", "Aproximadamente uno de cada cuatro residentes (24%) vive en la pobreza, más que en Montgomery County (17%) y en el estado de Nueva York (14%)."]}, {"heading": "Nuestra vivienda", "items": ["La vivienda es el desafío central de Amsterdam. La tasa de viviendas desocupadas es de aproximadamente 21% —muy por encima del rango saludable de 4–7%— y la mayoría de las viviendas son antiguas: el 55% se construyó antes de 1940 y menos del 1% desde 2000.", "Los dúplex son el tipo de vivienda más común (41%), seguidos por las viviendas unifamiliares (40%). Hay poca variedad para distintos tamaños de hogar y presupuestos.", "Los costos de vivienda ponen en aprietos a muchas familias. El 44% de los inquilinos tiene carga de costos de vivienda, ya que paga más del 30% de sus ingresos en alquiler, y el 21% tiene una carga severa. Un hogar típico de inquilinos gana alrededor de $28,000, menos de la mitad de lo que gana un hogar típico de propietarios ($60,000)."]}, {"heading": "Nuestra economía", "items": ["Amsterdam sostiene buenos empleos en el cuidado de la salud (42% de los empleos locales), la manufactura (18%) y la administración pública (13%), con salarios promedio superiores a $55,000.", "Pero hay una desconexión: el 77% de los residentes que trabajan se desplaza fuera de la ciudad para su empleo, y solo el 25% de los empleos ubicados en Amsterdam lo ocupan residentes de la ciudad. Esto revela una brecha entre las habilidades de los residentes y los empleos disponibles, algo que la capacitación de la fuerza laboral puede ayudar a cerrar.", "Los ingresos de los hogares aquí son más bajos ($43,164) que en Montgomery County ($53,533) y que en el estado. Al mismo tiempo, más de 500 acres de terrenos industriales abandonados o baldíos (brownfield) ya estudiados y más de 100 sitios desocupados o subutilizados representan una verdadera oportunidad para la reinversión y nuevos empleos."]}]}, "vision": {"title": "Nuestra visión para el futuro", "lead": "La visión de Amsterdam para el futuro es audaz y ambiciosa.", "body": ["Hoy, Amsterdam vive un resurgimiento. Estamos trabajando para revitalizar nuestro centro, mejorar nuestra ribera, fortalecer nuestros vecindarios y cambiar nuestra imagen para bien. Reconocemos que aún queda trabajo por hacer, pero nos apoyaremos en nuestra larga historia de planificación comunitaria y en nuestros logros recientes para mantener el impulso que tenemos hoy.", "El día de mañana, la Ciudad de Amsterdam es una comunidad completa con algo para todos, reconocida en toda la Región Capital como el lugar para vivir, trabajar y visitar. Nuestros vecindarios son excelentes lugares para vivir, y los residentes se sienten orgullosos de llamar a Amsterdam su hogar. Es un gran lugar para abrir o hacer crecer un negocio, con empleos para todos los niveles de habilidad. Nuestro centro y nuestra ribera hacen de Amsterdam un destino de visita obligada. Es seguro y cómodo desplazarse a pie, en bicicleta, en autobús o en automóvil. Nuestra calidad de vida es inigualable, y estamos comprometidos con la sostenibilidad y la resiliencia para la salud de nuestra comunidad, hoy y mañana."]}, "smartgrowth": {"title": "El enfoque de Crecimiento Inteligente (Smart Growth)", "lead": "Una característica que distingue a este Plan es que se basa en los principios de Crecimiento Inteligente del estado de Nueva York: dirigir la inversión hacia donde ya existen la infraestructura y los recursos de la comunidad.", "body": ["En Amsterdam, el Crecimiento Inteligente significa concentrar la inversión en el centro, en los vecindarios ya establecidos y a lo largo de corredores clave como Main Street; impulsar nuevas construcciones en terrenos desocupados y en sitios industriales abandonados o baldíos (brownfield) en zonas como el East End y el West End; y fortalecer las conexiones con la ribera del río Mohawk y con espacios públicos como Riverlink Park."], "principles": [{"n": "Vecindarios de uso mixto", "d": "Viviendas, comercios y lugares de encuentro cercanos entre sí, para que las personas puedan vivir, trabajar y reunirse sin tener que ir lejos."}, {"n": "Diversidad de vivienda", "d": "Una variedad de tipos y precios de vivienda para cada nivel de ingresos, etapa de la vida y tamaño de hogar."}, {"n": "Diseño compacto", "d": "Concentrar el crecimiento donde ya existe la infraestructura, para mantener los vecindarios caminables y los servicios eficientes."}, {"n": "Espacios públicos de calidad", "d": "Parques, plazas y lugares de encuentro accesibles, diseñados con la participación de los residentes."}, {"n": "Desarrollo de relleno urbano estratégico", "d": "Reutilizar terrenos baldíos y subutilizados en lugar de expandirse hacia afuera."}, {"n": "Transporte multimodal", "d": "Formas seguras de caminar, andar en bicicleta, tomar el autobús y conducir."}, {"n": "Colaboración comunitaria", "d": "Maneras significativas para que todos los residentes participen, incluidos aquellos que a menudo quedan excluidos."}, {"n": "Sostenibilidad y resiliencia", "d": "Prepararse para un clima cambiante y proteger los sistemas naturales."}, {"n": "Preservación de recursos", "d": "Proteger las áreas naturales, los cursos de agua y los espacios abiertos."}, {"n": "Creación de lugares (placemaking)", "d": "Celebrar la historia, la cultura y el carácter de Amsterdam en todo lo que construimos."}]}, "focus": {"title": "Cuatro áreas de enfoque", "lead": "El Plan organiza sus objetivos y sus 36 acciones recomendadas en torno a cuatro áreas de enfoque conectadas entre sí.", "areas": [{"name": "Vecindarios y fortalecimiento comunitario", "addresses": "La antigüedad de las viviendas, los altos niveles de viviendas desocupadas en algunas zonas y los distintos niveles de estabilidad entre los vecindarios y los distritos.", "strategies": ["Permitir una mezcla diversa de tipos de vivienda para que cualquier persona que quiera vivir en Amsterdam pueda encontrar un hogar que se ajuste a sus necesidades.", "Fomentar un diseño compacto de los vecindarios y concentrar el desarrollo cerca de la infraestructura existente.", "Llevar a cabo un proceso de planificación inclusivo y colaborativo que refleje el carácter y las necesidades de cada vecindario.", "Promover la propiedad de vivienda, en colaboración con el banco de terrenos y organizaciones sin fines de lucro."], "actions": ["Completar un estudio de vivienda sobre la oferta, la demanda, la asequibilidad y la calidad.", "Considerar un programa para compradores de vivienda por primera vez.", "Ofrecer incentivos para aumentar la propiedad de vivienda y reducir los problemas de propietarios ausentes.", "Continuar y ampliar la aplicación de los códigos y los operativos de inspección del mantenimiento de las propiedades.", "Crear parques de bolsillo o huertos comunitarios en terrenos municipales baldíos.", "Crear un paquete de \"Bienvenida\" para los nuevos residentes con recursos, eventos y contactos de la Ciudad.", "Organizar eventos periódicos donde los residentes puedan hablar directamente con los funcionarios de la Ciudad.", "Asegurar que cada vecindario tenga acceso equitativo a internet de banda ancha."], "means": "Vecindarios más fuertes y estables, con viviendas de mejor calidad e inversión a largo plazo, donde cualquier persona que quiera vivir en Amsterdam pueda encontrar un hogar."}, {"name": "Oportunidad económica", "addresses": "La necesidad de crear empleos y atraer negocios, y de fortalecer el vínculo entre las habilidades de los residentes y los empleos locales.", "strategies": ["Actualizar las normas de uso del suelo para permitir y revitalizar los vecindarios de uso mixto, reutilizando los lotes subutilizados y restaurando las edificaciones históricas del centro.", "Aprovechar el carácter singular de Amsterdam, su oferta de eventos y su diversidad cultural para convertirla en una comunidad preferida."], "actions": ["Utilizar los programas de los Registros Históricos Estatal y Nacional para ayudar a financiar la rehabilitación de edificios históricos.", "Crear un registro de propiedades desocupadas para dar seguimiento y crear conciencia sobre los sitios inactivos.", "Agilizar el proceso municipal de revisión de proyectos para eliminar barreras innecesarias a la inversión.", "Explorar un impuesto sobre el uso del suelo para las propiedades desocupadas que incentive su reutilización.", "Identificar y promocionar sitios para desarrollo en el centro.", "Seguir promoviendo el Programa de Asistencia a Microempresas de la Ciudad (AMAP).", "Encuestar a los negocios locales sobre sus necesidades de personal y conectarlos con los recursos adecuados.", "Fomentar nuevas industrias de STEM y de empleos verdes para retener a los jóvenes profesionales de las escuelas locales.", "Involucrar a socios del condado y municipales en una campaña conjunta de turismo.", "Integrar el arte público y la creación de lugares (placemaking) en espacios subutilizados, parques y entornos de las calles en toda la ciudad.", "Asociarse con AIDA y organizaciones regionales de desarrollo económico para crear espacios asequibles de incubadora y espacios flexibles para pequeños negocios, reutilizando edificios subutilizados del centro."], "means": "Una combinación más diversa de empleos en todos los niveles de habilidad, un centro dinámico de uso mixto, una ribera revitalizada y empleos más accesibles para los residentes."}, {"name": "Movilidad y transporte activo", "addresses": "La necesidad de contar con formas más seguras y mejor conectadas de desplazarse a pie, en bicicleta, en autobús y en automóvil.", "strategies": ["Priorizar la caminata, el ciclismo y el transporte público, mejorando los entornos de las calles, ampliando senderos y ciclovías, mejorando el transporte público, calmando el tráfico y añadiendo señalización de orientación.", "Concentrar la nueva construcción y la reinversión cerca del transporte público, especialmente en los alrededores de la Amsterdam Multi-modal Station, para reducir la dependencia del automóvil.", "Mejorar la seguridad vial, incluyendo el monitoreo inteligente del tráfico, cámaras automáticas de velocidad y la revisión de los límites de velocidad en zonas de alto riesgo."], "actions": ["Continuar instalando estaciones de carga para vehículos eléctricos en los estacionamientos públicos y fomentarlas en los desarrollos privados.", "Trabajar con CDTA en actividades de difusión para promover el transporte público en Amsterdam.", "Añadir comodidades de transporte, como casetas, asientos e información de rutas, en las paradas de autobús.", "Estudiar la oferta y la demanda de estacionamiento y considerar estrategias de estacionamiento compartido en el centro y a lo largo de los corredores principales.", "Crear una Guía de Diseño de Calles para que las decisiones sobre las calles prioricen el acceso multimodal y la seguridad.", "Dar un uso creativo a la vía pública con parklets, cafés en las aceras e instalaciones de arte.", "Identificar los vacíos en la red de aceras y planificar mejoras y conexiones con el tiempo.", "Extender y conectar los senderos y caminos de la ciudad, utilizando puentes peatonales donde sea necesario para completar los enlaces principales."], "means": "Una ciudad donde es seguro y cómodo desplazarse de la manera que usted prefiera, con los vecindarios, el centro y la ribera bien conectados."}, {"name": "Resiliencia y conexión con la naturaleza", "addresses": "El riesgo de inundaciones, una ribera subutilizada y la necesidad de proteger los recursos naturales a la vez que se mejora el acceso a ellos.", "strategies": ["Ofrecer espacios públicos bien planificados, equitativos y accesibles, mejorando la ribera y los espacios verdes y conectándolos mediante senderos y ciclovías.", "Preservar los espacios abiertos y los recursos naturales, protegiendo las riberas y los espacios verdes para la salud ambiental.", "Promover la resiliencia y la adaptación climática, preferiblemente mediante soluciones basadas en la naturaleza, y reducir las emisiones de gases de efecto invernadero con infraestructura verde, mayor cobertura arbórea y energía limpia."], "actions": ["Asegurar que los parques y los espacios abiertos se distribuyan de manera equitativa por toda la ciudad.", "Evaluar la demanda de instalaciones y programas de recreación y ajustarlos para atender a residentes de todas las edades y capacidades.", "Cerrar los vacíos en la red de senderos de uso múltiple y conectar los parques y los espacios abiertos.", "Buscar la designación Tree City USA y hacer crecer y mantener el bosque urbano de la ciudad.", "Aprovechar la designación de Amsterdam como Trail City para fortalecer su identidad como comunidad de senderos y atraer visitantes e inversión.", "Fomentar el pavimento permeable en las áreas de estacionamiento, las aceras y los senderos.", "Explorar la restauración y apertura de manantiales naturales como espacios de acceso público.", "Considerar la elaboración y adopción de un Plan de Acción Climática y Resiliencia.", "Realizar una campaña educativa sobre la creación de hábitats naturales y las prácticas sostenibles de jardines y céspedes."], "means": "Una ciudad más resiliente, accesible y ambientalmente sostenible, con conexiones más fuertes con el Mohawk River y el Chuctanunda Creek."}]}, "strategy": {"title": "Dónde ocurrirá el crecimiento", "lead": "El Plan adopta un enfoque basado en los lugares, concentrándose en las zonas de la ciudad con mayor oportunidad de inversión y revitalización.", "places": [{"area": "Los vecindarios", "focus": "Estabilizar la vivienda, mejorar las condiciones de las propiedades y fortalecer la identidad de cada vecindario, con estrategias adaptadas a sus necesidades."}, {"area": "El centro", "focus": "Aprovechar las inversiones de la Iniciativa de Revitalización del Centro (DRI) para atraer negocios, mejorar los espacios públicos y conectar el centro con los vecindarios aledaños y la ribera."}, {"area": "Corredores de uso mixto", "focus": "Convertir corredores clave como Main Street en lugares activos y conectados que combinen viviendas, comercios y usos comunitarios."}, {"area": "Centros industriales", "focus": "Apoyar centros de empleo como el Edson Street Industrial Park, atraer nuevos negocios y alinear la capacitación de la fuerza laboral con los empleos reales."}, {"area": "El entorno natural", "focus": "Proteger el Mohawk River y el Chuctanunda Creek, ampliar el acceso a parques y senderos, y desarrollar la resiliencia climática a largo plazo."}]}, "next": {"title": "Qué sigue ahora", "lead": "El Plan es un punto de partida. Hacerlo realidad depende de la comunidad.", "body": ["En los próximos años, la Ciudad usará este Plan para orientar los presupuestos, las solicitudes de subvenciones, las actualizaciones de la zonificación y las decisiones sobre proyectos, e informará sobre los avances a medida que las acciones se pongan en marcha.", "Los residentes, los negocios y los socios comunitarios tienen un papel en cada Área de Enfoque: desde los programas de vivienda y de propiedad de vivienda hasta la revitalización del centro, las calles más seguras y el acceso a la ribera. El Plan pide específicamente que haya oportunidades periódicas para que los residentes hablen directamente con los funcionarios de la Ciudad.", "Para leer el Plan completo, compartir sus ideas o participar, comuníquese con la oficina de Desarrollo Comunitario y Económico de la Ciudad de Amsterdam, 61 Church Street, Amsterdam, NY 12010, o visite www.amsterdamny.gov."]}}}};
+
+const CREST = '<svg class="crest" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 2.6 27.4 7.6v9c0 6.8-4.7 11.7-11.4 13.5C9.3 28.3 4.6 23.4 4.6 16.6v-9L16 2.6Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M9.6 19.4c2.2-1.6 3.8-1.6 6.4 0s4.2 1.6 6.4 0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M9.6 22.6c2.2-1.6 3.8-1.6 6.4 0s4.2 1.6 6.4 0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M12.4 14.6V10L16 7.4 19.6 10v4.6" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>';
+const RIVER = '<svg class="river" viewBox="0 0 1000 150" preserveAspectRatio="none" aria-hidden="true"><path d="M0 92C130 60 210 118 340 98 470 78 545 124 670 104 795 84 880 118 1000 92" fill="none" stroke="#E8CE8A" stroke-width="2.2" opacity=".7"/><path d="M0 112C150 84 230 132 355 114 490 94 560 138 690 120 815 102 900 130 1000 108" fill="none" stroke="#fff" stroke-width="1.6" opacity=".45"/><path d="M0 132C160 108 245 150 370 132 505 112 580 152 705 136 830 120 905 146 1000 126" fill="none" stroke="#E8CE8A" stroke-width="1.3" opacity=".4"/></svg>';
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const el = (t,c,h) => { const e=document.createElement(t); if(c)e.className=c; if(h!=null)e.innerHTML=h; return e; };
+
+function render(lang){
+  const C = CONTENT[lang], S = C.sections, M = C.meta, U = M.ui;
+  document.documentElement.lang = lang;
+  document.title = M.city.replace(/,.*/,'') + ' — ' + M.docSubtitle;
+  document.getElementById('brandName').textContent = M.city.replace(/,.*/,'');
+  document.getElementById('brandSub').textContent = lang==='es' ? 'Nueva York' : 'New York';
+  document.getElementById('printLabel').textContent = U.printShort || U.print;
+  document.getElementById('printBtn').setAttribute('aria-label', U.print);
+  const app = document.getElementById('app');
+  app.innerHTML = '';
+
+  // Cover
+  const cover = el('div','cover');
+  cover.innerHTML = RIVER + '<div class="cover-in">' + CREST +
+    '<div class="eyebrow">'+esc(M.docTitle)+'</div>'+
+    '<h1>'+esc(M.docSubtitle)+'</h1>'+
+    '<div class="rule"></div>'+
+    '<p class="lede">'+esc(S.meaning.lead)+'</p>'+
+    '<div class="meta-row"><span class="chip gold"><span class="dot"></span>'+esc(M.adopted)+'</span>'+
+    '<span class="chip">'+esc(M.city)+'</span>'+
+    (M.issued?'<span class="chip">'+esc(M.issued)+'</span>':'')+'</div></div>';
+  app.appendChild(cover);
+
+  // TOC
+  const toc = el('nav','toc');
+  toc.innerHTML = '<div class="toc-in"><div class="eyebrow">'+esc(U.tocTitle)+'</div><ol>'+
+    C.toc.map(t=>'<li><a href="#'+esc(t.id)+'">'+esc(t.t)+'</a></li>').join('')+'</ol></div>';
+  app.appendChild(toc);
+
+  const main = el('main'), wrap = el('div','wrap');
+  main.appendChild(wrap); app.appendChild(main);
+
+  let n = 0;
+  const head = s => { n++; return '<div class="s-head"><span class="num">'+String(n).padStart(2,'0')+'</span><h2>'+esc(s.title)+'</h2>'+(s.lead?'<p class="lead">'+esc(s.lead)+'</p>':'')+'</div>'; };
+  const prose = a => '<div class="prose">'+a.map(p=>'<p>'+esc(p)+'</p>').join('')+'</div>';
+  const sec = (id,cls,html) => { const s=el('section',cls); s.id=id; s.innerHTML=html; wrap.appendChild(s); };
+
+  sec('about','', head(S.about)+prose(S.about.body));
+  sec('meaning','', head(S.meaning)+prose(S.meaning.body));
+
+  let t = head(S.today)+'<div class="groups">';
+  S.today.groups.forEach(g=>{
+    t += '<div class="group"><h3>'+esc(g.heading)+'</h3><div class="facts">';
+    g.items.forEach(it=>{ const hi=/Hispanic|hispana|hispano/i.test(it)?' hi':''; t+='<div class="fact'+hi+'"><div class="mark"></div><p>'+esc(it)+'</p></div>'; });
+    t += '</div></div>';
+  });
+  sec('today','', t+'</div>');
+
+  sec('vision','', head(S.vision)+'<div class="vision-quote">'+S.vision.body.map(p=>'<p>'+esc(p)+'</p>').join('')+'</div>');
+
+  let sg = head(S.smartgrowth)+prose(S.smartgrowth.body)+'<div class="principles">';
+  S.smartgrowth.principles.forEach(p=>{ sg+='<div class="principle"><div class="pn">'+esc(p.n)+'</div><div class="pd">'+esc(p.d)+'</div></div>'; });
+  sec('smartgrowth','', sg+'</div>');
+
+  let f = head(S.focus);
+  S.focus.areas.forEach((a,i)=>{
+    f += '<div class="fa" data-fa="'+i+'"><div class="fa-top"><div class="fa-num">'+(i+1)+'</div>'+
+      '<div><h3>'+esc(a.name)+'</h3><div class="addr">'+esc(a.addresses)+'</div></div></div><div class="fa-body">'+
+      '<div class="fa-block"><div class="label">'+esc(U.strategies)+'</div><ul>'+a.strategies.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>'+
+      '<div class="fa-block"><div class="label">'+esc(U.actions)+'</div><ul>'+a.actions.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>'+
+      '<div class="means"><div class="label">'+esc(U.means)+'</div>'+esc(a.means)+'</div></div></div>';
+  });
+  sec('focus','', f);
+
+  let st = head(S.strategy)+'<div class="places">';
+  S.strategy.places.forEach(p=>{ st+='<div class="place"><div class="pa">'+esc(p.area)+'</div><div class="pf">'+esc(p.focus)+'</div></div>'; });
+  sec('strategy','', st+'</div>');
+
+  sec('next','', head(S.next)+prose(S.next.body));
+
+  const foot = el('footer');
+  foot.innerHTML = '<div class="foot-in">'+CREST.replace('class="crest"','class="foot-seal"')+
+    '<p class="src">'+esc(M.sourceNote)+'</p><a class="totop" href="#">'+esc(U.backToTop)+' ↑</a></div>';
+  app.appendChild(foot);
+
+  document.querySelectorAll('#langSeg button').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.lang===lang)));
+}
+
+let LANG='en';
+try{
+  const q=new URLSearchParams(location.search).get('lang'), sv=localStorage.getItem('amsPlanLang');
+  LANG=(q==='es'||q==='en')?q:(sv||((navigator.language||'').toLowerCase().startsWith('es')?'es':'en'));
+}catch(e){}
+if(!CONTENT[LANG]) LANG='en';
+document.getElementById('langSeg').addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b)return;
+  LANG=b.dataset.lang; try{localStorage.setItem('amsPlanLang',LANG);}catch(e){}
+  render(LANG);
+});
+document.getElementById('printBtn').addEventListener('click',()=>window.print());
+render(LANG);
+</script>
+
+</body>
+</html>
