@@ -3,7 +3,7 @@
 A plain-language, **bilingual (English / Español)** community summary of the City of Amsterdam, New York
 **Smart Growth Comprehensive Plan, adopted May 2026**.
 
-**Read it here:** https://IANUSER.github.io/amsterdam-comprehensive-plan/
+**Read it here:** https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/
 
 ## What this is
 
