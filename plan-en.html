@@ -954,16 +954,22 @@ footer{background:#fff;color:#000}}
 /* The browser jumps to #pN at parse time, then webfonts load and shift the
    layout, leaving the reader short of the page. Re-anchor once things settle. */
 (function(){
+  var userMoved = false;
   function land(){
+    if (userMoved) return;                 /* never fight a reader who has scrolled */
     var id = decodeURIComponent((location.hash || '').slice(1));
     if(!id) return;
     var el = document.getElementById(id);
-    if(el) el.scrollIntoView({block:'start'});
+    if(!el) return;
+    var off = el.getBoundingClientRect().top;
+    if (Math.abs(off) > 8) el.scrollIntoView({block:'start'});
   }
   addEventListener('load', land);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(land);
-  setTimeout(land, 400);
-  addEventListener('hashchange', land);
+  [120, 400, 900, 1600].forEach(function(t){ setTimeout(land, t); });
+  addEventListener('hashchange', function(){ userMoved = false; land(); });
+  addEventListener('wheel', function(){ userMoved = true; }, {passive:true, once:true});
+  addEventListener('touchmove', function(){ userMoved = true; }, {passive:true, once:true});
 })();
 </script>
 </body>
