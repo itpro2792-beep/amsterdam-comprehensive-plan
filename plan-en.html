@@ -950,5 +950,21 @@ footer{background:#fff;color:#000}}
 </section>
 </div>
 <footer><div class="in">Full text edition prepared August 2026 · City of Amsterdam, New York · <a href="index.html">Community summary</a> · <a href="plan/Amsterdam-2026-Plan-Final.pdf" target="_blank" rel="noopener">Official Plan (PDF)</a></div></footer>
+<script>
+/* The browser jumps to #pN at parse time, then webfonts load and shift the
+   layout, leaving the reader short of the page. Re-anchor once things settle. */
+(function(){
+  function land(){
+    var id = decodeURIComponent((location.hash || '').slice(1));
+    if(!id) return;
+    var el = document.getElementById(id);
+    if(el) el.scrollIntoView({block:'start'});
+  }
+  addEventListener('load', land);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(land);
+  setTimeout(land, 400);
+  addEventListener('hashchange', land);
+})();
+</script>
 </body>
 </html>
