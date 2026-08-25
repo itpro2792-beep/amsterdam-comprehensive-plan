@@ -87,7 +87,7 @@
     "A Comprehensive Plan is one of the most important tools a community has. It describes where the city is today, sets out a shared vision for the future, and lays out goals and a roadmap of actions to get there. It guides decisions about land use and zoning, the city budget, grant applications, economic development, housing, the environment, and transportation.",
     "This Plan builds on Amsterdam's 2003 Comprehensive Plan and more than twenty years of studies and revitalization work, including the Downtown Revitalization Initiative (DRI), the Local Waterfront Revitalization Program (LWRP), and Brownfield Opportunity Area (BOA) studies in the East End, West End, and Northern Neighborhoods. It brings those efforts together under one shared vision.",
     "The Plan is a living document with a ten-year horizon. The City will review it regularly and update it when needed so it keeps reflecting the community's needs and goals.",
-    "This summary condenses the full 90-page adopted Plan. It links into it throughout — every page button opens the official document at that exact page, and the Full Plan button at the top opens the entire PDF."
+    "This summary condenses the full 90-page adopted Plan and links to it throughout. Every page button opens the full text of the Plan at that page, where the designed page — with its maps, photographs and charts — can also be viewed. The Full Plan button at the top opens the official PDF."
    ],
    "planPage": 6
   },
@@ -348,7 +348,7 @@
    "title": "What happens next",
    "lead": "The Plan is a starting point. Turning it into reality depends on the community.",
    "body": [
-    "Over the coming years, the City will use this Plan to guide budgets, grant applications, zoning updates, and project decisions, and will report on progress as actions move forward.",
+    "Over the coming years, the City will use this Plan to guide budgets, grant applications, zoning updates, and project decisions. The Plan recommends the City review it every one to two years to make sure it still reflects the community's needs.",
     "Residents, businesses, and community partners have a role in every focus area — from housing and homeownership programs to downtown revitalization, safer streets, and waterfront access. The Plan specifically calls for regular opportunities for residents to talk directly with City officials.",
     "To read the full Plan, share your ideas, or get involved, contact the City of Amsterdam Community and Economic Development office, 61 Church Street, Amsterdam, NY 12010, or visit www.amsterdamny.gov."
    ]
@@ -406,13 +406,13 @@
     {
      "t": "The adopted Plan",
      "d": "The complete official document — every chapter, map, and action.",
-     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Final.pdf",
+     "href": "plan/Amsterdam-2026-Plan-Final.pdf",
      "meta": "PDF · 16 MB · 90 pages"
     },
     {
      "t": "The Plan in Spanish",
      "d": "The complete Plan, all 90 pages, translated into Spanish — a courtesy edition to read online or print.",
-     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan-es.html",
+     "href": "plan-es.html",
      "meta": "WEB · ESPAÑOL · 90 pages"
     },
     {
@@ -424,19 +424,19 @@
     {
      "t": "The Plan in Spanish (PDF)",
      "d": "The designed document itself — same pages, same maps and photos — with the text in Spanish. A courtesy translation.",
-     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Final-ES.pdf",
+     "href": "plan/Amsterdam-2026-Plan-Final-ES.pdf",
      "meta": "PDF · ESPAÑOL · 90 pages"
     },
     {
      "t": "Executive Summary",
      "d": "The City’s own 8-page overview of the Plan.",
-     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Executive-Summary.pdf",
+     "href": "plan/Amsterdam-2026-Plan-Executive-Summary.pdf",
      "meta": "PDF · 1.2 MB · 8 pages"
     },
     {
      "t": "February 2026 Draft",
      "d": "The earlier public-review draft, kept for the record. The adopted Plan above supersedes it.",
-     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Draft-Feb2026.pdf",
+     "href": "plan/Amsterdam-2026-Plan-Draft-Feb2026.pdf",
      "meta": "PDF · 13 MB · superseded"
     },
     {

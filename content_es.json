@@ -87,7 +87,7 @@
     "Un Plan Integral es una de las herramientas más importantes con las que cuenta una comunidad. Describe dónde se encuentra la ciudad hoy, plantea una visión compartida del futuro y establece metas y una hoja de ruta de acciones para alcanzarlas. Orienta las decisiones sobre el uso del suelo y la zonificación, el presupuesto municipal, las solicitudes de subvenciones, el desarrollo económico, la vivienda, el medio ambiente y el transporte.",
     "Este Plan se apoya en el Plan Integral de Amsterdam de 2003 y en más de veinte años de estudios y labores de revitalización, entre ellos la Iniciativa de Revitalización del Centro (Downtown Revitalization Initiative, DRI), el Programa Local de Revitalización de la Ribera (Local Waterfront Revitalization Program, LWRP) y los estudios de Áreas de Oportunidad en Sitios Industriales Abandonados (Brownfield Opportunity Area, BOA) en el East End, el West End y los Northern Neighborhoods. Reúne todos esos esfuerzos bajo una sola visión compartida.",
     "El Plan es un documento vivo con un horizonte de diez años. La Ciudad lo revisará periódicamente y lo actualizará cuando sea necesario para que siga reflejando las necesidades y las metas de la comunidad.",
-    "Este resumen condensa el Plan adoptado completo, de 90 páginas. Enlaza con él en todo el documento: cada botón de página abre el documento oficial en la página exacta, y el botón «Plan completo», arriba, abre el PDF íntegro."
+    "Este resumen condensa el Plan adoptado completo, de 90 páginas, y enlaza con él en todo el documento. Cada botón de página abre el texto completo del Plan en esa página, donde también puede verse la página tal como fue diseñada, con sus mapas y fotografías. El botón «Plan completo», arriba, abre la edición en español."
    ],
    "planPage": 6
   },
@@ -106,7 +106,7 @@
     {
      "heading": "Nuestra gente",
      "items": [
-      "Alrededor de 18,218 personas tienen su hogar en Amsterdam (2021). Después de décadas de descenso, se proyecta que la población se mantenga estable y crezca ligeramente hasta 2028. Amsterdam es la comunidad más grande y la única ciudad de Montgomery County.",
+      "Alrededor de 18,218 personas tienen su hogar en Amsterdam (2021). Después de décadas de descenso, se proyecta que la población se mantenga estable y crezca ligeramente hasta 2028. Amsterdam es la comunidad más grande y la única ciudad de condado de Montgomery (Montgomery County).",
       "Amsterdam es cada vez más diversa. En 2021, el 30% de los residentes se identificó como no blanco, frente al 16% en 2010.",
       "Amsterdam tiene una comunidad hispana fuerte: el 31% de los residentes, el doble de la proporción de Montgomery County (15%). El Plan reconoce a esta comunidad en crecimiento como parte de la identidad cultural y económica de Amsterdam.",
       "Los vecindarios varían entre los cinco distritos de la ciudad —en vivienda, ingresos y estabilidad—, por lo que el Plan propone estrategias adaptadas a cada vecindario en lugar de una solución única para todos.",
@@ -118,7 +118,7 @@
      "items": [
       "La vivienda es el desafío central de Amsterdam. La tasa de viviendas desocupadas es de aproximadamente 21% —muy por encima del rango saludable de 4–7%— y la mayoría de las viviendas son antiguas: el 55% se construyó antes de 1940 y menos del 1% desde 2000.",
       "Los dúplex son el tipo de vivienda más común (41%), seguidos por las viviendas unifamiliares (40%). Hay poca variedad para distintos tamaños de hogar y presupuestos.",
-      "Los costos de vivienda ponen en aprietos a muchas familias. El 44% de los inquilinos tiene carga de costos de vivienda, ya que paga más del 30% de sus ingresos en alquiler, y el 21% tiene una carga severa. Un hogar típico de inquilinos gana alrededor de $28,000, menos de la mitad de lo que gana un hogar típico de propietarios ($60,000)."
+      "El 44% de los inquilinos está sobrecargado por el costo de la vivienda, es decir, destina más del 30% de sus ingresos al alquiler, y el 21% lo está severamente."
      ]
     },
     {
@@ -155,7 +155,7 @@
    "lead": "La visión de Amsterdam para el futuro es audaz y ambiciosa.",
    "body": [
     "Hoy, Amsterdam vive un resurgimiento. Estamos trabajando para revitalizar nuestro centro, mejorar nuestra ribera, fortalecer nuestros vecindarios y cambiar nuestra imagen para bien. Reconocemos que aún queda trabajo por hacer, pero nos apoyaremos en nuestra larga historia de planificación comunitaria y en nuestros logros recientes para mantener el impulso que tenemos hoy.",
-    "El día de mañana, la Ciudad de Amsterdam es una comunidad completa con algo para todos, reconocida en toda la Región Capital como el lugar para vivir, trabajar y visitar. Nuestros vecindarios son excelentes lugares para vivir, y los residentes se sienten orgullosos de llamar a Amsterdam su hogar. Es un gran lugar para abrir o hacer crecer un negocio, con empleos para todos los niveles de habilidad. Nuestro centro y nuestra ribera hacen de Amsterdam un destino de visita obligada. Es seguro y cómodo desplazarse a pie, en bicicleta, en autobús o en automóvil. Nuestra calidad de vida es inigualable, y estamos comprometidos con la sostenibilidad y la resiliencia para la salud de nuestra comunidad, hoy y mañana."
+    "El día de mañana, la Ciudad de Amsterdam es una comunidad completa con algo para todos, reconocida en toda la Región Capital como el lugar para vivir, trabajar y visitar. Nuestros vecindarios son excelentes lugares para vivir, y los residentes se sienten orgullosos de llamar a Amsterdam su hogar. Es un gran lugar para abrir o hacer crecer un negocio, con empleos para todos los niveles de destreza. Nuestro centro y nuestra ribera hacen de Amsterdam un destino de visita obligada. Es seguro y cómodo desplazarse a pie, en bicicleta, en autobús o en automóvil. Nuestra calidad de vida es inigualable, y estamos comprometidos con la sostenibilidad y la resiliencia para la salud de nuestra comunidad, hoy y mañana."
    ],
    "planPage": 59
   },
@@ -304,7 +304,7 @@
       "Considerar la elaboración y adopción de un Plan de Acción Climática y Resiliencia.",
       "Realizar una campaña educativa sobre la creación de hábitats naturales y las prácticas sostenibles de jardines y céspedes."
      ],
-     "means": "Una ciudad más resiliente, accesible y ambientalmente sostenible, con conexiones más fuertes con el Mohawk River y el Chuctanunda Creek.",
+     "means": "Una ciudad más resiliente, accesible y ambientalmente sostenible, con conexiones más fuertes con el río Mohawk y el arroyo Chuctanunda (Chuctanunda Creek).",
      "more": "El Plan reconoce que los parques, los espacios verdes y las riberas de Amsterdam cumplen un papel vital en el medio ambiente de la ciudad, el bienestar de la comunidad y el turismo; por eso, cuidarlos es cuidar la vida cotidiana en Amsterdam. La Ciudad ya está probando nuevos enfoques para mejorar la ribera a través de su Programa Local de Revitalización de la Ribera (Local Waterfront Revitalization Program, LWRP) actualizado, y para limpiar y redesarrollar terrenos industriales abandonados o baldíos (brownfield), como el sitio de Five Corners, a través del programa de Áreas de Oportunidad en Sitios Industriales Abandonados (Brownfield Opportunity Area, BOA). Mirando hacia el futuro, la visión del Plan es una ciudad que se ha adelantado a los riesgos climáticos del futuro, protegiendo las propiedades, la infraestructura y a sus residentes vulnerables.",
      "planPage": 66,
      "actionsPage": 67
@@ -338,7 +338,7 @@
     },
     {
      "area": "El entorno natural",
-     "focus": "Proteger el Mohawk River y el Chuctanunda Creek, ampliar el acceso a parques y senderos, y desarrollar la resiliencia climática a largo plazo.",
+     "focus": "Proteger el río Mohawk y el arroyo Chuctanunda (Chuctanunda Creek), ampliar el acceso a parques y senderos, y desarrollar la resiliencia climática a largo plazo.",
      "planPage": 86
     }
    ],
@@ -348,7 +348,7 @@
    "title": "Qué sigue ahora",
    "lead": "El Plan es un punto de partida. Hacerlo realidad depende de la comunidad.",
    "body": [
-    "En los próximos años, la Ciudad usará este Plan para orientar los presupuestos, las solicitudes de subvenciones, las actualizaciones de la zonificación y las decisiones sobre proyectos, e informará sobre los avances a medida que las acciones se pongan en marcha.",
+    "En los próximos años, la Ciudad usará este Plan para orientar los presupuestos, las solicitudes de subvenciones, las actualizaciones de la zonificación y las decisiones sobre proyectos. El Plan recomienda que la Ciudad lo revise cada uno o dos años para asegurarse de que siga reflejando las necesidades de la comunidad.",
     "Los residentes, los negocios y los socios comunitarios tienen un papel en cada Área de Enfoque: desde los programas de vivienda y de propiedad de vivienda hasta la revitalización del centro, las calles más seguras y el acceso a la ribera. El Plan pide específicamente que haya oportunidades periódicas para que los residentes hablen directamente con los funcionarios de la Ciudad.",
     "Para leer el Plan completo, compartir sus ideas o participar, comuníquese con la oficina de Desarrollo Comunitario y Económico de la Ciudad de Amsterdam, 61 Church Street, Amsterdam, NY 12010, o visite www.amsterdamny.gov."
    ]
@@ -386,7 +386,7 @@
      "def": "Calles diseñadas para que todos puedan desplazarse con seguridad: a pie, en bicicleta, en automóvil o en autobús. El proyecto de Entrada al Centro y Calles Completas (Downtown Gateway & Complete Streets) de Amsterdam está llevando nuevas aceras, cruces peatonales, iluminación y nuevos árboles a East Main Street, a la Main Street del centro y a Bridge Street."
     },
     {
-     "term": "Carga de costos de vivienda (cost-burdened)",
+     "term": "Sobrecargado por el costo de la vivienda (cost-burdened)",
      "def": "Un hogar que gasta más del 30% de sus ingresos en los costos de vivienda; una carga \"severa\" significa gastar más del 50%. En Amsterdam, el 44% de los inquilinos y el 16% de los propietarios tienen carga de costos de vivienda."
     },
     {
@@ -406,13 +406,13 @@
     {
      "t": "El Plan adoptado",
      "d": "El documento oficial completo: cada capítulo, mapa y acción.",
-     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Final.pdf",
+     "href": "plan/Amsterdam-2026-Plan-Final.pdf",
      "meta": "PDF · 16 MB · 90 páginas"
     },
     {
      "t": "El Plan completo en español",
      "d": "Traducción de cortesía de las 90 páginas del Plan adoptado, para leer en línea o imprimir.",
-     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan-es.html",
+     "href": "plan-es.html",
      "meta": "WEB · ESPAÑOL · 90 páginas"
     },
     {
@@ -424,19 +424,19 @@
     {
      "t": "El Plan en español (PDF)",
      "d": "El documento diseñado en sí — las mismas páginas, los mismos mapas y fotos — con el texto en español. Traducción de cortesía.",
-     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Final-ES.pdf",
+     "href": "plan/Amsterdam-2026-Plan-Final-ES.pdf",
      "meta": "PDF · ESPAÑOL · 90 páginas"
     },
     {
      "t": "Resumen Ejecutivo",
      "d": "El resumen del Plan en 8 páginas, elaborado por la propia Ciudad.",
-     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Executive-Summary.pdf",
+     "href": "plan/Amsterdam-2026-Plan-Executive-Summary.pdf",
      "meta": "PDF · 1.2 MB · 8 páginas"
     },
     {
      "t": "Borrador de febrero de 2026",
      "d": "El borrador anterior de revisión pública, conservado como referencia. El Plan adoptado, arriba, lo reemplaza.",
-     "href": "https://itpro2792-beep.github.io/amsterdam-comprehensive-plan/plan/Amsterdam-2026-Plan-Draft-Feb2026.pdf",
+     "href": "plan/Amsterdam-2026-Plan-Draft-Feb2026.pdf",
      "meta": "PDF · 13 MB · reemplazado"
     },
     {
